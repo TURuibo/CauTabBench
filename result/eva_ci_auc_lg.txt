@@ -1,0 +1,2 @@
+ & ref & TabSyn & STASY & TaDDPM & CoDi & GReaT& CTGAN & TVAE \\ \hline
+lg&$0.981$&$0.896$&$0.870$&$0.811$&$0.876$&$0.865$&$0.540$&$0.643$\\ 
