@@ -1,4 +1,8 @@
 # CauTabBench
+
+This repository is used for generating benchmark datasets and evaluating tabular synthesis models on high-order structural causal information.
+
+## Installation
 Install pytorch
 
 `pip install torch torchvision torchaudio`
@@ -7,8 +11,12 @@ Install other packages
 
 `pip install -r requirements.txt`
 
-Evaluate baseline methods with different high-order structure metrics
+## Usage
 
+Generating benchmark datasets  
+`python process_sim_dataset.py --seed 100 --cm lg`  
+
+Evaluate baseline methods with different high-order structure metrics  
 `python benchmark/eva_skeleton.py --seed 100 --cm lg --sz 15000 --bt 10`  
 `python benchmark/eva_ci_sets.py --seed 100 --cm lg --sz 15000 `  
 `python benchmark/eva_bcd.py --seed 100 --cm lg --sz 15000 --bt 10`  
