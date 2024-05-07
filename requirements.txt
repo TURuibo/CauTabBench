@@ -4,3 +4,4 @@ scikit-learn
 scipy
 cdt
 causal-learn
+dowhy
