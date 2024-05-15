@@ -25,13 +25,40 @@ if __name__ == "__main__":
     i = sim_ls
     np.random.seed(seed)
     if i == 'lg':
-        generator = AcyclicGraphGenerator('linear', initial_variable_generator=normal_noise, noise_coeff=noise_coeff, nodes=n_nodes, npoints=sz,parents_max=n_prt,expected_degree=n_d)
+        generator = AcyclicGraphGenerator('linear', 
+                                          initial_variable_generator=normal_noise, 
+                                          noise_coeff=noise_coeff, 
+                                          nodes=n_nodes, 
+                                          npoints=sz,
+                                          parents_max=n_prt,
+                                          expected_degree=n_d)
     elif i == 'lu':
-        generator = AcyclicGraphGenerator('linear',noise='uniform', initial_variable_generator=uniform_noise, noise_coeff=noise_coeff, nodes=n_nodes, npoints=sz,parents_max=n_prt,expected_degree=n_d)
+        generator = AcyclicGraphGenerator('linear',
+                                          noise='uniform', 
+                                          initial_variable_generator=uniform_noise, 
+                                          noise_coeff=noise_coeff, 
+                                          nodes=n_nodes, 
+                                          npoints=sz,
+                                          parents_max=n_prt,
+                                          expected_degree=n_d)
     elif i == 'sg':
-        generator = AcyclicGraphGenerator('sigmoid_add',noise='gaussian', initial_variable_generator=normal_noise,noise_coeff=noise_coeff, nodes=n_nodes, npoints=sz,parents_max=n_prt,expected_degree=n_d)
+        generator = AcyclicGraphGenerator('sigmoid_add',
+                                          noise='gaussian', 
+                                          initial_variable_generator=normal_noise,
+                                          noise_coeff=noise_coeff, 
+                                          nodes=n_nodes, 
+                                          npoints=sz,
+                                          parents_max=n_prt,
+                                          expected_degree=n_d)
     elif i == 'nn':
-        generator = AcyclicGraphGenerator('nn',noise='gaussian', initial_variable_generator=normal_noise, noise_coeff=noise_coeff, nodes=n_nodes, npoints=sz,parents_max=n_prt,expected_degree=n_d)
+        generator = AcyclicGraphGenerator('nn',
+                                          noise='gaussian', 
+                                          initial_variable_generator=normal_noise, 
+                                          noise_coeff=noise_coeff, 
+                                          nodes=n_nodes, 
+                                          npoints=sz,
+                                          parents_max=n_prt,
+                                          expected_degree=n_d)
     data, graph = generator.generate()
     
     path = pathlib.Path('./data/sim_'+i+f'/{seed}')

@@ -310,7 +310,7 @@ class NN_Mechanism(object):
         effect = np.zeros((self.points, 1))
         # Compute each cause's contribution
         if (causes.shape[1] > 0):
-            mix = np.hstack((causes, self.noise))
+            mix = np.hstack((causes, self.noise.reshape(-1,1)))
             effect[:, 0] = self.mechanism(mix)
         else:
             effect[:, 0] = self.mechanism(self.noise)
