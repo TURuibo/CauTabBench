@@ -13,9 +13,9 @@ seed =args.seed
 np.random.seed(seed)
 bt = args.bt
 sz = args.sz
-
+dataname = args.cm
 m_name_ls=['real','tabsyn','stasy','tabddpm','codi','great','ctgan','tvae']
-dataname = 'lu'
+
 
 def str_out(res):
     return f'\t & ${np.mean(res):.2f} \pm {np.std(res):.2f}$'
