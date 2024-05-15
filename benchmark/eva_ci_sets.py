@@ -181,7 +181,7 @@ if __name__ == "__main__":
     ax_roc.set_title(f"ROC curves ({dataname})")
     auc_ls = []
 
-    m_name_ls=['real','tabsyn','stasy','tabddpm','codi','great','ctgan','tvae']  # 
+    m_name_ls=['real','tabsyn','stasy','tabddpm','codi','great','ctgan','tvae']#  # 
     for m_name in m_name_ls:
         labels, preds = get_label_pred(dataname,m_name = m_name,sz=sz)
         roc = RocCurveDisplay.from_predictions(labels, preds, name=m_name,ax=ax_roc)

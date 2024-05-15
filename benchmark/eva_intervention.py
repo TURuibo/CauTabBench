@@ -78,7 +78,7 @@ if __name__ == "__main__":
     sz = args.sz 
 
     result_path = f'./result/eva_itvn_err_{dataname}_mean.txt'
-    m_name_ls=['real','tabsyn','stasy','tabddpm','codi','great','ctgan','tvae']  # 'real','tabsyn','stasy','tabddpm','codi','great','ctgan','tvae'
+    m_name_ls=['real','tabsyn','stasy','tabddpm','codi','great','ctgan','tvae']  
 
     with open(result_path, 'w') as file:
         file.write('& ref \n & TabSyn \n & STASY \n & TaDDPM \n &CoDi \n& CTGAN \n& TVAE\n')   

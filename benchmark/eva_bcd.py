@@ -127,7 +127,7 @@ if __name__ == "__main__":
     with open(result_cdir_path, 'w') as file:
         file.write(' & ref & TabSyn & STASY & TaDDPM &CoDi&GReaT& CTGAN & TVAE \\\ \hline\n') # & CoDi & GReaT
     
-    m_name_ls=['real' ,'tabsyn','stasy','tabddpm','codi','great','ctgan','tvae']  # 'codi','great',
+    m_name_ls=['stasy','tabddpm']#['real' ,'tabsyn','stasy','tabddpm','codi','great','ctgan','tvae']  # 'codi','great',
 
     acc_reci_ls,acc_igci_ls,acc_cds_ls=[],[],[]
     for m_name in m_name_ls:

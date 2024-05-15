@@ -112,7 +112,7 @@ if __name__ == "__main__":
     sz =args.sz
     bt = args.bt
 
-    m_name_ls=['real','tabsyn','stasy','tabddpm','codi','great','ctgan','tvae'] 
+    m_name_ls= ['real','tabsyn','stasy','tabddpm','codi','great','ctgan','tvae'] 
     
     print(dataname,bt,sz)
 
