@@ -150,7 +150,7 @@ if __name__ == "__main__":
         dataname='_lg'
         bt=10
         sz=50
-    m_name_ls=['tabddpm']#['real','tabsyn','stasy','tabddpm','codi','great','ctgan','tvae']
+    m_name_ls=['real','tabsyn','stasy','tabddpm','codi','great','ctgan','tvae']
     
     print(dataname,bt,sz)
 
