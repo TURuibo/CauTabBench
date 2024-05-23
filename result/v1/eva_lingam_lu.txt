@@ -1,0 +1,2 @@
+	& adj  	 & f1 	 & precision 	& recall \\ 
+tabddpm	 & $15.76 \pm 8.26$	 & $0.51 \pm 0.13$	 & $0.77 \pm 0.08$	 & $0.39 \pm 0.14$\\ 

@@ -1,0 +1,12 @@
+& ref 
+ & TabSyn 
+ & STASY 
+ & TaDDPM 
+ &CoDi 
+& CTGAN 
+& TVAE
+& $3.3 \pm 0.2$
+& $4.7 \pm 0.8$
+& $21.3 \pm 5.8$
+& $3.8 \pm 0.4$
+& $9.5 \pm 3.9$
