@@ -17,7 +17,7 @@ data/bin_MNIST/
 **/.DS_Store
 *.ckpt
 *.npy
-*.pdf
+# *.pdf
 *.npz
 *.csv
 __pycache__/
