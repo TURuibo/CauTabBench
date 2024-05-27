@@ -13,7 +13,7 @@ __pycache__/
 data/bin_MNIST/
 # C extensions
 *.so
-*.png
+# *.png
 **/.DS_Store
 *.ckpt
 *.npy
