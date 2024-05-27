@@ -1,9 +1,12 @@
 # CauTabBench
-
-![alt text](https://github.com/TURuibo/CauTabBench/blob/main/benchmark.png "Overview")
-![alt text](https://github.com/TURuibo/CauTabBench/blob/main/result/lu_radar.pdf "Results")
-
 This repository is used for generating benchmark datasets and evaluating tabular synthesis models on high-order structural causal information. The paper (Causality for Tabular Data Synthesis: A High-Order Structure Causal Benchmark Framework) is available at URL.
+
+The benchmark framework:
+![alt text](https://github.com/TURuibo/CauTabBench/blob/main/benchmark.png "Overview")
+
+One set of benchmark results:
+![alt text](https://github.com/TURuibo/CauTabBench/blob/main/result/lu_radar.png "Results")
+
 
 ## Structure of the repository
 
