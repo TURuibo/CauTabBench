@@ -6,12 +6,12 @@ This repository is used for generating benchmark datasets and evaluating tabular
 
 ## Structure of the repository
 
-process_sim_datasets.py: the code for generating benchmark datasets
-|- benchmark: source code for evaluation
-|- data: the benchmark data used for training baseline methdos
-|- synthetic: the generated data by training baseline methods
-|- utils: modified code based on other repositories
-|- result: benchmarking results
+process_sim_datasets.py: the code for generating benchmark datasets  
+|- benchmark: source code for evaluation  
+|- data: the benchmark data used for training baseline methods   
+|- synthetic: the generated data by training baseline methods  
+|- utils: modified code based on other repositories  
+|- result: benchmarking results  
 
 
 ## Installation
