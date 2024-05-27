@@ -1,8 +1,0 @@
-& ref 
- & TabSyn 
- & STASY 
- & TaDDPM 
- &CoDi 
-& CTGAN 
-& TVAE
-& $1.21 \pm 0.7$

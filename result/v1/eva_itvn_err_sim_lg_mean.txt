@@ -1,8 +1,0 @@
-& ref 
- & TabSyn 
- & STASY 
- & TaDDPM 
- &CoDi 
-& CTGAN 
-& TVAE
-& $26.59 \pm 7.2$

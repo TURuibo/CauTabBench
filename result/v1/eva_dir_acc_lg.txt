@@ -1,4 +1,0 @@
- & ref & TabSyn & STASY & TaDDPM &CoDi&GReaT& CTGAN & TVAE \\ \hline
-lg RECI: &$0.464$&$0.286$\\ 
-lg IGCI: &$0.607$&$0.536$\\ 
-lg CDS: &$0.696$&$0.500$\\ 
