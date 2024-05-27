@@ -1,5 +1,7 @@
 # CauTabBench
 
+![alt text](https://github.com/TURuibo/CauTabBench/blob/main/benchmark.png "Overview")
+
 This repository is used for generating benchmark datasets and evaluating tabular synthesis models on high-order structural causal information.
 
 ## Installation
