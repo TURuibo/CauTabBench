@@ -29,6 +29,7 @@ data/CIFAR10/
 # Distribution / packaging
 .Python
 # data/
+meta-llama/
 data/adult/
 data/beijing/
 data/default/

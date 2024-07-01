@@ -5,3 +5,5 @@ scipy
 cdt
 causal-learn
 dowhy
+transformers
+accelerate
