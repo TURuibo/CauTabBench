@@ -1,0 +1,2 @@
+	& adj  	 & f1 	 & precision 	& recall \\ 
+mistral_100i	 & $24.60\pm 3.60$	 & $0.41\pm 0.08$	 & $0.55\pm 0.10$	 & $0.35\pm 0.10$\\ 

@@ -80,7 +80,7 @@ def eva_skel_ratio(dataname = 'lg',seed_sim=101, m_name = 'mistral',bt=10,sz=500
         data_sim_path = f'./synthetic/sim_{dataname}/{sindex}/{m_name}.csv'
         data_sim = pd.read_csv(data_sim_path)
         data_sim = data_sim.iloc[:,:10]
-
+        data_sim.dropna(inplace=True)
         skel_diff_syn,precision_syn,recall_syn = metric_eva(data_sim,adj_gt,dataname,bt=bt,sz=sz,seed=seed)
         f1_syn=[]
         for i in range(len(recall_syn)):

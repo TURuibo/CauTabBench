@@ -136,6 +136,8 @@ def compute_p_vals(conditional_independent_set,dataname,sim_seed,m_name,sz):
     data_path = f'./synthetic/sim_{dataname}/{sim_seed}/{m_name}.csv'   
     data = pd.read_csv(data_path)
     data = data.iloc[:,:10]
+    data.dropna(inplace=True)
+
     p_real = eva_ci(conditional_independent_set,data,dataname,sz)
     return p_real
 

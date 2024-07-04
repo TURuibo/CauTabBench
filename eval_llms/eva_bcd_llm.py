@@ -84,7 +84,8 @@ def xy_yx_bt(dataname,sim_seed,m_name,index_x, index_y, bt=10,sz =10000,  func=R
 def xy_yx(dataname,sim_seed,m_name,index_x, index_y, bt_i=0, sz =10000,  func=RECI):
     data_path = f'./synthetic/sim_{dataname}/{sim_seed}/{m_name}.csv'   
     data = pd.read_csv(data_path)
-    
+    data.dropna(inplace=True)
+
     np.random.seed(bt_i)
     index = np.random.randint(len(data.iloc[:,0]), size=sz)
     data = data.iloc[index,:10].to_numpy()

@@ -41,7 +41,10 @@ for sim_seed in range(100,sim_seed):
     f1 = []
     for bt_i in range(bt):
         np.random.seed(bt_i)
-        data = pd.read_csv(data_path).to_numpy()[:,:10]
+        data = pd.read_csv(data_path)
+        data.dropna(inplace=True)
+        data = data.to_numpy()[:,:10]
+
         index = np.random.randint(len(data[:,0]), size=sz)
 
         adj_causallearn = pd.read_csv(adj_path).to_numpy()[:10,:10]

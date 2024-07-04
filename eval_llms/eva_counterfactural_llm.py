@@ -43,6 +43,8 @@ def train_scm_model(adj_df,data_df):
     causal_model = gcm.InvertibleStructuralCausalModel(causal_graph)
 
     data = data_df.iloc[:,:10]
+    data.dropna(inplace=True)
+
     data.columns = list(causal_graph.nodes)
     dag,nodes = adj2dag(adj_df.to_numpy())
     cg_nodes = list(causal_graph.nodes)
