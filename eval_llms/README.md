@@ -3,8 +3,8 @@ These are the codes for evaluating the quality of generated tabular data of LLMs
 
 
 # Usage
-* Generated tabular data: Given the benchmark dataset with causal graph and tabular data in "dataset data/sim_lu/100", the corresponding generated tabular data should be saved in directory: "synthetic/sim_lu/100/qwen_100i.csv".  
-* Evaluation results: the evaluated results will be saved in "results/" according to different LLMs.
+* Generated tabular data: Given the benchmark dataset with causal graph and tabular data in " data/sim_lu/100", the corresponding generated tabular data should be saved in directory: "synthetic/sim_lu/100/qwen_100i.csv".  
+* Evaluation results: the evaluated results will be saved in "results/qwen_100i" according to different LLMs.
 
 # Example
 * causal skeleton: python eval_llms/eva_skeleton.py --cm lu --sz 400 --llm qwen_100i --seed_sim 105  
