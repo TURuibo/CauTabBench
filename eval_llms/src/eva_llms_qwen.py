@@ -1,3 +1,4 @@
+
 import os,sys
 cwd = os.path.abspath(os.path.curdir)
 sys.path.append(cwd)  # workplace
@@ -7,7 +8,7 @@ import time
 import numpy as np
 import pandas as pd
 import torch
-import transformers
+from transformers import AutoModelForCausalLM, AutoTokenizer
 
 import argparse
 
@@ -17,6 +18,7 @@ def get_args():
 
     # General configs
     parser.add_argument('--seed',type=int, default=29)   
+    parser.add_argument('--sim_seed',type=int, default=109)   
     parser.add_argument('--cm',type=str, default='lu')   
     parser.add_argument('--bt',type=int, default=10)   
     parser.add_argument('--max_table_rows',type=int, default=100)   
@@ -66,55 +68,58 @@ if __name__ == "__main__":
     max_new_tokens = args.max_new_tokens
     prow_num = args.prow_num
     llm = args.llm
-
-    model_id = "mistral_models/Mixtral-8x7B-Instruct-v0.1"
+    seed_sim = args.sim_seed
+    model_id = "Qwen/Qwen2-7B-Instruct"
 
     np.random.seed(seed)
-
-    for seed_sim in range(100,105):
-        # Start time
-        start_time = time.time()
-        print(f"loading seed {seed_sim}  type {dataname} dataset.")
-        adj_gt,data_train = get_table(dataname,seed_sim)
-        
-        pipeline = transformers.pipeline(
-            "text-generation",
-            model=model_id,
-            model_kwargs={"torch_dtype": torch.bfloat16},
-            device_map="auto",
+    
+    # Start time
+    start_time = time.time()
+    print(f"loading seed {seed_sim}  type {dataname} dataset.")
+    adj_gt,data_train = get_table(dataname,seed_sim)
+    
+    model = AutoModelForCausalLM.from_pretrained(
+        model_id,
+        torch_dtype="auto",
+        device_map="auto"
         )
-
-        with open(cwd+f'/result/{llm}/eva_{dataname}{seed_sim}_prow{prow_num}_in{max_table_rows}_out{max_new_tokens}.txt', 'w') as file:
-            file.write('')
-
-        with open(cwd+f'/result/{llm}/prompt_{dataname}{seed_sim}_prow{prow_num}_in{max_table_rows}_out{max_new_tokens}.txt', 'w') as file:
-            file.write('')
+    tokenizer = AutoTokenizer.from_pretrained(model_id)
 
 
-        for i in range(int(iteration_prompt)):
-            markdown_data = get_subset_markdown_table(data_train, max_table_rows)  # get 20 rows from the whole table
-            messages = get_prompt(prow_num,markdown_data)
+    with open(cwd+f'/result/{llm}/eva_{dataname}{seed_sim}_prow{prow_num}_in{max_table_rows}_out{max_new_tokens}.txt', 'w') as file:
+        file.write('')
 
-            terminators = [pipeline.tokenizer.eos_token_id,
-                           pipeline.tokenizer.convert_tokens_to_ids("<|eot_id|>")]
-            
-            outputs = pipeline(
-                messages,
-                max_new_tokens=max_new_tokens,
-                eos_token_id=terminators,
-                do_sample=True,
-                temperature=0.6,
-                top_p=0.9,
-            )
-            
-            response = outputs[0]["generated_text"][-1] ['content']
-            print(response)
-            
-            with open(cwd+f'/result/{llm}/eva_{dataname}{seed_sim}_prow{prow_num}_in{max_table_rows}_out{max_new_tokens}.txt', 'a') as file:
-                file.write(f'{response}\n')
-            with open(cwd+f'/result/{llm}/prompt_{dataname}{seed_sim}_prow{prow_num}_in{max_table_rows}_out{max_new_tokens}.txt', 'a') as file:
-                file.write(f'{markdown_data}\n')
+    with open(cwd+f'/result/{llm}/prompt_{dataname}{seed_sim}_prow{prow_num}_in{max_table_rows}_out{max_new_tokens}.txt', 'w') as file:
+        file.write('')
 
-        end_time = time.time()
-        elapsed_time = end_time - start_time
-        print(f"Elapsed time using time module: {elapsed_time:.6f} seconds")
+
+    for i in range(int(iteration_prompt)):
+        markdown_data = get_subset_markdown_table(data_train, max_table_rows)  # get 20 rows from the whole table
+        messages = get_prompt(prow_num,markdown_data)
+        text = tokenizer.apply_chat_template(
+            messages,
+            tokenize=False,
+            add_generation_prompt=True
+        )
+        model_inputs = tokenizer([text], return_tensors="pt").to("cuda")
+
+        generated_ids = model.generate(
+            model_inputs.input_ids,
+            max_new_tokens=max_new_tokens
+        )
+        generated_ids = [
+            output_ids[len(input_ids):] for input_ids, output_ids in zip(model_inputs.input_ids, generated_ids)
+        ]
+
+        response = tokenizer.batch_decode(generated_ids, skip_special_tokens=True)[0]
+
+        print(response)
+        
+        with open(cwd+f'/result/{llm}/eva_{dataname}{seed_sim}_prow{prow_num}_in{max_table_rows}_out{max_new_tokens}.txt', 'a') as file:
+            file.write(f'{response}\n')
+        with open(cwd+f'/result/{llm}/prompt_{dataname}{seed_sim}_prow{prow_num}_in{max_table_rows}_out{max_new_tokens}.txt', 'a') as file:
+            file.write(f'{markdown_data}\n')
+
+    end_time = time.time()
+    elapsed_time = end_time - start_time
+    print(f"Elapsed time using time module: {elapsed_time:.6f} seconds")

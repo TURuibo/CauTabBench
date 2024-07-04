@@ -22,6 +22,8 @@ def get_args():
     parser.add_argument('--max_new_tokens',type=int, default=50000)   
     parser.add_argument('--prow_num',type=int, default=100)
     parser.add_argument('--llm',type=str, default='null')
+    parser.add_argument('--sim_seed',type=int, default=109)   
+
     args = parser.parse_args()
     return args
 
@@ -62,42 +64,42 @@ if __name__ == "__main__":
     max_new_tokens = args.max_new_tokens
     prow_num = args.prow_num
     llm = args.llm
+    seed_sim = args.sim_seed
 
     model_id = "google/gemma-2-9b-it"
     np.random.seed(seed)
 
-    for seed_sim in range(100,105):
-        # Start time
-        start_time = time.time()
-        print(f"loading seed {seed_sim}  type {dataname} dataset.")
-        adj_gt,data_train = get_table(dataname,seed_sim)
+    # Start time
+    start_time = time.time()
+    print(f"loading seed {seed_sim}  type {dataname} dataset.")
+    adj_gt,data_train = get_table(dataname,seed_sim)
+    
+    tokenizer = AutoTokenizer.from_pretrained(model_id)
+    model = AutoModelForCausalLM.from_pretrained(
+        model_id,
+        device_map="auto",
+        torch_dtype=torch.bfloat16
+    )
+
+    with open(cwd+f'/result/{llm}/eva_{dataname}{seed_sim}_prow{prow_num}_in{max_table_rows}_out{max_new_tokens}.txt', 'w') as file:
+        file.write('')
+    
+    with open(cwd+f'/result/{llm}/prompt_{dataname}{seed_sim}_prow{prow_num}_in{max_table_rows}_out{max_new_tokens}.txt', 'w') as file:
+        file.write('')
+
+    for i in range(int(iteration_prompt)):
+        markdown_data = get_subset_markdown_table(data_train, max_table_rows)  # get 20 rows from the whole table
+        input_text = get_prompt(prow_num,markdown_data)
+        input_ids = tokenizer(input_text, return_tensors="pt").to("cuda")
+        outputs = model.generate(**input_ids,max_new_tokens=max_new_tokens)            
+        response = tokenizer.decode(outputs[0])
+        print(response)
         
-        tokenizer = AutoTokenizer.from_pretrained(model_id)
-        model = AutoModelForCausalLM.from_pretrained(
-            model_id,
-            device_map="auto",
-            torch_dtype=torch.bfloat16
-        )
+        with open(cwd+f'/result/{llm}/eva_{dataname}{seed_sim}_prow{prow_num}_in{max_table_rows}_out{max_new_tokens}.txt', 'a') as file:
+            file.write(f'{response}\n')
+        with open(cwd+f'/result/{llm}/prompt_{dataname}{seed_sim}_prow{prow_num}_in{max_table_rows}_out{max_new_tokens}.txt', 'a') as file:
+            file.write(f'{markdown_data}\n')
 
-        with open(cwd+f'/result/{llm}/eva_{dataname}{seed_sim}_prow{prow_num}_in{max_table_rows}_out{max_new_tokens}.txt', 'w') as file:
-            file.write('')
-        
-        with open(cwd+f'/result/{llm}/prompt_{dataname}{seed_sim}_prow{prow_num}_in{max_table_rows}_out{max_new_tokens}.txt', 'w') as file:
-            file.write('')
-
-        for i in range(int(iteration_prompt)):
-            markdown_data = get_subset_markdown_table(data_train, max_table_rows)  # get 20 rows from the whole table
-            input_text = get_prompt(prow_num,markdown_data)
-            input_ids = tokenizer(input_text, return_tensors="pt").to("cuda")
-            outputs = model.generate(**input_ids,max_new_tokens=max_new_tokens)            
-            response = tokenizer.decode(outputs[0])
-            print(response)
-            
-            with open(cwd+f'/result/{llm}/eva_{dataname}{seed_sim}_prow{prow_num}_in{max_table_rows}_out{max_new_tokens}.txt', 'a') as file:
-                file.write(f'{response}\n')
-            with open(cwd+f'/result/{llm}/prompt_{dataname}{seed_sim}_prow{prow_num}_in{max_table_rows}_out{max_new_tokens}.txt', 'a') as file:
-                file.write(f'{markdown_data}\n')
-
-        end_time = time.time()
-        elapsed_time = end_time - start_time
-        print(f"Elapsed time using time module: {elapsed_time:.6f} seconds")
+    end_time = time.time()
+    elapsed_time = end_time - start_time
+    print(f"Elapsed time using time module: {elapsed_time:.6f} seconds")

@@ -13,6 +13,9 @@ def get_args():
     parser.add_argument('--cm',type=str, default='lg')   
     parser.add_argument('--sz',type=int, default=15000)   
     parser.add_argument('--bt',type=int, default=10)   
+    parser.add_argument('--seed_sim',type=int, default=101)   
+    parser.add_argument('--llm',type=str, default='null')   
+
     args = parser.parse_args()
 
     return args
