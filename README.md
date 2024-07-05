@@ -54,4 +54,4 @@ Implementation in folder "utils" is modified based on other repositories:
 * process_dataset.py and utils.py are modified based on [tabsyn](https://github.com/amazon-science/tabsyn).  
 
 # Acknowledgement 
-The benchmarking results were enabled by resources provided by the National Academic Infrastructure for Supercomputing in Sweden (NAISS), partially funded by the Swedish Research Council through grant agreement no. 2022-06725.
+The benchmarking results of large language foundation models were enabled by resources provided by the National Academic Infrastructure for Supercomputing in Sweden (NAISS), partially funded by the Swedish Research Council through grant agreement no. 2022-06725.
