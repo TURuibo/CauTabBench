@@ -53,3 +53,5 @@ Implementation in folder "utils" is modified based on other repositories:
 * acyclic_graph_generator.py and causal_mechanisms.py are modified based on [cdt](https://github.com/FenTechSolutions/CausalDiscoveryToolbox).  
 * process_dataset.py and utils.py are modified based on [tabsyn](https://github.com/amazon-science/tabsyn).  
 
+# Acknowledgement 
+The benchmarking results were enabled by resources provided by the National Academic Infrastructure for Supercomputing in Sweden (NAISS), partially funded by the Swedish Research Council through grant agreement no. 2022-06725.

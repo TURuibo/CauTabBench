@@ -1,4 +1,4 @@
 mistral_100i
-lu RECI: &$0.655$\\ 
-lu IGCI: &$0.517$\\ 
-lu CDS: &$0.586$\\ 
+lu RECI: &$0.552$\\ 
+lu IGCI: &$0.552$\\ 
+lu CDS: &$0.621$\\ 
