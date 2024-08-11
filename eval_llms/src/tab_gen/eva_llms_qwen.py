@@ -79,7 +79,7 @@ def graph_to_text(dag_gt):
     
     return prompt_dag
 
-def get_prompt(causal_graph_data):
+def get_prompt(causal_graph_data,task):
     messages = [
         {"role": "user", 
          "content": f"You are reasoning over causal graphs. {causal_graph_data}. {task}"},]
