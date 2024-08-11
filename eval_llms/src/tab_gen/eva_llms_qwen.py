@@ -30,6 +30,17 @@ def get_args():
     return args
 
 
+def get_dag_table(dataname,seed_sim):
+    adj_path = cwd+f'/data/sim_{dataname}/{seed_sim}/generated_graph_target.csv'
+    graph_np = pd.read_csv(adj_path)
+    graph_np = graph_np.iloc[:10,:10]
+    dag_gt = graph_np.to_numpy()
+
+    data_train_path = cwd+f'/data/sim_{dataname}/{seed_sim}/train.csv'
+    data_train = pd.read_csv(data_train_path)
+    data_train = data_train.iloc[:,:10]
+    return dag_gt,data_train  
+
 def get_table(dataname,seed_sim):
     adj_path = cwd+f'/data/sim_{dataname}/{seed_sim}/generated_graph_target.csv'
     graph_np = pd.read_csv(adj_path)
@@ -41,6 +52,9 @@ def get_table(dataname,seed_sim):
     data_train = data_train.iloc[:,:10]
     return adj_gt,data_train  
 
+def get_adj(dag_gt):
+    return dag_gt + dag_gt.T
+
 
 def get_subset_markdown_table(data,max_table_rows):
     row_index = np.random.randint(len(data), size=max_table_rows)
@@ -49,14 +63,26 @@ def get_subset_markdown_table(data,max_table_rows):
     return markdown_data    
         
 
-def get_prompt(prow_num, markdown_data):
+def graph_to_text(dag_gt):
+    heads, tails = np.where(dag_gt == 1)
+    nrow,ncol = dag_gt.shape
+    # causal graph nodes
+    prompt_dag = 'A causal graph has nodes '
+    for i in range(nrow-1):
+        prompt_dag += f'V{i}, '
+    prompt_dag += f'and V{i+1}. And its edges are '
+
+    # causal graph edges
+    for i in range(len(heads)-1):
+        prompt_dag += f'V{heads[i]} -> V{tails[i]}, '
+    prompt_dag += f'and V{heads[i+1]} -> V{tails[i+1]}. '
+    
+    return prompt_dag
+
+def get_prompt(causal_graph_data):
     messages = [
         {"role": "user", 
-         "content": f"You are a tabular synthetic data generation model. \
-            Your goal is to produce samples which mirrors the given examples in causal structure and data distributions but also produce as diverse samples as possible.  \
-            DO NOT COPY THE EXAMPLES but realistic new and diverse samples. \
-            You keep generating next {prow_num} rows of tabular data without skipping or omitting any rows with .... \
-            I will give you examples: {markdown_data}. "},]
+         "content": f"You are reasoning over causal graphs. {causal_graph_data}. {task}"},]
     return messages
 
 if __name__ == "__main__":
@@ -76,8 +102,10 @@ if __name__ == "__main__":
     # Start time
     start_time = time.time()
     print(f"loading seed {seed_sim}  type {dataname} dataset.")
-    adj_gt,data_train = get_table(dataname,seed_sim)
-    
+
+    dag_gt,data_train = get_dag_table(dataname,seed_sim)
+    adj_gt = get_adj(dag_gt) 
+
     model = AutoModelForCausalLM.from_pretrained(
         model_id,
         torch_dtype="auto",
@@ -92,10 +120,17 @@ if __name__ == "__main__":
     with open(cwd+f'/result/{llm}/prompt_{dataname}{seed_sim}_prow{prow_num}_in{max_table_rows}_out{max_new_tokens}.txt', 'w') as file:
         file.write('')
 
+    with open(cwd+f'/result/{llm}/causal_dag_{dataname}{seed_sim}_prow{prow_num}_in{max_table_rows}_out{max_new_tokens}.txt', 'w') as file:
+        file.write('')
+
 
     for i in range(int(iteration_prompt)):
-        markdown_data = get_subset_markdown_table(data_train, max_table_rows)  # get 20 rows from the whole table
-        messages = get_prompt(prow_num,markdown_data)
+        causal_graph_text = graph_to_text(dag_gt)  # get 20 rows from the whole table
+
+        # causal graph reasoning questions
+        task = 'What are the neighbors of each node in the causal graph?'
+        messages = get_prompt(causal_graph_text,task)
+        
         text = tokenizer.apply_chat_template(
             messages,
             tokenize=False,
@@ -117,8 +152,13 @@ if __name__ == "__main__":
         
         with open(cwd+f'/result/{llm}/eva_{dataname}{seed_sim}_prow{prow_num}_in{max_table_rows}_out{max_new_tokens}.txt', 'a') as file:
             file.write(f'{response}\n')
+
         with open(cwd+f'/result/{llm}/prompt_{dataname}{seed_sim}_prow{prow_num}_in{max_table_rows}_out{max_new_tokens}.txt', 'a') as file:
-            file.write(f'{markdown_data}\n')
+            file.write(f'{messages}\n')
+        
+        with open(cwd+f'/result/{llm}/causal_dag_{dataname}{seed_sim}_prow{prow_num}_in{max_table_rows}_out{max_new_tokens}.txt', 'a') as file:
+            file.write(f'{dag_gt}\n')
+        
 
     end_time = time.time()
     elapsed_time = end_time - start_time
