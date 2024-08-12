@@ -1,7 +1,7 @@
 import os,sys
 cwd = os.path.abspath(os.path.curdir)
 sys.path.append(cwd)  # workplace
-from src.tab_gen.helper import get_adjacency_matrice
+from src.causal_eval.helper import get_adjacency_matrice
 import pandas as pd
 import numpy as np
 from cdt.metrics import precision_recall
@@ -34,11 +34,10 @@ if __name__ == "__main__":
     llm = args.llm # qwen
     bt = args.bt  # 5
 
-    llm='qwen'
-    dataname='lu'
     f1_gs, precision_gs,recall_gs  = [], [], []
 
     for seed_sim in range(100,105):
+        print(seed_sim)
         f1_ls, precision_ls,recall_ls  = [], [], []
         max_new_tokens= 1000
         file_dir = f'./eval_llms/results/{llm}/causal_dag_response_i2_{dataname}{seed_sim}_out{max_new_tokens}.txt'
@@ -49,9 +48,9 @@ if __name__ == "__main__":
             f1_ls.append(f1)
             precision_ls.append(precision)
             recall_ls.append(recall)
+            
         f1_gs.append(np.mean(f1_ls))
         precision_gs.append(np.mean(precision_ls))
         recall_gs.append(np.mean(recall_ls))
     
-    print(f'&${np.mean(f1_gs):.2f}\pm{np.std(f1_gs):.2f}$, &${np.mean(precision_gs):.2f}\pm{np.std(precision_gs):.2f}$, &$ {np.mean(recall_gs):.2f}\pm{np.std(recall_gs):.2f}$\\\')
-
+    print(f'&${np.mean(f1_gs):.2f}\pm{np.std(f1_gs):.2f}$, &${np.mean(precision_gs):.2f}\pm{np.std(precision_gs):.2f}$, &$ {np.mean(recall_gs):.2f}\pm{np.std(recall_gs):.2f}$')

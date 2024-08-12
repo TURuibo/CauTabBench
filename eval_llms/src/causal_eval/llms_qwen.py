@@ -29,7 +29,6 @@ def get_args():
     args = parser.parse_args()
     return args
 
-
 def get_dag_table(dataname,seed_sim):
     adj_path = cwd+f'/data/sim_{dataname}/{seed_sim}/generated_graph_target.csv'
     graph_np = pd.read_csv(adj_path)
