@@ -77,10 +77,10 @@ def graph_to_text(dag_gt):
     
     return prompt_dag
 
-def get_prompt(causal_graph_data,task):
+def get_prompt(tabular_data,task):
     messages = [
         {"role": "user", 
-         "content": f"You are reasoning over causal graphs. {causal_graph_data}. {task}"},]
+         "content": f"You are reasoning over tables. Columns represent different nodes and rows represent different sampels. The data are {tabular_data}. {task}"},]
     return messages
 
 def get_prompt_text2adj(response):
@@ -127,14 +127,15 @@ if __name__ == "__main__":
     tokenizer = AutoTokenizer.from_pretrained(model_id)
 
 
-    with open(cwd+f'/result/{llm}/causal_dag_response_i1_{dataname}{seed_sim}_out{max_new_tokens}.txt', 'w') as file:
+    with open(cwd+f'/result/{llm}/graph_table_response_{dataname}{seed_sim}_out{max_new_tokens}.txt', 'w') as file:
         file.write('')
-    with open(cwd+f'/result/{llm}/causal_dag_response_i2_{dataname}{seed_sim}_out{max_new_tokens}.txt', 'w') as file:
+    with open(cwd+f'/result/{llm}/graph_table_response_adj_{dataname}{seed_sim}.txt', 'w') as file:
         file.write('')
-    with open(cwd+f'/result/{llm}/causal_dag_prompt_{dataname}{seed_sim}_out{max_new_tokens}.txt', 'w') as file:
+    with open(cwd+f'/result/{llm}/graph_table_prompt_{dataname}{seed_sim}_out{max_new_tokens}.txt', 'w') as file:
         file.write('')
-    with open(cwd+f'/result/{llm}/causal_dag_adj_{dataname}{seed_sim}_out{max_new_tokens}.txt', 'w') as file:
+    with open(cwd+f'/result/{llm}/graph_table_adj_{dataname}{seed_sim}_out{max_new_tokens}.txt', 'w') as file:
         file.write('')
+
 
 
     for i in range(int(iteration_prompt)):
@@ -142,8 +143,9 @@ if __name__ == "__main__":
 
         # causal graph reasoning questions
         task = 'What are the neighbors of each node in the causal graph?'
+        markdown_data = get_subset_markdown_table(data_train, max_table_rows)  # get 20 rows from the whole table
 
-        messages = get_prompt(causal_graph_text,task)
+        messages = get_prompt(markdown_data,task)
         
         terminators = [pipeline.tokenizer.eos_token_id,
                         pipeline.tokenizer.convert_tokens_to_ids("<|eot_id|>")]
@@ -176,17 +178,16 @@ if __name__ == "__main__":
         response_adj = outputs[0]["generated_text"][-1] ['content']
 
         
-        with open(cwd+f'/result/{llm}/causal_dag_response_i1_{dataname}{seed_sim}_out{max_new_tokens}.txt', 'a') as file:
+        with open(cwd+f'/result/{llm}/graph_table_response_{dataname}{seed_sim}_out{max_new_tokens}.txt', 'a') as file:
             file.write(f'bt{i} response:\n {response}\n')
-
-        with open(cwd+f'/result/{llm}/causal_dag_response_i2_{dataname}{seed_sim}_out{max_new_tokens}.txt', 'a') as file:
-            file.write(f'bt:{i} response:\n {response_adj}\n')
-
-        with open(cwd+f'/result/{llm}/causal_dag_prompt_{dataname}{seed_sim}_out{max_new_tokens}.txt', 'a') as file:
+        with open(cwd+f'/result/{llm}/graph_table_response_adj_{dataname}{seed_sim}.txt', 'a') as file:
+            file.write(f'bt{i} response:\n {response_adj}\n')
+        with open(cwd+f'/result/{llm}/graph_table_prompt_{dataname}{seed_sim}_out{max_new_tokens}.txt', 'a') as file:
             file.write(f'bt:{i} prompt:\n {messages}\n')        
-
-        with open(cwd+f'/result/{llm}/causal_dag_adj_{dataname}{seed_sim}_out{max_new_tokens}.txt', 'a') as file:
+        with open(cwd+f'/result/{llm}/graph_table_adj_{dataname}{seed_sim}_out{max_new_tokens}.txt', 'a') as file:
             file.write(f'bt:{i} adj:\n {adj_gt}\n')
+        
+
         
 
     end_time = time.time()

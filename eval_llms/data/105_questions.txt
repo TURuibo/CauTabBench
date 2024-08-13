@@ -1,0 +1,14 @@
+Are V1 and V6 conditionally independent given V2?
+Are V1 and V8 conditionally independent given V3V6?
+Are V2 and V3 conditionally independent given V1?
+Are V2 and V8 conditionally independent given V3V6?
+Are V3 and V6 conditionally independent given V2?
+Are V4 and V8 conditionally independent given V3V6?
+Are V5 and V9 conditionally independent given V0?
+Are V1 and V6 independent from each other?
+Are V1 and V8 conditionally independent given V6?
+Are V2 and V3 independent from each other?
+Are V2 and V8 conditionally independent given V6?
+Are V3 and V6 independent from each other?
+Are V4 and V8 conditionally independent given V6?
+Are V5 and V9 independent from each other?

@@ -1,4 +1,3 @@
-
 import os,sys
 cwd = os.path.abspath(os.path.curdir)
 sys.path.append(cwd)  # workplace
@@ -7,7 +6,6 @@ import numpy as np
 import pandas as pd
 import torch
 import transformers
-from transformers import AutoModelForCausalLM, AutoTokenizer
 import argparse
 
 
@@ -92,23 +90,29 @@ if __name__ == "__main__":
     args = get_args()
     seed =args.seed
     dataname = args.cm
+    seed_sim = args.sim_seed
     iteration_prompt = args.bt
     max_table_rows = args.max_table_rows
-    max_new_tokens = args.max_new_tokens
     prow_num = args.prow_num
+    max_new_tokens = args.max_new_tokens
     llm = args.llm
-    seed_sim = args.sim_seed
-    model_id = "google/gemma-2-9b-it"
+    
+
+    if llm == 'gemma':
+        model_id = "google/gemma-2-9b-it"
+    elif llm == 'mistral':
+        model_id = "mistral_models/Mistral-7B-Instruct-v0.1"
+    elif llm == 'mixtral':
+        model_id = "mistral_models/Mixtral-8x7B-Instruct-v0.1"
+    elif llm == 'qwen':
+        model_id = "Qwen/Qwen2-7B-Instruct"
 
     np.random.seed(seed)
-    
-    # Start time
     start_time = time.time()
-    print(f"loading seed {seed_sim}  type {dataname} dataset.")
+    print(f"loading seed {seed_sim}, dataset {dataname}, model {llm}.")
 
     dag_gt,data_train = get_dag_table(dataname,seed_sim)
     adj_gt = get_adj(dag_gt) 
-
 
     pipe = transformers.pipeline(
         "text-generation",
@@ -116,6 +120,9 @@ if __name__ == "__main__":
         model_kwargs={"torch_dtype": torch.bfloat16},
         device_map="auto",
     )
+
+    terminators = [pipe.tokenizer.eos_token_id,
+                   pipe.tokenizer.convert_tokens_to_ids("<|eot_id|>")]
     
     with open(cwd+f'/result/{llm}/causal_dag_response_i1_{dataname}{seed_sim}_out{max_new_tokens}.txt', 'w') as file:
         file.write('')
@@ -137,11 +144,14 @@ if __name__ == "__main__":
         outputs = pipe(
             messages,
             max_new_tokens=max_new_tokens,
+            eos_token_id=terminators,
             do_sample=True,
-            temperature=0.7,
-            top_k=50,
-            top_p=0.95
-        )
+            temperature=0.6,
+            top_p=0.9)
+        #     temperature=0.7,
+        #     top_k=50,
+        #     top_p=0.95
+        # )
         response = outputs[0]["generated_text"][-1]["content"]
         print(response)
         
@@ -149,10 +159,10 @@ if __name__ == "__main__":
         outputs = pipe(
             messages,
             max_new_tokens=max_new_tokens,
+            eos_token_id=terminators,
             do_sample=True,
-            temperature=0.7,
-            top_k=50,
-            top_p=0.95
+            temperature=0.6,
+            top_p=0.9
         )
         response_adj = outputs[0]["generated_text"][-1]["content"]
         print(response_adj)

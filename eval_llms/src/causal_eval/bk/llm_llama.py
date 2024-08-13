@@ -118,7 +118,6 @@ if __name__ == "__main__":
         device_map="auto",
     )
 
-
     with open(cwd+f'/result/{llm}/causal_dag_response_i1_{dataname}{seed_sim}_out{max_new_tokens}.txt', 'w') as file:
         file.write('')
     with open(cwd+f'/result/{llm}/causal_dag_response_i2_{dataname}{seed_sim}_out{max_new_tokens}.txt', 'w') as file:
@@ -128,15 +127,13 @@ if __name__ == "__main__":
     with open(cwd+f'/result/{llm}/causal_dag_adj_{dataname}{seed_sim}_out{max_new_tokens}.txt', 'w') as file:
         file.write('')
 
-
     for i in range(int(iteration_prompt)):
         causal_graph_text = graph_to_text(dag_gt)  
 
         # causal graph reasoning questions
         task = 'What are the neighbors of each node in the causal graph?'
 
-        messages = get_prompt(causal_graph_text,task)
-        
+        messages = get_prompt(causal_graph_text,task)        
         terminators = [pipeline.tokenizer.eos_token_id,
                         pipeline.tokenizer.convert_tokens_to_ids("<|eot_id|>")]
         
@@ -149,11 +146,9 @@ if __name__ == "__main__":
             top_p=0.9,
         )
         
-        response = outputs[0]["generated_text"][-1] ['content']
+        response = outputs[0]["generated_text"][-1]['content']
         print(response)
 
-        
-        
         messages = get_prompt_text2adj(response)
         terminators = [pipeline.tokenizer.eos_token_id,
                         pipeline.tokenizer.convert_tokens_to_ids("<|eot_id|>")]
@@ -167,18 +162,15 @@ if __name__ == "__main__":
             top_p=0.9,
         )
         
-        response_adj = outputs[0]["generated_text"][-1] ['content']
+        response_adj = outputs[0]["generated_text"][-1]['content']
         print(response_adj)
         
         with open(cwd+f'/result/{llm}/causal_dag_response_i1_{dataname}{seed_sim}_out{max_new_tokens}.txt', 'a') as file:
             file.write(f'bt{i} response:\n {response}\n')
-
         with open(cwd+f'/result/{llm}/causal_dag_response_i2_{dataname}{seed_sim}_out{max_new_tokens}.txt', 'a') as file:
             file.write(f'bt:{i} response:\n {response_adj}\n')
-
         with open(cwd+f'/result/{llm}/causal_dag_prompt_{dataname}{seed_sim}_out{max_new_tokens}.txt', 'a') as file:
-            file.write(f'bt:{i} prompt:\n {messages}\n')        
-
+            file.write(f'bt:{i} prompt:\n {messages}\n')  
         with open(cwd+f'/result/{llm}/causal_dag_adj_{dataname}{seed_sim}_out{max_new_tokens}.txt', 'a') as file:
             file.write(f'bt:{i} adj:\n {adj_gt}\n')
         
