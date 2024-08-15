@@ -16,6 +16,8 @@ def get_args():
     parser.add_argument('--seed_sim',type=int, default=101)   
     parser.add_argument('--llm',type=str, default='null')   
 
+    parser.add_argument('--input_type',type=str, default='graph')   
+    
     args = parser.parse_args()
 
     return args

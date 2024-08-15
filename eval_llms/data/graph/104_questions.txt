@@ -1,0 +1,36 @@
+Are V0 and V5 d-seperated given V1?
+Are V0 and V6 d-seperated given V1V5?
+Are V0 and V7 d-seperated given V2?
+Are V1 and V2 d-seperated given V0?
+Are V1 and V7 d-seperated given V2?
+Are V2 and V3 d-seperated given V0V1?
+Are V2 and V5 d-seperated given V1?
+Are V2 and V6 d-seperated given V1V5?
+Are V2 and V9 d-seperated given V0V1?
+Are V3 and V5 d-seperated given V1?
+Are V3 and V6 d-seperated given V1V5?
+Are V3 and V7 d-seperated given V2?
+Are V3 and V9 d-seperated given V0V1?
+Are V5 and V7 d-seperated given V2?
+Are V5 and V9 d-seperated given V0V1?
+Are V6 and V7 d-seperated given V2?
+Are V6 and V9 d-seperated given V0V1?
+Are V7 and V9 d-seperated given V0V1?
+Are V0 and V5 d-seperated?
+Are V0 and V6 d-seperated given V5?
+Are V0 and V7 d-seperated?
+Are V1 and V2 d-seperated?
+Are V1 and V7 d-seperated?
+Are V2 and V3 d-seperated given V1?
+Are V2 and V5 d-seperated?
+Are V2 and V6 d-seperated given V5?
+Are V2 and V9 d-seperated given V1?
+Are V3 and V5 d-seperated?
+Are V3 and V6 d-seperated given V5?
+Are V3 and V7 d-seperated?
+Are V3 and V9 d-seperated given V1?
+Are V5 and V7 d-seperated?
+Are V5 and V9 d-seperated given V1?
+Are V6 and V7 d-seperated?
+Are V6 and V9 d-seperated given V1?
+Are V7 and V9 d-seperated given V1?
