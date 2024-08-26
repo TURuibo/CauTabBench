@@ -6,18 +6,18 @@ from src.utils import *
 
 
 def load_task(graph_id,input_type):
-    with open(f'./benchmark/{input_type}/{graph_id}_questions.txt', 'r') as file:
+    with open(f'./benchmark/{input_type}/cdir_{graph_id}_questions.txt', 'r') as file:
         questions_ls = file.readlines()
     return questions_ls
 
 
 def create_output_fiels(dataname,seed_sim,llm,result_path,prefix):
-    with open(cwd+f'{result_path}/{llm}/{prefix}_dsep_response_{dataname}{seed_sim}.txt', 'w') as file:
+    with open(cwd+f'{result_path}/{llm}/{prefix}_cdir_response_{dataname}{seed_sim}.txt', 'w') as file:
         file.write('')
     
 
 def save_results(dataname,seed_sim,llm,response_ls,result_path,prefix,questions):   
-    with open(cwd+f'{result_path}/{llm}/{prefix}_dsep_response_{dataname}{seed_sim}.txt', 'a') as file:
+    with open(cwd+f'{result_path}/{llm}/{prefix}_cdir_response_{dataname}{seed_sim}.txt', 'a') as file:
         for response,question in zip(response_ls,questions):
             response = response.replace('\n', '')
             file.write(f'{{"question":\"{question.rstrip()}\", "answer": \"{response}\"}}\n')
