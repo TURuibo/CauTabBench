@@ -5,7 +5,7 @@ import networkx as nx
 import numpy as np
 import pandas as pd
 from dowhy import gcm
-from eval_llms.eva_tab_gen.eva_ci_sets_llm import *
+from card_gt.eva_tab_gen.eva_ci_sets_llm import *
 from utils.utils import get_args
 
 

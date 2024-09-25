@@ -6,7 +6,7 @@ sys.path.append(cwd)  # workplace
 from utils.utils import get_args
 
 def load_llm_answer(graph_id,result_path,llm,prefix):
-    with open(cwd+f'/eval_llms{result_path}/{llm}/{prefix}_cdir_response_lu{graph_id}.txt', 'r') as file:
+    with open(cwd+f'/card_gt{result_path}/{llm}/{prefix}_cdir_response_lu{graph_id}.txt', 'r') as file:
         answers = file.readlines()
 
     ans = []

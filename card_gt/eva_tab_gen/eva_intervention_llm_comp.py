@@ -6,7 +6,7 @@ import networkx as nx
 import numpy as np
 import pandas as pd
 from dowhy import gcm
-from eval_llms.eva_tab_gen.eva_ci_sets_llm import *
+from card_gt.eva_tab_gen.eva_ci_sets_llm import *
 from utils.utils import get_args
 
 def one_hot_encode_to_boolean(number, num_classes=10):
@@ -100,7 +100,7 @@ if __name__ == "__main__":
     dataname= 'sim_' + dataname # lg lu sg nn
     model = llm
     
-    result_path = f'./eval_llms/result/{llm}/eva_itvn_err_{dataname}_mean.txt'
+    result_path = f'./card_gt/result/{llm}/eva_itvn_err_{dataname}_mean.txt'
     with open(result_path, 'w') as file:
         file.write(f'{llm}\n')   
             

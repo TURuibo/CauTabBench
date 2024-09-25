@@ -25,7 +25,7 @@ def create_output_fiels(dataname,seed_sim,result_path,prefix):
         file.write('')
 
 def load_gt_answer(graph_id,prefix):
-    with open(cwd+f'/eval_llms/data/{prefix}/{graph_id}_answers.txt', 'r') as file:
+    with open(cwd+f'/card_gt/data/{prefix}/{graph_id}_answers.txt', 'r') as file:
         answers = file.readlines()
     ans = []
     
@@ -37,15 +37,15 @@ def load_gt_answer(graph_id,prefix):
     return ans
 
 def load_llm_answer(graph_id,result_path,llm,prefix):
-    with open(cwd+f'/eval_llms{result_path}/{llm}/{prefix}_dsep_response_lu{graph_id}.txt', 'r') as file:
+    with open(cwd+f'/card_gt{result_path}/{llm}/{prefix}_dsep_response_lu{graph_id}.txt', 'r') as file:
         answers = file.readlines()
     
-    with open(cwd+f'/eval_llms{result_path}/{llm}/{prefix}_dsep_response_lu{graph_id}_preds.txt', 'w') as file:
-        print(cwd+f'/eval_llms{result_path}/{llm}/{prefix}_dsep_response_lu{graph_id}_preds.txt')
+    with open(cwd+f'/card_gt{result_path}/{llm}/{prefix}_dsep_response_lu{graph_id}_preds.txt', 'w') as file:
+        print(cwd+f'/card_gt{result_path}/{llm}/{prefix}_dsep_response_lu{graph_id}_preds.txt')
         file.write('')
 
     ans = []
-    with open(cwd+f'/eval_llms/{result_path}/{llm}/{prefix}_dsep_response_i2_lu{graph_id}_preds.txt', 'a') as file:
+    with open(cwd+f'/card_gt/{result_path}/{llm}/{prefix}_dsep_response_i2_lu{graph_id}_preds.txt', 'a') as file:
         for i in range(len(answers)):
             if answers[i].lower().find('yes') != -1:
                 ans.append(1)
@@ -83,5 +83,5 @@ if __name__ == "__main__":
     roc = RocCurveDisplay.from_predictions(labels, preds, name=llm,ax=ax_roc)
     auc = roc.roc_auc
     plt.legend()
-    plt.savefig(cwd+f'/eval_llms/result/{llm}/{dataname}.pdf')
+    plt.savefig(cwd+f'/card_gt/result/{llm}/{dataname}.pdf')
     print(f'{auc:.3f}')

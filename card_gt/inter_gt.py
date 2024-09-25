@@ -6,7 +6,7 @@ import networkx as nx
 import numpy as np
 import pandas as pd
 from dowhy import gcm
-from eval_llms.eva_tab_gen.eva_ci_sets_llm import *
+from card_gt.eva_tab_gen.eva_ci_sets_llm import *
 from utils.utils import get_args
 
 def one_hot_encode_to_boolean(number, num_classes=51):
@@ -63,7 +63,7 @@ def get_gt_intervention_distribution(gcm_gt, causal_model_gt,sim_seed,sz=1000):
     np.random.seed(77)
     intervention_ls = np.random.randn(51)*5
 
-    with open(f'/Users/ruibo/Documents/Codes/CauTabBench/eval_llms/data/table/intervention_{sim_seed}_gt.txt', 'w') as file:
+    with open(f'/Users/ruibo/Documents/Codes/CauTabBench/card_gt/data/table/intervention_{sim_seed}_gt.txt', 'w') as file:
         for inv_dim in range(51):
             itvn = intervention_ls[inv_dim]
             res = np.mean(interv_gen(gcm_gt, causal_model_gt,inv_dim,itvn,sz),axis=0)

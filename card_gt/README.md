@@ -7,9 +7,9 @@ These are the codes for evaluating the quality of generated tabular data of LLMs
 * Evaluation results: the evaluated results will be saved in "results/qwen_100i" according to different LLMs.
 
 # Example
-* causal skeleton: python eval_llms/eva_skeleton_llm.py --cm lu --sz 400 --llm qwen_100i --seed_sim 105  
-* d-sepearation: python eval_llms/eva_ci_sets_llm.py --cm lu --sz 400 --llm qwen_100i --seed_sim 105  
-* causal direction: python eval_llms/eva_bcd_llm.py --cm lu --sz 400 --llm qwen_100i --seed_sim 105  
-* causal graphs: python eval_llms/eva_cdir_lingam_llm.py --cm lu --sz 400 --llm qwen_100i --seed_sim 105 
-* interventional inference: python eval_llms/eva_intervention_llm.py --cm lu --sz 400 --llm qwen_100i --seed_sim 105
-* counterfactural inference: python eval_llms/eva_counterfactural_llm.py --cm lu --sz 400 --llm qwen_100i --seed_sim 105
+* causal skeleton: python card_gt/eva_skeleton_llm.py --cm lu --sz 400 --llm qwen_100i --seed_sim 105  
+* d-sepearation: python card_gt/eva_ci_sets_llm.py --cm lu --sz 400 --llm qwen_100i --seed_sim 105  
+* causal direction: python card_gt/eva_bcd_llm.py --cm lu --sz 400 --llm qwen_100i --seed_sim 105  
+* causal graphs: python card_gt/eva_cdir_lingam_llm.py --cm lu --sz 400 --llm qwen_100i --seed_sim 105 
+* interventional inference: python card_gt/eva_intervention_llm.py --cm lu --sz 400 --llm qwen_100i --seed_sim 105
+* counterfactural inference: python card_gt/eva_counterfactural_llm.py --cm lu --sz 400 --llm qwen_100i --seed_sim 105
