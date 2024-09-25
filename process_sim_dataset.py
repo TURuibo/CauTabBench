@@ -15,11 +15,10 @@ if __name__ == "__main__":
     args = get_args()
     seed =args.seed
     sim_ls = args.cm
-
-    sz = 17117+1902
-    noise_coeff = 0.4
-    n_nodes = 10
-    n_prt = 2
+    n_nodes = args.n_nodes  # default: 10
+    sz = args.sz  # default: 19019
+    noise_coeff = args.noise_coeff  # default: 0.4
+    n_prt = args.n_prt  # default: 2
     n_d = 2
 
     i = sim_ls
