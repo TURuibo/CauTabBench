@@ -10,14 +10,19 @@ def load_task(graph_id,input_type):
         questions_ls = file.readlines()
     return questions_ls
 
+def load_causal_inference_task(input_type):
+    with open(f'./benchmark/{input_type}/intervention_questions.txt', 'r') as file:
+        questions_ls = file.readlines()
+    return questions_ls
+    
 
 def create_output_fiels(dataname,seed_sim,llm,result_path,prefix):
-    with open(cwd+f'{result_path}/{llm}/{prefix}_cdir_response_{dataname}{seed_sim}.txt', 'w') as file:
+    with open(cwd+f'{result_path}/{llm}/{prefix}_intv_response_{dataname}{seed_sim}.txt', 'w') as file:
         file.write('')
     
 
 def save_results(dataname,seed_sim,llm,response_ls,result_path,prefix,questions):   
-    with open(cwd+f'{result_path}/{llm}/{prefix}_cdir_response_{dataname}{seed_sim}.txt', 'a') as file:
+    with open(cwd+f'{result_path}/{llm}/{prefix}_intv_response_{dataname}{seed_sim}.txt', 'a') as file:
         for response,question in zip(response_ls,questions):
             response = response.replace('\n', '')
             file.write(f'{{"question":\"{question.rstrip()}\", "answer": \"{response}\"}}\n')
@@ -45,26 +50,28 @@ if __name__ == "__main__":
     dag_gt,data_train = get_dag_table(dataname,graph_id)
     adj_gt = get_adj(dag_gt) 
 
+    causal_graph_text = graph_to_text(dag_gt)  
+
     table_text = get_subset_markdown_table(data_train, max_table_rows)  # get 20 rows from the whole table
-    questions_ls  = load_task(graph_id,input_type)
-    message_ls = get_example_prompt(table_text,questions_ls)
+    questions_ls  = load_causal_inference_task(input_type)
+    message_ls = get_causal_inference_prompt(table_text,causal_graph_text,questions_ls)
     
     create_output_fiels(dataname,graph_id,llm,result_path,input_type)
     if llm == 'gemma': 
         model_id = "google/gemma-2-9b-it"
-        response_ls = get_qwen_response(model_id,message_ls,batch_size,temperature,top_p,seed,max_new_tokens)
+        response_ls = get_qwen_response_refinement(model_id,message_ls,batch_size,temperature,top_p,seed,max_new_tokens)
     elif llm == 'qwen': 
         model_id = "Qwen/Qwen2-7B-Instruct"
-        response_ls = get_qwen_response(model_id,message_ls,batch_size,temperature,top_p,seed,max_new_tokens)
+        response_ls = get_qwen_response_refinement(model_id,message_ls,batch_size,temperature,top_p,seed,max_new_tokens)
     elif llm == 'llama': 
         model_id = "meta-llama/Meta-Llama-3-8B-Instruct"
-        response_ls = get_mistral_response(model_id,message_ls,batch_size,temperature,top_p,seed,max_new_tokens)
+        response_ls = get_mistral_response_refinement(model_id,message_ls,batch_size,temperature,top_p,seed,max_new_tokens)
     elif llm == 'mistral': 
         model_id = "mistral_models/Mistral-7B-Instruct-v0.1"
-        response_ls = get_mistral_response(model_id,message_ls,batch_size,temperature,top_p,seed,max_new_tokens)
+        response_ls = get_mistral_response_refinement(model_id,message_ls,batch_size,temperature,top_p,seed,max_new_tokens)
     elif llm == 'mixtral': 
         model_id = "mistral_models/Mixtral-8x7B-Instruct-v0.1"
-        response_ls = get_mistral_response(model_id,message_ls,batch_size,temperature,top_p,seed,max_new_tokens)
+        response_ls = get_mistral_response_refinement(model_id,message_ls,batch_size,temperature,top_p,seed,max_new_tokens)
     
     save_results(dataname,seed_sim,llm,response_ls,result_path,input_type,questions_ls)
 

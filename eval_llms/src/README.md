@@ -19,3 +19,9 @@ The prompts are given
 
 e.g., 
 ```python Qwen/Qwen2-7B-Instruct/tab_eval.py --llm qwen --sim_seed 103 --max_table_rows 100 --bt 10 --max_new_tokens 10000 --prow_num 100 ```
+
+# Evaluation of LLM results
+
+```python eval_llms/eva_causal_graph_adj_cdir.py --cm lu --task_type graph_adj --llm mistral```
+```python eval_llms/eva_causal_graph_adj_cdir.py --cm lu --task_type graph_cdir --llm mistral```
+```python eval_llms/eva_causal_graph_dsep.py --cm lu --input_type graph --llm mistral```

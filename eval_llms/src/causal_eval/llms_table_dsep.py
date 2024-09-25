@@ -52,19 +52,19 @@ if __name__ == "__main__":
     create_output_fiels(dataname,graph_id,llm,result_path,input_type)
     if llm == 'gemma': 
         model_id = "google/gemma-2-9b-it"
-        response_ls = get_qwen_response(model_id,message_ls,batch_size,max_new_tokens,temperature,top_p,seed)
+        response_ls = get_qwen_response(model_id,message_ls,batch_size,temperature,top_p,seed,max_new_tokens)
     elif llm == 'qwen': 
         model_id = "Qwen/Qwen2-7B-Instruct"
-        response_ls = get_qwen_response(model_id,message_ls,batch_size,max_new_tokens,temperature,top_p,seed)
+        response_ls = get_qwen_response(model_id,message_ls,batch_size,temperature,top_p,seed,max_new_tokens)
     elif llm == 'llama': 
         model_id = "meta-llama/Meta-Llama-3-8B-Instruct"
-        response_ls = get_mistral_response(model_id,message_ls,batch_size,max_new_tokens,temperature,top_p,seed)
+        response_ls = get_mistral_response(model_id,message_ls,batch_size,temperature,top_p,seed,max_new_tokens)
     elif llm == 'mistral': 
         model_id = "mistral_models/Mistral-7B-Instruct-v0.1"
-        response_ls = get_mistral_response(model_id,message_ls,batch_size,max_new_tokens,temperature,top_p,seed)
+        response_ls = get_mistral_response(model_id,message_ls,batch_size,temperature,top_p,seed,max_new_tokens)
     elif llm == 'mixtral': 
         model_id = "mistral_models/Mixtral-8x7B-Instruct-v0.1"
-        response_ls = get_mistral_response(model_id,message_ls,batch_size,max_new_tokens,temperature,top_p,seed)
+        response_ls = get_mistral_response(model_id,message_ls,batch_size,temperature,top_p,seed,max_new_tokens)
     
     save_results(dataname,seed_sim,llm,response_ls,result_path,input_type,questions_ls)
 

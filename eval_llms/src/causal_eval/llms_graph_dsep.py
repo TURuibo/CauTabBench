@@ -3,29 +3,11 @@ cwd = os.path.abspath(os.path.curdir)
 sys.path.append(cwd)  # workplace
 import time
 import numpy as np
-import pandas as pd
 import torch
 import transformers
 import argparse
+from src.utils import *
 
-
-def get_args():
-    parser = argparse.ArgumentParser(description='Pipeline')
-    # General configs
-    parser.add_argument('--seed',type=int, default=29)   
-    parser.add_argument('--sim_seed',type=int, default=109)   
-    parser.add_argument('--cm',type=str, default='lu')   
-    parser.add_argument('--bt',type=int, default=10)   
-    parser.add_argument('--max_table_rows',type=int, default=100)   
-    parser.add_argument('--max_new_tokens',type=int, default=10000)   
-    parser.add_argument('--prow_num',type=int, default=100)
-    parser.add_argument('--llm',type=str, default='null')
-    parser.add_argument('--temperature',type=float, default=0.6)  
-    parser.add_argument('--top_p',type=float, default=0.9) 
-    parser.add_argument('--input_type',type=str, default='graph')   
-    parser.add_argument('--result_path',type=str, default='/result')   
-    args = parser.parse_args()
-    return args
 
 
 def load_task(graph_id,input_type):
@@ -35,82 +17,26 @@ def load_task(graph_id,input_type):
 
 
 def create_output_fiels(dataname,seed_sim,result_path,prefix):
-    with open(cwd+f'{result_path}/{llm}/{prefix}_dsep_response_i1_{dataname}{seed_sim}.txt', 'w') as file:
+    with open(cwd+f'{result_path}/{llm}/{prefix}_dsep_response_{dataname}{seed_sim}.txt', 'w') as file:
         file.write('')
-    with open(cwd+f'{result_path}/{llm}/{prefix}_dsep_response_i2_{dataname}{seed_sim}.txt', 'w') as file:
-        file.write('')
+    # with open(cwd+f'{result_path}/{llm}/{prefix}_dsep_response_i2_{dataname}{seed_sim}.txt', 'w') as file:
+    #     file.write('')
 
 
 def save_results(dataname,seed_sim,response_ls,response_adj_ls,result_path,prefix,questions):
-   
-    with open(cwd+f'{result_path}/{llm}/{prefix}_dsep_response_i1_{dataname}{seed_sim}.txt', 'a') as file:
-        for response,question in zip(response_ls,questions):
-            file.write(f'Question is {question}\n Answer is {response}\n')
+    # with open(cwd+f'{result_path}/{llm}/{prefix}_dsep_response_i1_{dataname}{seed_sim}.txt', 'a') as file:
+    #     for response,question in zip(response_ls,questions):
+    #         response = response.replace('\n', '')
+    #         file.write(f'{{"question":\"{question.rstrip()}\", "answer": \"{response}\"}}\n')
+            # file.write(f'Question is {question}\n Answer is {response}\n')
     
-    with open(cwd+f'{result_path}/{llm}/{prefix}_dsep_response_i2_{dataname}{seed_sim}.txt', 'a') as file:
+    with open(cwd+f'{result_path}/{llm}/{prefix}_dsep_response_{dataname}{seed_sim}.txt', 'a') as file:
         for response_adj,question in zip(response_adj_ls,questions):
-            if response_adj[-1:] == '\n':
-                file.write(f'{response_adj}')        
-            else:
-                file.write(f'{response_adj}\n')        
-
-def get_dag_table(dataname,seed_sim):
-    adj_path = cwd+f'/data/sim_{dataname}/{seed_sim}/generated_graph_target.csv'
-    graph_np = pd.read_csv(adj_path)
-    graph_np = graph_np.iloc[:10,:10]
-    dag_gt = graph_np.to_numpy()
-
-    data_train_path = cwd+f'/data/sim_{dataname}/{seed_sim}/train.csv'
-    data_train = pd.read_csv(data_train_path)
-    data_train = data_train.iloc[:,:10]
-    return dag_gt,data_train  
-
-def get_table(dataname,seed_sim):
-    adj_path = cwd+f'/data/sim_{dataname}/{seed_sim}/generated_graph_target.csv'
-    graph_np = pd.read_csv(adj_path)
-    graph_np = graph_np.iloc[:10,:10]
-    adj_gt = graph_np.to_numpy() + graph_np.to_numpy().T
-
-    data_train_path = cwd+f'/data/sim_{dataname}/{seed_sim}/train.csv'
-    data_train = pd.read_csv(data_train_path)
-    data_train = data_train.iloc[:,:10]
-    return adj_gt,data_train  
-
-def get_adj(dag_gt):
-    return dag_gt + dag_gt.T
-
-
-def get_subset_markdown_table(data,max_table_rows):
-    row_index = np.random.randint(len(data), size=max_table_rows)
-    df = data.loc[row_index]
-    markdown_data = df.to_markdown(index=False)
-    return markdown_data    
-        
-
-def graph_to_text(dag_gt):
-    heads, tails = np.where(dag_gt == 1)
-    nrow,ncol = dag_gt.shape
-    # causal graph nodes
-    prompt_dag = 'A causal graph has nodes '
-    for i in range(nrow-1):
-        prompt_dag += f'V{i}, '
-    prompt_dag += f'and V{i+1}. And its edges are '
-
-    for i in range(len(heads)-1):
-        prompt_dag += f'V{heads[i]} -> V{tails[i]}, '
-    prompt_dag += f'and V{heads[i+1]} -> V{tails[i+1]}. '
-    
-    return prompt_dag
-
-
-def get_graph_prompt_list(causal_graph_data,task_ls):
-    messages = [[{"role": "user", "content": f"You are reasoning over causal graphs. {causal_graph_data}. {task}"}] for task in task_ls]
-    return messages
-
-
-def get_prompt_graph2adj_list(response_ls,task_ls):
-    messages = [[{"role": "user", "content": f"The question is {task}. The response is: {response}. Given the question and the response, summarize the answer as yes or no based on the response."}] for response,task in zip(response_ls,task_ls)]
-    return messages
+            file.write(f'{{"question":\"{question.rstrip()}\", "answer": \"{response_adj}\"}}\n')
+            # if response_adj[-1:] == '\n':
+            #     file.write(f'{response_adj}')        
+            # else:
+            #     file.write(f'{response_adj}\n')        
 
 
 if __name__ == "__main__":
@@ -191,6 +117,7 @@ if __name__ == "__main__":
         response_ls.append(outputs[i][0]["generated_text"][-1]["content"])
     
     messages_ls = get_prompt_graph2adj_list(response_ls,questions_ls)
+    max_new_tokens = 10
     if llm == 'qwen' or llm == 'gemma':
         outputs = pipe(
             messages_ls,
