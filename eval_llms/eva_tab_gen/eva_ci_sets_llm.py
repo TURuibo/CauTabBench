@@ -138,7 +138,16 @@ def compute_p_vals(conditional_independent_set,dataname,sim_seed,m_name,sz):
     data = data.iloc[:,:10]
     data.dropna(inplace=True)
 
+    # data_path = f'./data/sim_{dataname}/{sim_seed}/generated_graph_data.csv'
+    # data_df = pd.read_csv(data_path)
+    # n_rows,_ = data.shape
+    # n_rows_totoal,_ = data_df.shape
+    # index = np.random.randint(n_rows_totoal, size=(n_rows))
+    # data = data_df.iloc[index,:10]
+    # sz = n_rows
+
     p_real = eva_ci(conditional_independent_set,data,dataname,sz)
+    
     return p_real
 
 
@@ -191,7 +200,7 @@ if __name__ == "__main__":
 
     plt.legend()
     plt.savefig(f'./result/{llm}/{dataname}.pdf')
-
+    print(f'{auc:.3f}')
     with open(result_roc_path, 'a') as file:
         file.write(f'{auc:.3f}')
     

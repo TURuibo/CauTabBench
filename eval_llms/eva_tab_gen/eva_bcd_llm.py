@@ -85,6 +85,15 @@ def xy_yx(dataname,sim_seed,m_name,index_x, index_y, bt_i=0, sz =10000,  func=RE
     data_path = f'./synthetic/sim_{dataname}/{sim_seed}/{m_name}.csv'   
     data = pd.read_csv(data_path)
     data.dropna(inplace=True)
+    # Reference
+    # data_path = f'./data/sim_{dataname}/{sim_seed}/generated_graph_data.csv'
+    # data_df = pd.read_csv(data_path)
+    # n_rows,_ = data.shape
+    # n_rows_totoal,_ = data_df.shape
+    # index = np.random.randint(n_rows_totoal, size=(n_rows))
+    # data = data_df.iloc[index,:10]
+    # sz = n_rows
+
 
     np.random.seed(bt_i)
     index = np.random.randint(len(data.iloc[:,0]), size=sz)
