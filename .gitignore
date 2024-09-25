@@ -13,11 +13,11 @@ __pycache__/
 data/bin_MNIST/
 # C extensions
 *.so
-# *.png
+ *.png
 **/.DS_Store
 *.ckpt
 *.npy
-# *.pdf
+ *.pdf
 *.npz
 *.csv
 __pycache__/
@@ -29,7 +29,7 @@ data/CIFAR10/
 # Distribution / packaging
 .Python
 # data/
-eval_llms/results/
+eval_llms/result/
 meta-llama/
 data/adult/
 data/beijing/
@@ -46,5 +46,4 @@ data/sim1/
 synthetic/sim_lg_deepflow
 synthetic/sim_lg_deepsleep
 runner/
-
 !result/
