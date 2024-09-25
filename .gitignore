@@ -1,19 +1,14 @@
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
-# *.txt
-# *.json
-# */*.json
 *.zip
 *.bkp
 *$py.class
 *.pt
 *.pth
 *.gz
-data/bin_MNIST/
 # C extensions
 *.so
-# *.png
 **/.DS_Store
 *.ckpt
 *.npy
@@ -23,14 +18,11 @@ data/bin_MNIST/
 __pycache__/
 *.py[cod]
 *$py.class
-examples/models/
-examples/runs/
-data/CIFAR10/
+
 # Distribution / packaging
 .Python
-# data/
-eval_llms/result/*
-meta-llama/
+examples/models/
+examples/runs/
 data/adult/
 data/beijing/
 data/default/
@@ -43,7 +35,5 @@ data/sim_nn/
 data/sim_poly_g/
 data/sim_sg/
 data/sim1/
-synthetic/sim_lg_deepflow
-synthetic/sim_lg_deepsleep
-runner/
 result/*
+eval_llms/result/*/*.txt
