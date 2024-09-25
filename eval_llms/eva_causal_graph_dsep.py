@@ -1,3 +1,4 @@
+import json
 import numpy as np
 import os,sys
 cwd = os.path.abspath(os.path.curdir)
@@ -36,21 +37,48 @@ def load_gt_answer(graph_id,result_path,llm,prefix):
             ans.append(0)
     return ans
 
-def load_llm_answer(graph_id,result_path,llm,prefix):
-    with open(cwd+f'/eval_llms{result_path}/{llm}/{prefix}_dsep_response_i2_lu{graph_id}.txt', 'r') as file:
-        answers = file.readlines()
-    
-    with open(cwd+f'/eval_llms{result_path}/{llm}/{prefix}_dsep_response_i2_lu{graph_id}_preds.txt', 'w') as file:
-        print(cwd+f'/eval_llms{result_path}/{llm}/{prefix}_dsep_response_i2_lu{graph_id}_preds.txt')
-        file.write('')
+def text_file_to_json(input_file):
+    # Open and read the text file
+    with open(input_file, 'r') as file:
+        text = file.read()
 
+    # Split text into individual question-answer blocks
+    qa_blocks = text.split('Question is')
+
+    # Prepare list to hold question-answer pairs
+    qa_pairs = []
+
+    # Process each block (ignoring the first empty element before the first 'Question is')
+    for block in qa_blocks[1:]:
+        # Extract the question part
+        question = block.split('Answer is')[0].strip()
+        # Extract the answer part
+        answer = block.split('Answer is')[1].strip()
+
+        # Create a dictionary for each question-answer pair
+        qa_dict = {"question": question, "answer": answer}
+
+        # Append the dictionary to the list
+        qa_pairs.append(qa_dict)
+    return qa_pairs
+
+
+def load_llm_answer(graph_id,result_path,llm,prefix):
+    with open(cwd+f'/eval_llms{result_path}/{llm}/{prefix}_dsep_response_lu{graph_id}_preds.txt', 'w') as file:
+        print(cwd+f'/eval_llms{result_path}/{llm}/{prefix}_dsep_response_lu{graph_id}_preds.txt')
+        file.write('')
+    answers = []
+    with open(cwd+f'/eval_llms{result_path}/{llm}/{prefix}_dsep_response_lu{graph_id}.txt', 'r') as file:
+        answers = file.readlines()
+        
     ans = []
-    with open(cwd+f'/eval_llms/{result_path}/{llm}/{prefix}_dsep_response_i2_lu{graph_id}_preds.txt', 'a') as file:
-        for i in range(len(answers)):
-            if answers[i].lower().find('yes') != -1:
+    with open(cwd+f'/eval_llms/{result_path}/{llm}/{prefix}_dsep_response_lu{graph_id}_preds.txt', 'a') as file:
+        for js_data in answers:
+            data = json.loads(js_data)
+            if data['answer'].lower().find('yes') != -1:
                 ans.append(1)
                 file.write('1\n')
-            elif answers[i].lower().find('no') != -1:
+            elif data['answer'].lower().find('no') != -1:
                 ans.append(0)
                 file.write('0\n')
             else:
@@ -65,18 +93,18 @@ if __name__ == "__main__":
     dataname = args.cm  # lu 
     llm = args.llm # qwen
     input_type =  args.input_type
-    bt = args.bt  # 5
+
     np.random.seed(seed)
 
     labels = []
     preds = []
     fig, ax_roc= plt.subplots(1, 1, figsize=(6, 6))
     ax_roc.set_title(f"ROC curves ({dataname})")
-    for seed_sim in range(100,110):
-        all_lables = load_gt_answer(seed_sim,'/results',llm,input_type)
+    for seed_sim in range(1,11):
+        all_lables = load_gt_answer(seed_sim,'/result',llm,input_type)
         for i in all_lables:
             labels.append(i)
-        all_preds = load_llm_answer(seed_sim,'/results',llm,input_type)
+        all_preds = load_llm_answer(seed_sim,'/result',llm,input_type)
         for i in all_preds:
             preds.append(i)
         print(len(all_lables),len(all_preds))
@@ -85,5 +113,5 @@ if __name__ == "__main__":
     roc = RocCurveDisplay.from_predictions(labels, preds, name=llm,ax=ax_roc)
     auc = roc.roc_auc
     plt.legend()
-    plt.savefig(cwd+f'/eval_llms/results/{llm}/{dataname}.pdf')
+    plt.savefig(cwd+f'/eval_llms/result/{llm}/{dataname}.pdf')
     print(f'{auc:.3f}')

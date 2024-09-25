@@ -71,7 +71,7 @@ if __name__ == "__main__":
     preds = []
     fig, ax_roc= plt.subplots(1, 1, figsize=(6, 6))
     ax_roc.set_title(f"ROC curves ({dataname})")
-    for seed_sim in range(100,110):
+    for seed_sim in range(1,11):            
         all_lables = load_gt_answer(seed_sim,input_type)
         for i in all_lables:
             labels.append(i)
@@ -83,5 +83,5 @@ if __name__ == "__main__":
     roc = RocCurveDisplay.from_predictions(labels, preds, name=llm,ax=ax_roc)
     auc = roc.roc_auc
     plt.legend()
-    plt.savefig(cwd+f'/eval_llms/results/{llm}/{dataname}.pdf')
+    plt.savefig(cwd+f'/eval_llms/result/{llm}/{dataname}.pdf')
     print(f'{auc:.3f}')

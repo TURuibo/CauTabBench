@@ -45,7 +45,7 @@ if __name__ == "__main__":
     labels = []
     preds = []
     np.random.seed(seed)
-    for seed_sim in range(100,110):        
+    for seed_sim in range(1,11):        
         all_preds = load_llm_answer(seed_sim,'/result',llm,input_type)
         for i in all_preds:
             preds.append(i)
