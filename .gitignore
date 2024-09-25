@@ -1,7 +1,7 @@
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
-*.txt
+# *.txt
 # *.json
 # */*.json
 *.zip
@@ -29,7 +29,7 @@ data/CIFAR10/
 # Distribution / packaging
 .Python
 # data/
-eval_llms/result/
+eval_llms/result/*
 meta-llama/
 data/adult/
 data/beijing/
@@ -46,4 +46,4 @@ data/sim1/
 synthetic/sim_lg_deepflow
 synthetic/sim_lg_deepsleep
 runner/
-!result/
+result/*

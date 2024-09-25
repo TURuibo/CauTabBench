@@ -1,0 +1,4 @@
+Are V5 and V9 conditionally independent given V4?
+Are V7 and V8 conditionally independent given V6?
+Are V5 and V9 independent from each other?
+Are V7 and V8 independent from each other?

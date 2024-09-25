@@ -1,0 +1,14 @@
+Are V1 and V6 d-seperated given V2?
+Are V1 and V8 d-seperated given V3V6?
+Are V2 and V3 d-seperated given V1?
+Are V2 and V8 d-seperated given V3V6?
+Are V3 and V6 d-seperated given V2?
+Are V4 and V8 d-seperated given V3V6?
+Are V5 and V9 d-seperated given V0?
+Are V1 and V6 d-seperated?
+Are V1 and V8 d-seperated given V6?
+Are V2 and V3 d-seperated?
+Are V2 and V8 d-seperated given V6?
+Are V3 and V6 d-seperated?
+Are V4 and V8 d-seperated given V6?
+Are V5 and V9 d-seperated?

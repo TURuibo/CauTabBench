@@ -1,0 +1,518 @@
+Are V0 and V7 d-seperated given V4?
+Are V0 and V9 d-seperated given V4V8?
+Are V0 and V10 d-seperated given V8?
+Are V0 and V12 d-seperated given V6V9?
+Are V0 and V14 d-seperated given V5?
+Are V0 and V24 d-seperated given V9?
+Are V0 and V26 d-seperated given V4V8?
+Are V0 and V30 d-seperated given V14?
+Are V0 and V33 d-seperated given V5?
+Are V0 and V34 d-seperated given V14?
+Are V0 and V36 d-seperated given V9?
+Are V0 and V39 d-seperated given V30?
+Are V0 and V43 d-seperated given V5?
+Are V0 and V44 d-seperated given V34V5?
+Are V0 and V47 d-seperated given V12?
+Are V0 and V49 d-seperated given V9?
+Are V2 and V7 d-seperated given V6?
+Are V2 and V8 d-seperated given V6?
+Are V2 and V9 d-seperated given V4V8?
+Are V2 and V10 d-seperated given V8?
+Are V2 and V12 d-seperated given V6V9?
+Are V2 and V24 d-seperated given V9?
+Are V2 and V26 d-seperated given V4V8?
+Are V2 and V36 d-seperated given V9?
+Are V2 and V47 d-seperated given V12?
+Are V2 and V49 d-seperated given V9?
+Are V3 and V7 d-seperated given V6?
+Are V3 and V8 d-seperated given V6?
+Are V3 and V9 d-seperated given V4V8?
+Are V3 and V10 d-seperated given V8?
+Are V3 and V12 d-seperated given V6V9?
+Are V3 and V24 d-seperated given V9?
+Are V3 and V26 d-seperated given V4V8?
+Are V3 and V36 d-seperated given V9?
+Are V3 and V47 d-seperated given V12?
+Are V3 and V49 d-seperated given V9?
+Are V4 and V5 d-seperated given V0?
+Are V4 and V8 d-seperated given V0?
+Are V4 and V10 d-seperated given V8?
+Are V4 and V12 d-seperated given V6V9?
+Are V4 and V14 d-seperated given V5?
+Are V4 and V18 d-seperated given V0?
+Are V4 and V22 d-seperated given V0?
+Are V4 and V24 d-seperated given V9?
+Are V4 and V30 d-seperated given V14?
+Are V4 and V33 d-seperated given V5?
+Are V4 and V34 d-seperated given V14?
+Are V4 and V36 d-seperated given V9?
+Are V4 and V39 d-seperated given V30?
+Are V4 and V43 d-seperated given V5?
+Are V4 and V44 d-seperated given V34V5?
+Are V4 and V47 d-seperated given V12?
+Are V4 and V49 d-seperated given V9?
+Are V5 and V7 d-seperated given V4?
+Are V5 and V8 d-seperated given V0?
+Are V5 and V9 d-seperated given V4V8?
+Are V5 and V10 d-seperated given V8?
+Are V5 and V12 d-seperated given V6V9?
+Are V5 and V18 d-seperated given V0?
+Are V5 and V22 d-seperated given V0?
+Are V5 and V24 d-seperated given V9?
+Are V5 and V26 d-seperated given V4V8?
+Are V5 and V30 d-seperated given V14?
+Are V5 and V34 d-seperated given V14?
+Are V5 and V36 d-seperated given V9?
+Are V5 and V39 d-seperated given V30?
+Are V5 and V47 d-seperated given V12?
+Are V5 and V49 d-seperated given V9?
+Are V6 and V9 d-seperated given V4V8?
+Are V6 and V10 d-seperated given V8?
+Are V6 and V24 d-seperated given V9?
+Are V6 and V26 d-seperated given V4V8?
+Are V6 and V36 d-seperated given V9?
+Are V6 and V47 d-seperated given V12?
+Are V6 and V49 d-seperated given V9?
+Are V7 and V8 d-seperated given V0V6?
+Are V7 and V9 d-seperated given V4V8?
+Are V7 and V10 d-seperated given V8?
+Are V7 and V12 d-seperated given V6V9?
+Are V7 and V14 d-seperated given V5?
+Are V7 and V18 d-seperated given V0?
+Are V7 and V22 d-seperated given V0?
+Are V7 and V24 d-seperated given V9?
+Are V7 and V26 d-seperated given V4V8?
+Are V7 and V30 d-seperated given V14?
+Are V7 and V33 d-seperated given V5?
+Are V7 and V34 d-seperated given V14?
+Are V7 and V36 d-seperated given V9?
+Are V7 and V39 d-seperated given V30?
+Are V7 and V43 d-seperated given V5?
+Are V7 and V44 d-seperated given V34V5?
+Are V7 and V47 d-seperated given V12?
+Are V7 and V49 d-seperated given V9?
+Are V8 and V12 d-seperated given V6V9?
+Are V8 and V14 d-seperated given V5?
+Are V8 and V18 d-seperated given V0?
+Are V8 and V22 d-seperated given V0?
+Are V8 and V24 d-seperated given V9?
+Are V8 and V30 d-seperated given V14?
+Are V8 and V33 d-seperated given V5?
+Are V8 and V34 d-seperated given V14?
+Are V8 and V36 d-seperated given V9?
+Are V8 and V39 d-seperated given V30?
+Are V8 and V43 d-seperated given V5?
+Are V8 and V44 d-seperated given V34V5?
+Are V8 and V47 d-seperated given V12?
+Are V8 and V49 d-seperated given V9?
+Are V9 and V10 d-seperated given V8?
+Are V9 and V14 d-seperated given V5?
+Are V9 and V18 d-seperated given V0?
+Are V9 and V22 d-seperated given V0?
+Are V9 and V26 d-seperated given V4V8?
+Are V9 and V30 d-seperated given V14?
+Are V9 and V33 d-seperated given V5?
+Are V9 and V34 d-seperated given V14?
+Are V9 and V39 d-seperated given V30?
+Are V9 and V43 d-seperated given V5?
+Are V9 and V44 d-seperated given V34V5?
+Are V9 and V47 d-seperated given V12?
+Are V10 and V12 d-seperated given V6V9?
+Are V10 and V14 d-seperated given V5?
+Are V10 and V18 d-seperated given V0?
+Are V10 and V22 d-seperated given V0?
+Are V10 and V24 d-seperated given V9?
+Are V10 and V26 d-seperated given V4V8?
+Are V10 and V30 d-seperated given V14?
+Are V10 and V33 d-seperated given V5?
+Are V10 and V34 d-seperated given V14?
+Are V10 and V36 d-seperated given V9?
+Are V10 and V39 d-seperated given V30?
+Are V10 and V43 d-seperated given V5?
+Are V10 and V44 d-seperated given V34V5?
+Are V10 and V47 d-seperated given V12?
+Are V10 and V49 d-seperated given V9?
+Are V12 and V14 d-seperated given V5?
+Are V12 and V18 d-seperated given V0?
+Are V12 and V22 d-seperated given V0?
+Are V12 and V24 d-seperated given V9?
+Are V12 and V26 d-seperated given V4V8?
+Are V12 and V30 d-seperated given V14?
+Are V12 and V33 d-seperated given V5?
+Are V12 and V34 d-seperated given V14?
+Are V12 and V36 d-seperated given V9?
+Are V12 and V39 d-seperated given V30?
+Are V12 and V43 d-seperated given V5?
+Are V12 and V44 d-seperated given V34V5?
+Are V12 and V49 d-seperated given V9?
+Are V13 and V25 d-seperated given V15?
+Are V13 and V29 d-seperated given V25?
+Are V13 and V34 d-seperated given V25?
+Are V13 and V37 d-seperated given V29?
+Are V13 and V39 d-seperated given V25?
+Are V13 and V43 d-seperated given V25?
+Are V13 and V44 d-seperated given V34V5?
+Are V14 and V18 d-seperated given V0?
+Are V14 and V22 d-seperated given V0?
+Are V14 and V24 d-seperated given V9?
+Are V14 and V26 d-seperated given V4V8?
+Are V14 and V33 d-seperated given V5?
+Are V14 and V36 d-seperated given V9?
+Are V14 and V39 d-seperated given V30?
+Are V14 and V43 d-seperated given V5?
+Are V14 and V44 d-seperated given V34V5?
+Are V14 and V47 d-seperated given V12?
+Are V14 and V49 d-seperated given V9?
+Are V15 and V29 d-seperated given V25?
+Are V15 and V34 d-seperated given V25?
+Are V15 and V37 d-seperated given V29?
+Are V15 and V39 d-seperated given V25?
+Are V15 and V43 d-seperated given V25?
+Are V15 and V44 d-seperated given V34V5?
+Are V18 and V22 d-seperated given V0?
+Are V18 and V24 d-seperated given V9?
+Are V18 and V26 d-seperated given V4V8?
+Are V18 and V30 d-seperated given V14?
+Are V18 and V33 d-seperated given V5?
+Are V18 and V34 d-seperated given V14?
+Are V18 and V36 d-seperated given V9?
+Are V18 and V39 d-seperated given V30?
+Are V18 and V43 d-seperated given V5?
+Are V18 and V44 d-seperated given V34V5?
+Are V18 and V47 d-seperated given V12?
+Are V18 and V49 d-seperated given V9?
+Are V22 and V24 d-seperated given V9?
+Are V22 and V26 d-seperated given V4V8?
+Are V22 and V30 d-seperated given V14?
+Are V22 and V33 d-seperated given V5?
+Are V22 and V34 d-seperated given V14?
+Are V22 and V36 d-seperated given V9?
+Are V22 and V39 d-seperated given V30?
+Are V22 and V43 d-seperated given V5?
+Are V22 and V44 d-seperated given V34V5?
+Are V22 and V47 d-seperated given V12?
+Are V22 and V49 d-seperated given V9?
+Are V24 and V26 d-seperated given V4V8?
+Are V24 and V28 d-seperated given V20?
+Are V24 and V30 d-seperated given V14?
+Are V24 and V33 d-seperated given V5?
+Are V24 and V34 d-seperated given V14?
+Are V24 and V36 d-seperated given V9?
+Are V24 and V39 d-seperated given V30?
+Are V24 and V43 d-seperated given V5?
+Are V24 and V44 d-seperated given V34V5?
+Are V24 and V47 d-seperated given V12?
+Are V24 and V49 d-seperated given V9?
+Are V25 and V37 d-seperated given V29?
+Are V25 and V44 d-seperated given V34V5?
+Are V26 and V30 d-seperated given V14?
+Are V26 and V33 d-seperated given V5?
+Are V26 and V34 d-seperated given V14?
+Are V26 and V36 d-seperated given V9?
+Are V26 and V39 d-seperated given V30?
+Are V26 and V43 d-seperated given V5?
+Are V26 and V44 d-seperated given V34V5?
+Are V26 and V47 d-seperated given V12?
+Are V26 and V49 d-seperated given V9?
+Are V29 and V34 d-seperated given V25?
+Are V29 and V39 d-seperated given V25?
+Are V29 and V43 d-seperated given V25?
+Are V29 and V44 d-seperated given V34V5?
+Are V30 and V33 d-seperated given V5?
+Are V30 and V34 d-seperated given V14?
+Are V30 and V36 d-seperated given V9?
+Are V30 and V43 d-seperated given V5?
+Are V30 and V44 d-seperated given V34V5?
+Are V30 and V47 d-seperated given V12?
+Are V30 and V49 d-seperated given V9?
+Are V33 and V34 d-seperated given V14?
+Are V33 and V36 d-seperated given V9?
+Are V33 and V39 d-seperated given V30?
+Are V33 and V43 d-seperated given V5?
+Are V33 and V44 d-seperated given V34V5?
+Are V33 and V47 d-seperated given V12?
+Are V33 and V49 d-seperated given V9?
+Are V34 and V36 d-seperated given V9?
+Are V34 and V37 d-seperated given V29?
+Are V34 and V39 d-seperated given V25V30?
+Are V34 and V43 d-seperated given V25V5?
+Are V34 and V47 d-seperated given V12?
+Are V34 and V49 d-seperated given V9?
+Are V36 and V39 d-seperated given V30?
+Are V36 and V43 d-seperated given V5?
+Are V36 and V44 d-seperated given V34V5?
+Are V36 and V47 d-seperated given V12?
+Are V36 and V49 d-seperated given V9?
+Are V37 and V39 d-seperated given V25?
+Are V37 and V43 d-seperated given V25?
+Are V37 and V44 d-seperated given V34V5?
+Are V39 and V43 d-seperated given V25V5?
+Are V39 and V44 d-seperated given V34V5?
+Are V39 and V47 d-seperated given V12?
+Are V39 and V49 d-seperated given V9?
+Are V43 and V44 d-seperated given V34V5?
+Are V43 and V47 d-seperated given V12?
+Are V43 and V49 d-seperated given V9?
+Are V44 and V47 d-seperated given V12?
+Are V44 and V49 d-seperated given V9?
+Are V45 and V50 d-seperated given V21?
+Are V47 and V49 d-seperated given V9?
+Are V0 and V7 d-seperated?
+Are V0 and V9 d-seperated given V8?
+Are V0 and V10 d-seperated?
+Are V0 and V12 d-seperated given V9?
+Are V0 and V14 d-seperated?
+Are V0 and V24 d-seperated?
+Are V0 and V26 d-seperated given V8?
+Are V0 and V30 d-seperated?
+Are V0 and V33 d-seperated?
+Are V0 and V34 d-seperated?
+Are V0 and V36 d-seperated?
+Are V0 and V39 d-seperated?
+Are V0 and V43 d-seperated?
+Are V0 and V44 d-seperated given V5?
+Are V0 and V47 d-seperated?
+Are V0 and V49 d-seperated?
+Are V2 and V7 d-seperated?
+Are V2 and V8 d-seperated?
+Are V2 and V9 d-seperated given V8?
+Are V2 and V10 d-seperated?
+Are V2 and V12 d-seperated given V9?
+Are V2 and V24 d-seperated?
+Are V2 and V26 d-seperated given V8?
+Are V2 and V36 d-seperated?
+Are V2 and V47 d-seperated?
+Are V2 and V49 d-seperated?
+Are V3 and V7 d-seperated?
+Are V3 and V8 d-seperated?
+Are V3 and V9 d-seperated given V8?
+Are V3 and V10 d-seperated?
+Are V3 and V12 d-seperated given V9?
+Are V3 and V24 d-seperated?
+Are V3 and V26 d-seperated given V8?
+Are V3 and V36 d-seperated?
+Are V3 and V47 d-seperated?
+Are V3 and V49 d-seperated?
+Are V4 and V5 d-seperated?
+Are V4 and V8 d-seperated?
+Are V4 and V10 d-seperated?
+Are V4 and V12 d-seperated given V9?
+Are V4 and V14 d-seperated?
+Are V4 and V18 d-seperated?
+Are V4 and V22 d-seperated?
+Are V4 and V24 d-seperated?
+Are V4 and V30 d-seperated?
+Are V4 and V33 d-seperated?
+Are V4 and V34 d-seperated?
+Are V4 and V36 d-seperated?
+Are V4 and V39 d-seperated?
+Are V4 and V43 d-seperated?
+Are V4 and V44 d-seperated given V5?
+Are V4 and V47 d-seperated?
+Are V4 and V49 d-seperated?
+Are V5 and V7 d-seperated?
+Are V5 and V8 d-seperated?
+Are V5 and V9 d-seperated given V8?
+Are V5 and V10 d-seperated?
+Are V5 and V12 d-seperated given V9?
+Are V5 and V18 d-seperated?
+Are V5 and V22 d-seperated?
+Are V5 and V24 d-seperated?
+Are V5 and V26 d-seperated given V8?
+Are V5 and V30 d-seperated?
+Are V5 and V34 d-seperated?
+Are V5 and V36 d-seperated?
+Are V5 and V39 d-seperated?
+Are V5 and V47 d-seperated?
+Are V5 and V49 d-seperated?
+Are V6 and V9 d-seperated given V8?
+Are V6 and V10 d-seperated?
+Are V6 and V24 d-seperated?
+Are V6 and V26 d-seperated given V8?
+Are V6 and V36 d-seperated?
+Are V6 and V47 d-seperated?
+Are V6 and V49 d-seperated?
+Are V7 and V8 d-seperated given V6?
+Are V7 and V9 d-seperated given V8?
+Are V7 and V10 d-seperated?
+Are V7 and V12 d-seperated given V9?
+Are V7 and V14 d-seperated?
+Are V7 and V18 d-seperated?
+Are V7 and V22 d-seperated?
+Are V7 and V24 d-seperated?
+Are V7 and V26 d-seperated given V8?
+Are V7 and V30 d-seperated?
+Are V7 and V33 d-seperated?
+Are V7 and V34 d-seperated?
+Are V7 and V36 d-seperated?
+Are V7 and V39 d-seperated?
+Are V7 and V43 d-seperated?
+Are V7 and V44 d-seperated given V5?
+Are V7 and V47 d-seperated?
+Are V7 and V49 d-seperated?
+Are V8 and V12 d-seperated given V9?
+Are V8 and V14 d-seperated?
+Are V8 and V18 d-seperated?
+Are V8 and V22 d-seperated?
+Are V8 and V24 d-seperated?
+Are V8 and V30 d-seperated?
+Are V8 and V33 d-seperated?
+Are V8 and V34 d-seperated?
+Are V8 and V36 d-seperated?
+Are V8 and V39 d-seperated?
+Are V8 and V43 d-seperated?
+Are V8 and V44 d-seperated given V5?
+Are V8 and V47 d-seperated?
+Are V8 and V49 d-seperated?
+Are V9 and V10 d-seperated?
+Are V9 and V14 d-seperated?
+Are V9 and V18 d-seperated?
+Are V9 and V22 d-seperated?
+Are V9 and V26 d-seperated given V8?
+Are V9 and V30 d-seperated?
+Are V9 and V33 d-seperated?
+Are V9 and V34 d-seperated?
+Are V9 and V39 d-seperated?
+Are V9 and V43 d-seperated?
+Are V9 and V44 d-seperated given V5?
+Are V9 and V47 d-seperated?
+Are V10 and V12 d-seperated given V9?
+Are V10 and V14 d-seperated?
+Are V10 and V18 d-seperated?
+Are V10 and V22 d-seperated?
+Are V10 and V24 d-seperated?
+Are V10 and V26 d-seperated given V8?
+Are V10 and V30 d-seperated?
+Are V10 and V33 d-seperated?
+Are V10 and V34 d-seperated?
+Are V10 and V36 d-seperated?
+Are V10 and V39 d-seperated?
+Are V10 and V43 d-seperated?
+Are V10 and V44 d-seperated given V5?
+Are V10 and V47 d-seperated?
+Are V10 and V49 d-seperated?
+Are V12 and V14 d-seperated?
+Are V12 and V18 d-seperated?
+Are V12 and V22 d-seperated?
+Are V12 and V24 d-seperated?
+Are V12 and V26 d-seperated given V8?
+Are V12 and V30 d-seperated?
+Are V12 and V33 d-seperated?
+Are V12 and V34 d-seperated?
+Are V12 and V36 d-seperated?
+Are V12 and V39 d-seperated?
+Are V12 and V43 d-seperated?
+Are V12 and V44 d-seperated given V5?
+Are V12 and V49 d-seperated?
+Are V13 and V25 d-seperated?
+Are V13 and V29 d-seperated?
+Are V13 and V34 d-seperated?
+Are V13 and V37 d-seperated?
+Are V13 and V39 d-seperated?
+Are V13 and V43 d-seperated?
+Are V13 and V44 d-seperated given V5?
+Are V14 and V18 d-seperated?
+Are V14 and V22 d-seperated?
+Are V14 and V24 d-seperated?
+Are V14 and V26 d-seperated given V8?
+Are V14 and V33 d-seperated?
+Are V14 and V36 d-seperated?
+Are V14 and V39 d-seperated?
+Are V14 and V43 d-seperated?
+Are V14 and V44 d-seperated given V5?
+Are V14 and V47 d-seperated?
+Are V14 and V49 d-seperated?
+Are V15 and V29 d-seperated?
+Are V15 and V34 d-seperated?
+Are V15 and V37 d-seperated?
+Are V15 and V39 d-seperated?
+Are V15 and V43 d-seperated?
+Are V15 and V44 d-seperated given V5?
+Are V18 and V22 d-seperated?
+Are V18 and V24 d-seperated?
+Are V18 and V26 d-seperated given V8?
+Are V18 and V30 d-seperated?
+Are V18 and V33 d-seperated?
+Are V18 and V34 d-seperated?
+Are V18 and V36 d-seperated?
+Are V18 and V39 d-seperated?
+Are V18 and V43 d-seperated?
+Are V18 and V44 d-seperated given V5?
+Are V18 and V47 d-seperated?
+Are V18 and V49 d-seperated?
+Are V22 and V24 d-seperated?
+Are V22 and V26 d-seperated given V8?
+Are V22 and V30 d-seperated?
+Are V22 and V33 d-seperated?
+Are V22 and V34 d-seperated?
+Are V22 and V36 d-seperated?
+Are V22 and V39 d-seperated?
+Are V22 and V43 d-seperated?
+Are V22 and V44 d-seperated given V5?
+Are V22 and V47 d-seperated?
+Are V22 and V49 d-seperated?
+Are V24 and V26 d-seperated given V8?
+Are V24 and V28 d-seperated?
+Are V24 and V30 d-seperated?
+Are V24 and V33 d-seperated?
+Are V24 and V34 d-seperated?
+Are V24 and V36 d-seperated?
+Are V24 and V39 d-seperated?
+Are V24 and V43 d-seperated?
+Are V24 and V44 d-seperated given V5?
+Are V24 and V47 d-seperated?
+Are V24 and V49 d-seperated?
+Are V25 and V37 d-seperated?
+Are V25 and V44 d-seperated given V5?
+Are V26 and V30 d-seperated?
+Are V26 and V33 d-seperated?
+Are V26 and V34 d-seperated?
+Are V26 and V36 d-seperated?
+Are V26 and V39 d-seperated?
+Are V26 and V43 d-seperated?
+Are V26 and V44 d-seperated given V5?
+Are V26 and V47 d-seperated?
+Are V26 and V49 d-seperated?
+Are V29 and V34 d-seperated?
+Are V29 and V39 d-seperated?
+Are V29 and V43 d-seperated?
+Are V29 and V44 d-seperated given V5?
+Are V30 and V33 d-seperated?
+Are V30 and V34 d-seperated?
+Are V30 and V36 d-seperated?
+Are V30 and V43 d-seperated?
+Are V30 and V44 d-seperated given V5?
+Are V30 and V47 d-seperated?
+Are V30 and V49 d-seperated?
+Are V33 and V34 d-seperated?
+Are V33 and V36 d-seperated?
+Are V33 and V39 d-seperated?
+Are V33 and V43 d-seperated?
+Are V33 and V44 d-seperated given V5?
+Are V33 and V47 d-seperated?
+Are V33 and V49 d-seperated?
+Are V34 and V36 d-seperated?
+Are V34 and V37 d-seperated?
+Are V34 and V39 d-seperated given V30?
+Are V34 and V43 d-seperated given V5?
+Are V34 and V47 d-seperated?
+Are V34 and V49 d-seperated?
+Are V36 and V39 d-seperated?
+Are V36 and V43 d-seperated?
+Are V36 and V44 d-seperated given V5?
+Are V36 and V47 d-seperated?
+Are V36 and V49 d-seperated?
+Are V37 and V39 d-seperated?
+Are V37 and V43 d-seperated?
+Are V37 and V44 d-seperated given V5?
+Are V39 and V43 d-seperated given V5?
+Are V39 and V44 d-seperated given V5?
+Are V39 and V47 d-seperated?
+Are V39 and V49 d-seperated?
+Are V43 and V44 d-seperated given V5?
+Are V43 and V47 d-seperated?
+Are V43 and V49 d-seperated?
+Are V44 and V47 d-seperated?
+Are V44 and V49 d-seperated?
+Are V45 and V50 d-seperated?
+Are V47 and V49 d-seperated?
