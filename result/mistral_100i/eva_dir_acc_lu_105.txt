@@ -1,4 +1,0 @@
-mistral_100i
-lu RECI: &$0.552$\\ 
-lu IGCI: &$0.552$\\ 
-lu CDS: &$0.517$\\ 

@@ -1,2 +1,0 @@
-	& adj  	 & f1 	 & precision 	& recall \\ 
-real	 & $6.24\pm 2.80$	 & $0.77\pm 0.09$	 & $0.67\pm 0.12$	 & $0.94\pm 0.04$\\ 
