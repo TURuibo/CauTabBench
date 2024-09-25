@@ -1,0 +1,10 @@
+{"question":"Given that the intervention value on V0 is 1.122224260377778, what is the expectation of the interventional distribution of V7?", "answer": "0.207629"}
+{"question":"Given that the intervention value on V1 is 3.3076573640840046, what is the expectation of the interventional distribution of V3?", "answer": "0.5543"}
+{"question":"Given that the intervention value on V2 is -2.898788196837578, what is the expectation of the interventional distribution of V1?", "answer": "0.3456"}
+{"question":"Given that the intervention value on V3 is 2.039056618016566, what is the expectation of the interventional distribution of V1?", "answer": "1.343"}
+{"question":"Given that the intervention value on V4 is 2.3323968330052716, what is the expectation of the interventional distribution of V9?", "answer": "0.221845"}
+{"question":"Given that the intervention value on V5 is -9.873545498851863, what is the expectation of the interventional distribution of V6?", "answer": "0.564094"}
+{"question":"Given that the intervention value on V6 is 1.3777400637845494, what is the expectation of the interventional distribution of V4?", "answer": "0.432"}
+{"question":"Given that the intervention value on V7 is -7.8790258626239105, what is the expectation of the interventional distribution of V5?", "answer": "0.234"}
+{"question":"Given that the intervention value on V8 is 7.841984537274902, what is the expectation of the interventional distribution of V8?", "answer": "7.841984537274902"}
+{"question":"Given that the intervention value on V9 is -3.6239751149638133, what is the expectation of the interventional distribution of V1?", "answer": "The final answer is: `expectation_V1_given_V9`"}

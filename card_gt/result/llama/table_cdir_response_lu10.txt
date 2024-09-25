@@ -1,0 +1,38 @@
+{"question":"Between V0 and V1, is V0 the cause?", "answer": "1.0.2.13862   |"}
+{"question":"Between V0 and V30, is V0 the cause?", "answer": "0.0.7   |  | -"}
+{"question":"Between V1 and V2, is V1 the cause?", "answer": "1.1.8   | -1."}
+{"question":"Between V2 and V18, is V2 the cause?", "answer": "0.0.1.78   | -"}
+{"question":"Between V2 and V19, is V2 the cause?", "answer": "0.1.1.62   |0"}
+{"question":"Between V3 and V5, is V3 the cause?", "answer": "1.0.1.59   | -"}
+{"question":"Between V3 and V21, is V3 the cause?", "answer": "1.1.8   | -0."}
+{"question":"Between V3 and V32, is V3 the cause?", "answer": "0.0.8   | -0."}
+{"question":"Between V4 and V26, is V4 the cause?", "answer": "1.1.1.67 |-1."}
+{"question":"Between V5 and V34, is V5 the cause?", "answer": "1.1.8   | -1."}
+{"question":"Between V7 and V8, is V7 the cause?", "answer": "1.1.6 | -0.58"}
+{"question":"Between V7 and V9, is V7 the cause?", "answer": "0.1.5.8  | -"}
+{"question":"Between V7 and V14, is V7 the cause?", "answer": "0.0.9.78558  "}
+{"question":"Between V8 and V26, is V8 the cause?", "answer": "0.0.5   | -0."}
+{"question":"Between V8 and V35, is V8 the cause?", "answer": "1.0.1.58   |0"}
+{"question":"Between V9 and V10, is V9 the cause?", "answer": "1.1.8   |  |1"}
+{"question":"Between V9 and V15, is V9 the cause?", "answer": "1.1.7   | 0."}
+{"question":"Between V9 and V18, is V9 the cause?", "answer": "0.1.5.8   -1"}
+{"question":"Between V9 and V30, is V9 the cause?", "answer": "1.0.6   |  |0"}
+{"question":"Between V10 and V17, is V10 the cause?", "answer": "0.1.1.71   |0"}
+{"question":"Between V10 and V32, is V10 the cause?", "answer": "1.1.8 | -1.58"}
+{"question":"Between V11 and V15, is V11 the cause?", "answer": "0.1.8.1.0."}
+{"question":"Between V11 and V29, is V11 the cause?", "answer": "0.0.8   |  | -"}
+{"question":"Between V11 and V37, is V11 the cause?", "answer": "0.1.8.8   |0"}
+{"question":"Between V13 and V20, is V13 the cause?", "answer": "1.0.8"}
+{"question":"Between V14 and V20, is V14 the cause?", "answer": "0.0.1.58   |0"}
+{"question":"Between V14 and V21, is V14 the cause?", "answer": "0.0.7   |  | "}
+{"question":"Between V15 and V25, is V15 the cause?", "answer": "0.1.7.1.0."}
+{"question":"Between V17 and V39, is V17 the cause?", "answer": "0.1.8   |  | -"}
+{"question":"Between V20 and V37, is V20 the cause?", "answer": "1.0.1.0.0."}
+{"question":"Between V22 and V24, is V22 the cause?", "answer": "1.0.7   | -1."}
+{"question":"Between V23 and V41, is V23 the cause?", "answer": "1.0.8   |  | "}
+{"question":"Between V28 and V42, is V28 the cause?", "answer": "1.1.9.7 | -0"}
+{"question":"Between V29 and V33, is V29 the cause?", "answer": "1.1.8 | -1.7"}
+{"question":"Between V31 and V35, is V31 the cause?", "answer": "1.0.7.52"}
+{"question":"Between V34 and V42, is V34 the cause?", "answer": "0.0.8   | -0."}
+{"question":"Between V36 and V40, is V36 the cause?", "answer": "1.0.2.68   | -"}
+{"question":"Between V41 and V47, is V41 the cause?", "answer": "1.1.8   |  |1"}

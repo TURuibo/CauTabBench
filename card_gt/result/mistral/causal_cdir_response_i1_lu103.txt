@@ -1,0 +1,28 @@
+bt0 response:
+  The parents of each node in the causal graph are:
+
+* V0 has parents V0 -> V1, V0 -> V2, V0 -> V3, and V0 -> V9
+* V1 has parent V0
+* V2 has parent V0
+* V3 has parent V0
+* V9 has parent V0
+* V4 has parents V4 -> V6 and V4 -> V8
+* V6 has parent V4 -> V6
+* V8 has parent V4 -> V8
+* V7 has parent V5 -> V7
+* V5 has no parents
+* V9 has parent V0
+
+The children of each node in the causal graph are:
+
+* V0 has children V1, V2, V3, V9, V6, V8, V7, and V5
+* V1 has child V0
+* V2 has child V0
+* V3 has child V0
+* V9 has child V0
+* V4 has children V6 and V8
+* V6 has child V4 -> V6
+* V8 has child V4 -> V8
+* V7 has child V5
+* V5 has no children
+* V9 has child V0

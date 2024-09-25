@@ -1,0 +1,50 @@
+ Children of V0 are V0, V2, V20, and V39.
+Children of V1 are V2.
+Children of V2 are V3.
+Children of V3 are V10.
+Children of V4 are V4, V7, V8, V11, V20, V24, V43, and V44.
+Children of V5 are V4.
+Children of V6 are V8, V32, and V49.
+Children of V7 are V9.
+Children of V8 are V9, V10, V11, V12, V17, and V43.
+Children of V9 are V47.
+Children of V10 are V8.
+Children of V11 are V8.
+Children of V12 are V8.
+Children of V13 are V14.
+Children of V14 are V13, V22, V34, V42, and V44.
+Children of V15 are V14.
+Children of V16 are V18.
+Children of V17 are V12.
+Children of V18 are V16 and V32.
+Children of V19 are V18 and V24.
+Children of V20 are V0, V4, V6, and V19.
+Children of V21 are V13.
+Children of V22 are V14 and V25.
+Children of V23 are V22.
+Children of V24 are V19 and V29.
+Children of V25 are V22.
+Children of V26 are V27.
+Children of V27 are V28.
+Children of V28 are V26 and V31.
+Children of V29 are V28 and V39.
+Children of V30 are V34.
+Children of V31 are V28.
+Children of V32 are V18.
+Children of V33 are V28.
+Children of V34 are V30.
+Children of V35 are V35.
+Children of V36 are V40.
+Children of V37 are V40.
+Children of V38 are V35.
+Children of V39 are V29 and V38.
+Children of V40 are V34 and V40.
+Children of V41 are V34.
+Children of V42 are V40.
+Children of V43 are V8.
+Children of V44 are V22.
+Children of V45 are V16.
+Children of V46 are V18.
+Children of V47 are V9.
+Children of V48 are V40.
+Children of V49 are V43.

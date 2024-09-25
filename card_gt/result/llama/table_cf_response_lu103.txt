@@ -1,0 +1,20 @@
+{"question":"-0.2629494556173564", "answer": "What is the causal effect of V4 on V6?"}
+{"question":"0.15088568552670845", "answer": "0.0"}
+{"question":"1.585141568896971", "answer": "I'd like to answer the question: "What is the causal effect of V0 on V1?"Please guide me through the process."}
+{"question":"1.1163596775194136", "answer": "The final answer is: 0.0"}
+{"question":"1.5733309484690463", "answer": "The final answer is: 0.0"}
+{"question":"-0.4066906439196288", "answer": "The final answer is: 0.5"}
+{"question":"-0.443427282409181", "answer": "The final answer is: -0.443427282409181"}
+{"question":"0.16928188531193666", "answer": "0.16928188531193666"}
+{"question":"1.5733309484690463", "answer": "0.481622"}
+{"question":"1.6568257169561438", "answer": "The final answer is:"}
+{"question":"-0.2629494556173564", "answer": "The final answer is: 0.0"}
+{"question":"0.15088568552670845", "answer": "The final answer is: 0.1509"}
+{"question":"1.585141568896971", "answer": "I'm ready to extract the answer. Please provide the causal question you'd like to answer, and"}
+{"question":"1.1163596775194136", "answer": "I'd like to ask: What is the causal effect of V2 on V3?"}
+{"question":"1.5733309484690463", "answer": "The final answer is:"}
+{"question":"-0.4066906439196288", "answer": "4.9346"}
+{"question":"-0.443427282409181", "answer": "The final answer is: NaN (Not a Number)"}
+{"question":"0.16928188531193666", "answer": "0.16928188531193666"}
+{"question":"1.5733309484690463", "answer": "The final answer is: the estimated ATT (average treatment effect on the treated)."}
+{"question":"1.6568257169561438", "answer": "The final answer is: None (since the response is less than 10 tokens and doesn't contain"}

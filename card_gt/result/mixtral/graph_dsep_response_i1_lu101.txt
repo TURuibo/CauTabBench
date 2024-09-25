@@ -1,0 +1,93 @@
+Question is Are V0 and V2 d-seperated given V1?
+
+ Answer is  In a causal graph, two nodes are d-separated given a third node if there is no active path between the two nodes when conditioning on the third node. An active path is a path that has no collision and no deflection at any node on the path given the conditioning. A collision occurs when the path contains a chain of the form X -> Z <- Y, and deflection occurs when the path contains a chain of the form X <- Z -> Y.
+
+In this case, we want to check if V0 and V2 are d-separated given V1. Let's examine the paths between V0 and V2:
+
+* V0 -> V1 -> V2: This path does not have a collision or deflection, and conditioning on V1 would not make it active.
+
+Since there is a path between V0 and V2 that is not blocked by V1, we can conclude that V0 and V2 are not d-separated given V1. In other words, there is still a causal relationship between V0 and V2 even after conditioning on V1.
+Question is Are V1 and V3 d-seperated given V0?
+
+ Answer is  In a causal graph, two nodes are d-separated given a third node if all paths between the two nodes are blocked by the third node. In this case, we want to determine if nodes V1 and V3 are d-separated given node V0.
+
+Looking at the given causal graph, there are two paths between V1 and V3:
+
+1. V0 -> V1
+2. V0 -> V3
+
+Since both of these paths include node V0, and V0 is given, we can conclude that V1 and V3 are d-separated given V0. This is because any path between V1 and V3 must pass through node V0, and since we are conditioning on V0, the path is blocked and there is no direct or indirect causal effect between V1 and V3.
+Question is Are V2 and V3 d-seperated given V0?
+
+ Answer is  In a causal graph, two nodes are d-separated given a third node if all paths between the two nodes are blocked by the third node.
+
+In this case, we want to determine if nodes V2 and V3 are d-separated given node V0. To do this, we can examine the paths between V2 and V3 and see if they are blocked by V0.
+
+The paths between V2 and V3 are:
+
+1. V2 <- V1 <- V0 -> V3
+2. V2 <- V1 <- V0 -> V3 <- V7 -> V8 -> V6 -> V4 -> V7
+
+In the first path, V0 is on the path and is not a collider, so this path is blocked by V0. In the second path, V0 is also on the path and is not a collider, so this path is also blocked by V0.
+
+Since all paths between V2 and V3 are blocked by V0, we can conclude that V2 and V3 are d-separated given V0.
+Question is Are V4 and V8 d-seperated given V7?
+
+ Answer is  In a causal graph, two nodes are d-separated given a third set of nodes if every path between the two nodes is blocked by the third set of nodes. In this case, we want to determine if nodes V4 and V8 are d-separated given node V7.
+
+Looking at the given causal graph, there are two paths between nodes V4 and V8:
+
+1. V4 -> V7 -> V8
+2. V4 <- V7 <- V6 -> V8
+
+The first path is blocked by node V7, since V7 is a collider on this path (i.e., it has two incoming edges). Therefore, conditioning on V7 does not open up any new paths.
+
+The second path is not blocked by node V7, since V7 is not a collider on this path. However, since there is no other way to get from V4 to V8 without going through V7, this path is not relevant for determining d-separation given V7.
+
+Therefore, we can conclude that nodes V4 and V8 are d-separated given node V7.
+Question is Are V0 and V2 d-seperated?
+
+ Answer is  In a causal graph, two nodes are d-separated if all paths between them are blocked by conditioning on certain nodes. In this case, we need to check if there is a path between V0 and V2 that is not blocked.
+
+The causal graph in question has the following edges:
+
+* V0 -> V1 -> V2
+* V0 -> V3
+
+Since there is only one path between V0 and V2, we only need to check if this path is blocked. Conditioning on V1 does not block the path because V1 is a collider on this path (i.e., it has two incoming edges). Therefore, we need to check if there is a descendant of V1 that blocks the path.
+
+In this case, V2 is a descendant of V1, so the path V0 -> V1 -> V2 is not blocked by conditioning on V1. Since there are no other paths between V0 and V2, we can conclude that V0 and V2 are not d-separated.
+
+Therefore, the answer is no, V0 and V2 are not d-separated.
+Question is Are V1 and V3 d-seperated?
+
+ Answer is  In a causal graph, two nodes are said to be d-separated if they are not connected by any active path. An active path is a path along which certain conditions are satisfied. Specifically, for a path to be active, every collider (a node with an incoming edge from both the preceding and the following node) on the path must be conditioned on, and every non-collider on the path must be unconditioned.
+
+In this graph, V0 is a collider on the path V0 <- V1 -> V2, and it is not conditioned on. Therefore, this path is not active. Similarly, V4 is a collider on the path V4 -> V7 -> V8, and it is not conditioned on. Therefore, this path is not active.
+
+The only remaining path that connects V1 and V3 is V0 -> V1 and V0 -> V3. This path does not have any colliders, so it is active regardless of whether any nodes are conditioned on.
+
+Therefore, V1 and V3 are not d-separated in this graph. In other words, there is a connection between V1 and V3 that cannot be broken by conditioning on any other nodes.
+Question is Are V2 and V3 d-seperated?
+
+ Answer is  In a causal graph, two nodes are d-separated if every path between them is blocked by some other node. In this case, the nodes are V2 and V3.
+
+Looking at the graph, there is only one path between V2 and V3, which is V0 -> V1 -> V2 and V0 -> V3. To check if these nodes are d-separated, we need to see if there is a collider or a conditioning variable on this path. A collider is a node with two incoming edges, and a conditioning variable is a node that is being conditioned on (i.e., held constant).
+
+In this case, V1 is a collider on the path since it has two incoming edges. Therefore, V2 and V3 are d-separated because there is a collider on the path between them.
+
+It's worth noting that if we condition on V1 (i.e., hold it constant), then V2 and V3 would no longer be d-separated since the collider would be "activated" and the path would be open. However, since we are only asked if V2 and V3 are d-separated without any conditioning, the answer is yes.
+Question is Are V4 and V8 d-seperated?
+
+ Answer is  In a causal graph, two nodes are d-separated if all paths between them are blocked by certain conditions. In this case, we need to check if there is a path between V4 and V8 that is not blocked by any condition.
+
+Looking at the given causal graph, we can see that there is only one path between V4 and V8, which is: V4 -> V7 -> V8.
+
+To check if this path is blocked, we need to see if there is a condition (a node or a set of nodes) that satisfies the following rules:
+
+1. If a node has no descendants in the path, then it must be conditioned on.
+2. If a node has descendants in the path, then it must not be conditioned on.
+
+In this path, V4 has no descendants, so we can condition on it. V7 has a descendant (V8) in the path, so we cannot condition on it. Therefore, we cannot block this path, which means that V4 and V8 are not d-separated.
+
+So, to answer the question, V4 and V8 are not d-separated in the given causal graph.

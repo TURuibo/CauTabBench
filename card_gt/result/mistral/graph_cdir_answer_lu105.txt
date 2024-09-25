@@ -1,0 +1,17 @@
+ Children of V0 are V1, V5.
+
+Children of V1 are V2, V6.
+
+Children of V2 are V3, V8.
+
+Children of V3 are V7.
+
+Children of V4 are V8.
+
+Children of V5 are V1, V8.
+
+Children of V6 are V2, V4.
+
+Children of V7 are V3.
+
+Children of V8 are V4, V6.

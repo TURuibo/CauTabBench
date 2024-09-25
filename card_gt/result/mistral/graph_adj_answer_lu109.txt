@@ -1,0 +1,10 @@
+ Neighbors of V0 are V2.
+Neighbors of V1 are V6.
+Neighbors of V2 are V3.
+Neighbors of V3 are V4, V6, V9.
+Neighbors of V4 are V7.
+Neighbors of V5 are V7.
+Neighbors of V6 are V8, V9.
+Neighbors of V7 are V4.
+Neighbors of V8 are V6.
+Neighbors of V9 are V3, V6.

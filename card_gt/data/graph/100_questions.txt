@@ -1,0 +1,4 @@
+Are V5 and V9 d-seperated given V4?
+Are V7 and V8 d-seperated given V6?
+Are V5 and V9 d-seperated?
+Are V7 and V8 d-seperated?

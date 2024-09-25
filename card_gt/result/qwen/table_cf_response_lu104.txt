@@ -1,0 +1,20 @@
+{"question":"0.10380421067289888", "answer": "0.10380421067289888"}
+{"question":"0.1508856855267085", "answer": "0.5"}
+{"question":"-1.3861642587070753", "answer": "-1.386"}
+{"question":"1.1163596775194136", "answer": "2.5"}
+{"question":"1.5733309484690463", "answer": "0.0"}
+{"question":"-0.4066906439196288", "answer": "0.0"}
+{"question":"-0.44342728240918095", "answer": "0.4235"}
+{"question":"0.1692818853119366", "answer": "0.169"}
+{"question":"1.5733309484690463", "answer": "0.0"}
+{"question":"1.6568257169561438", "answer": "4.5"}
+{"question":"0.10380421067289888", "answer": "0.0"}
+{"question":"0.1508856855267085", "answer": "Insufficient information provided for a specific causal effect calculation."}
+{"question":"-1.3861642587070753", "answer": "0.235"}
+{"question":"1.1163596775194136", "answer": "0.82"}
+{"question":"1.5733309484690463", "answer": "5.5"}
+{"question":"-0.4066906439196288", "answer": "0.406"}
+{"question":"-0.44342728240918095", "answer": "-0.443"}
+{"question":"0.1692818853119366", "answer": "-1.3413"}
+{"question":"1.5733309484690463", "answer": "6.5"}
+{"question":"1.6568257169561438", "answer": "1.6568257"}

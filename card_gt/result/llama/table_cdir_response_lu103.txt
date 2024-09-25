@@ -1,0 +1,6 @@
+{"question":"Between V0 and V1, which is the cause?", "answer": "Yes"}
+{"question":"Between V0 and V2, which is the cause?", "answer": "No"}
+{"question":"Between V0 and V3, which is the cause?", "answer": "Yes"}
+{"question":"Between V0 and V9, which is the cause?", "answer": "No"}
+{"question":"Between V4 and V6, which is the cause?", "answer": "Yes"}
+{"question":"Between V5 and V7, which is the cause?", "answer": "No"}

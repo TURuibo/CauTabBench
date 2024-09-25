@@ -1,0 +1,300 @@
+{"question":"Are V0 and V5 conditionally independent given V3?", "answer": "7 |-60"}
+{"question":"Are V0 and V9 conditionally independent given V3?", "answer": "60   | -1.682   | "}
+{"question":"Are V0 and V13 conditionally independent given V12?", "answer": "60"}
+{"question":"Are V0 and V19 conditionally independent given V9?", "answer": "58   |  | 0.1."}
+{"question":"Are V0 and V22 conditionally independent given V9?", "answer": "78 |  |  |  | 1"}
+{"question":"Are V0 and V23 conditionally independent given V12?", "answer": "1.61  |  |  | "}
+{"question":"Are V0 and V24 conditionally independent given V1?", "answer": "0.71   | -1.6907"}
+{"question":"Are V0 and V27 conditionally independent given V19?", "answer": "1388 |  | -1.2."}
+{"question":"Are V0 and V29 conditionally independent given V12?", "answer": "58   |  | -1.76061"}
+{"question":"Are V0 and V33 conditionally independent given V24?", "answer": "91   |  | -1.1."}
+{"question":"Are V1 and V3 conditionally independent given V0?", "answer": "78 |-40   |  |  | "}
+{"question":"Are V1 and V5 conditionally independent given V3?", "answer": "1388   | -1.76060 |"}
+{"question":"Are V1 and V9 conditionally independent given V3?", "answer": "63262  | -1.6329."}
+{"question":"Are V1 and V12 conditionally independent given V0?", "answer": "1398 |  | -1.79052"}
+{"question":"Are V1 and V13 conditionally independent given V12?", "answer": "60"}
+{"question":"Are V1 and V19 conditionally independent given V9?", "answer": "63260"}
+{"question":"Are V1 and V22 conditionally independent given V9?", "answer": "58  |  | -1.7919"}
+{"question":"Are V1 and V23 conditionally independent given V12?", "answer": "58 -1.0.6937   |"}
+{"question":"Are V1 and V27 conditionally independent given V19?", "answer": "1388   | -1.78560 |"}
+{"question":"Are V1 and V29 conditionally independent given V12?", "answer": "58   |  |  |  | "}
+{"question":"Are V1 and V32 conditionally independent given V0V24?", "answer": "7  |  |  |  | -"}
+{"question":"Are V1 and V33 conditionally independent given V24?", "answer": "7 |  | 0.6239."}
+{"question":"Are V2 and V27 conditionally independent given V8?", "answer": "53 |  | 0.6239."}
+{"question":"Are V2 and V29 conditionally independent given V10?", "answer": "58   |  |  |  | "}
+{"question":"Are V2 and V32 conditionally independent given V0V24?", "answer": "58   |  |  |  | -"}
+{"question":"Are V2 and V33 conditionally independent given V24?", "answer": "59   |  |  | -1."}
+{"question":"Are V3 and V12 conditionally independent given V0?", "answer": "60 -1.1.1.7609"}
+{"question":"Are V3 and V13 conditionally independent given V12?", "answer": "76080 |  |  |  | -"}
+{"question":"Are V3 and V19 conditionally independent given V9?", "answer": "1.72  | -1.79023"}
+{"question":"Are V3 and V22 conditionally independent given V9?", "answer": "58"}
+{"question":"Are V3 and V23 conditionally independent given V12?", "answer": "80"}
+{"question":"Are V3 and V24 conditionally independent given V1?", "answer": "1.91 | -0.6328 |"}
+{"question":"Are V3 and V25 conditionally independent given V0V1?", "answer": "91 -1.720   | -0."}
+{"question":"Are V3 and V27 conditionally independent given V19?", "answer": "80 |  | 0.7608."}
+{"question":"Are V3 and V29 conditionally independent given V12?", "answer": "60 | -1.6236   | "}
+{"question":"Are V3 and V32 conditionally independent given V0V24?", "answer": "1.0.7958   | -1"}
+{"question":"Are V3 and V33 conditionally independent given V24?", "answer": "68 -1.0.6231.720"}
+{"question":"Are V5 and V9 conditionally independent given V3?", "answer": "58   |  |  |  | -"}
+{"question":"Are V5 and V12 conditionally independent given V0?", "answer": "1.71  | -1.7209"}
+{"question":"Are V5 and V13 conditionally independent given V12?", "answer": "78"}
+{"question":"Are V5 and V19 conditionally independent given V9?", "answer": "0.7   |  | -1."}
+{"question":"Are V5 and V22 conditionally independent given V9?", "answer": "8 |  |  |  | 0"}
+{"question":"Are V5 and V23 conditionally independent given V12?", "answer": "59 |  | -1.7906  "}
+{"question":"Are V5 and V24 conditionally independent given V1?", "answer": "58893   |  |  | 1"}
+{"question":"Are V5 and V25 conditionally independent given V0V1?", "answer": "58"}
+{"question":"Are V5 and V27 conditionally independent given V19?", "answer": "60"}
+{"question":"Are V5 and V29 conditionally independent given V12?", "answer": "50"}
+{"question":"Are V5 and V32 conditionally independent given V0V24?", "answer": "58"}
+{"question":"Are V5 and V33 conditionally independent given V24?", "answer": "58 -1.7   |  | "}
+{"question":"Are V7 and V13 conditionally independent given V11?", "answer": "3 |  | -1.6820."}
+{"question":"Are V7 and V27 conditionally independent given V8?", "answer": "78553 |-  |  |  | "}
+{"question":"Are V7 and V29 conditionally independent given V10?", "answer": "78 -1.0.790   | "}
+{"question":"Are V7 and V43 conditionally independent given V11?", "answer": "6321.0.0.7608 |"}
+{"question":"Are V8 and V10 conditionally independent given V2V7?", "answer": "7   |  |  | -0."}
+{"question":"Are V8 and V11 conditionally independent given V7?", "answer": "60"}
+{"question":"Are V8 and V13 conditionally independent given V11?", "answer": "79062   | -1.6239."}
+{"question":"Are V8 and V18 conditionally independent given V7?", "answer": "13858"}
+{"question":"Are V8 and V21 conditionally independent given V7?", "answer": "1.68   | -1.1."}
+{"question":"Are V8 and V24 conditionally independent given V2?", "answer": "78   |  |  |  | -"}
+{"question":"Are V8 and V29 conditionally independent given V10?", "answer": "23"}
+{"question":"Are V8 and V32 conditionally independent given V0V24?", "answer": "60"}
+{"question":"Are V8 and V33 conditionally independent given V24?", "answer": "71   |  |  |  | "}
+{"question":"Are V8 and V43 conditionally independent given V11?", "answer": "28   |  |  |  | "}
+{"question":"Are V9 and V12 conditionally independent given V0?", "answer": "58"}
+{"question":"Are V9 and V13 conditionally independent given V12?", "answer": "68"}
+{"question":"Are V9 and V23 conditionally independent given V12?", "answer": "2.7  |  |  | "}
+{"question":"Are V9 and V24 conditionally independent given V1?", "answer": "60 |  | -1.7608 |"}
+{"question":"Are V9 and V25 conditionally independent given V0V1?", "answer": "28   |  |  | -1."}
+{"question":"Are V9 and V27 conditionally independent given V19?", "answer": "7   |  | -1.7208"}
+{"question":"Are V9 and V29 conditionally independent given V12?", "answer": "7  |  | -0.79552"}
+{"question":"Are V9 and V32 conditionally independent given V0V24?", "answer": "58"}
+{"question":"Are V9 and V33 conditionally independent given V24?", "answer": "23    |  |  |  | "}
+{"question":"Are V10 and V11 conditionally independent given V7?", "answer": "78856   | -1.7856 |"}
+{"question":"Are V10 and V13 conditionally independent given V11?", "answer": "78   |  | 0.7913"}
+{"question":"Are V10 and V18 conditionally independent given V7?", "answer": "8 | -0.7   | 1"}
+{"question":"Are V10 and V21 conditionally independent given V7?", "answer": "2.7"}
+{"question":"Are V10 and V24 conditionally independent given V2?", "answer": "98"}
+{"question":"Are V10 and V27 conditionally independent given V8?", "answer": "60 -1.1.1.6209"}
+{"question":"Are V10 and V32 conditionally independent given V0V24?", "answer": "68"}
+{"question":"Are V10 and V33 conditionally independent given V24?", "answer": "60"}
+{"question":"Are V10 and V43 conditionally independent given V11?", "answer": "58  | -1.6908 | "}
+{"question":"Are V11 and V18 conditionally independent given V7?", "answer": "0.91 | -1.6957 |-"}
+{"question":"Are V11 and V21 conditionally independent given V7?", "answer": "7  |  | -1.7609"}
+{"question":"Are V11 and V27 conditionally independent given V8?", "answer": "58853"}
+{"question":"Are V11 and V29 conditionally independent given V10?", "answer": "58"}
+{"question":"Are V12 and V19 conditionally independent given V9?", "answer": "58   |  |  |  | "}
+{"question":"Are V12 and V22 conditionally independent given V9?", "answer": "79560   |  |  | 1"}
+{"question":"Are V12 and V24 conditionally independent given V1?", "answer": "5887 |  |  | -1."}
+{"question":"Are V12 and V25 conditionally independent given V0V1?", "answer": "68   | -1.7209.8"}
+{"question":"Are V12 and V27 conditionally independent given V19?", "answer": "23   "}
+{"question":"Are V12 and V32 conditionally independent given V0V24?", "answer": "58"}
+{"question":"Are V12 and V33 conditionally independent given V24?", "answer": "78 -1.0.  | 0"}
+{"question":"Are V13 and V18 conditionally independent given V7?", "answer": "76054"}
+{"question":"Are V13 and V19 conditionally independent given V9?", "answer": "1.21   | 0.1."}
+{"question":"Are V13 and V21 conditionally independent given V7?", "answer": "62   |  | 0.7519"}
+{"question":"Are V13 and V22 conditionally independent given V9?", "answer": "1.62   |  |  | "}
+{"question":"Are V13 and V23 conditionally independent given V12?", "answer": "58   |  |  |  | "}
+{"question":"Are V13 and V24 conditionally independent given V1?", "answer": "58   |  | -1.1."}
+{"question":"Are V13 and V25 conditionally independent given V0V1?", "answer": "78"}
+{"question":"Are V13 and V27 conditionally independent given V19V8?", "answer": "7 |-1.0.6239.7"}
+{"question":"Are V13 and V29 conditionally independent given V10V12?", "answer": "58"}
+{"question":"Are V13 and V32 conditionally independent given V0V24?", "answer": "62   |  |  |  | "}
+{"question":"Are V13 and V33 conditionally independent given V24?", "answer": "58   |  |  |  | -"}
+{"question":"Are V13 and V43 conditionally independent given V11?", "answer": "91 | -1.0.7208  "}
+{"question":"Are V18 and V21 conditionally independent given V7?", "answer": "68 | -2.720"}
+{"question":"Are V18 and V27 conditionally independent given V8?", "answer": "8 |  | -1.7207  "}
+{"question":"Are V18 and V29 conditionally independent given V10?", "answer": "7   | -1.693 | 0"}
+{"question":"Are V18 and V43 conditionally independent given V11?", "answer": "58   |  |  | -1."}
+{"question":"Are V19 and V22 conditionally independent given V9?", "answer": "58   |  | -1.7609"}
+{"question":"Are V19 and V23 conditionally independent given V12?", "answer": "7   |  | -1.72062"}
+{"question":"Are V19 and V24 conditionally independent given V1?", "answer": "60"}
+{"question":"Are V19 and V25 conditionally independent given V0V1?", "answer": "98   |  |  | -1."}
+{"question":"Are V19 and V29 conditionally independent given V12?", "answer": "7  "}
+{"question":"Are V19 and V32 conditionally independent given V0V24?", "answer": "53   | -1.7901.1"}
+{"question":"Are V19 and V33 conditionally independent given V24?", "answer": "40 |-1.0.0.7228"}
+{"question":"Are V21 and V27 conditionally independent given V8?", "answer": "7   | -1.6320.720"}
+{"question":"Are V21 and V29 conditionally independent given V10?", "answer": "58  | -1.7227 | -"}
+{"question":"Are V21 and V43 conditionally independent given V11?", "answer": "91 -1.7"}
+{"question":"Are V22 and V23 conditionally independent given V12?", "answer": "7 | -1.0.7917 |"}
+{"question":"Are V22 and V24 conditionally independent given V1?", "answer": "62   | -1.7  | "}
+{"question":"Are V22 and V25 conditionally independent given V0V1?", "answer": "78   | -0.6905.2"}
+{"question":"Are V22 and V27 conditionally independent given V19?", "answer": "62   |  | -1.6958"}
+{"question":"Are V22 and V29 conditionally independent given V12?", "answer": "60  |  |  |  | -"}
+{"question":"Are V22 and V32 conditionally independent given V0V24?", "answer": "1.6235 |  |  | "}
+{"question":"Are V22 and V33 conditionally independent given V24?", "answer": "13860"}
+{"question":"Are V23 and V24 conditionally independent given V1?", "answer": "7 | -2.1.7958  "}
+{"question":"Are V23 and V25 conditionally independent given V0V1?", "answer": "58"}
+{"question":"Are V23 and V27 conditionally independent given V19?", "answer": "60   |  |  |  | -"}
+{"question":"Are V23 and V29 conditionally independent given V12?", "answer": "1.1.72098   | 0"}
+{"question":"Are V23 and V32 conditionally independent given V0V24?", "answer": "58"}
+{"question":"Are V23 and V33 conditionally independent given V24?", "answer": "6328 |  | -1.7 |"}
+{"question":"Are V24 and V25 conditionally independent given V0V1?", "answer": "58   |  | -1.7908"}
+{"question":"Are V24 and V27 conditionally independent given V19V8?", "answer": "60"}
+{"question":"Are V24 and V29 conditionally independent given V10V12?", "answer": "59"}
+{"question":"Are V25 and V27 conditionally independent given V19?", "answer": "60 |  |  |  | 0"}
+{"question":"Are V25 and V29 conditionally independent given V12?", "answer": "2.1.1.6239.720"}
+{"question":"Are V25 and V32 conditionally independent given V0V24?", "answer": "58   |  | -1.7208"}
+{"question":"Are V25 and V33 conditionally independent given V24?", "answer": "1.91 |  |  | -1"}
+{"question":"Are V27 and V29 conditionally independent given V10V12?", "answer": "58"}
+{"question":"Are V27 and V32 conditionally independent given V0V24?", "answer": "1.1.720   | -1."}
+{"question":"Are V27 and V33 conditionally independent given V24?", "answer": "7 |  |  | -1.623"}
+{"question":"Are V27 and V43 conditionally independent given V11?", "answer": "58  "}
+{"question":"Are V29 and V32 conditionally independent given V0V24?", "answer": "58"}
+{"question":"Are V29 and V33 conditionally independent given V24?", "answer": "58"}
+{"question":"Are V29 and V43 conditionally independent given V11?", "answer": "2.91"}
+{"question":"Are V30 and V47 conditionally independent given V20?", "answer": "7  |  | -1.7908"}
+{"question":"Are V32 and V33 conditionally independent given V24?", "answer": "58 |-1.1. -1.1"}
+{"question":"Are V39 and V40 conditionally independent given V16?", "answer": "58"}
+{"question":"Are V39 and V45 conditionally independent given V16?", "answer": "1.7 |  |  | 0"}
+{"question":"Are V40 and V45 conditionally independent given V16?", "answer": "2.1.6209. -0."}
+{"question":"Are V0 and V5 independent from each other?", "answer": "7  |  |  | -1."}
+{"question":"Are V0 and V9 independent from each other?", "answer": "0.7204 |  | 0."}
+{"question":"Are V0 and V13 independent from each other?", "answer": " |  | -1.2.6828"}
+{"question":"Are V0 and V19 independent from each other?", "answer": "2.13893   | 0.720"}
+{"question":"Are V0 and V22 independent from each other?", "answer": "1.1.80   | 0."}
+{"question":"Are V0 and V23 independent from each other?", "answer": "1.7  | -1.6827"}
+{"question":"Are V0 and V24 independent from each other?", "answer": "1.1.71"}
+{"question":"Are V0 and V27 independent from each other?", "answer": "7  | 1.1.  |"}
+{"question":"Are V0 and V29 independent from each other?", "answer": "1.7  | -1.0."}
+{"question":"Are V0 and V33 independent from each other?", "answer": " -1.1.1.0.682"}
+{"question":"Are V1 and V3 independent from each other?", "answer": "0.0.60"}
+{"question":"Are V1 and V5 independent from each other?", "answer": "0.7  "}
+{"question":"Are V1 and V9 independent from each other?", "answer": " |  | -1.0.0."}
+{"question":"Are V1 and V12 independent from each other?", "answer": " |  |  |  | -0."}
+{"question":"Are V1 and V13 independent from each other?", "answer": " |  | -1.0.6959"}
+{"question":"Are V1 and V19 independent from each other?", "answer": "0.1.1.1.6208"}
+{"question":"Are V1 and V22 independent from each other?", "answer": "  |  |  | -0. -"}
+{"question":"Are V1 and V23 independent from each other?", "answer": "1.1.78  |  | "}
+{"question":"Are V1 and V27 independent from each other?", "answer": "0.0.78  | 0."}
+{"question":"Are V1 and V29 independent from each other?", "answer": "7   |  | -1.0."}
+{"question":"Are V1 and V32 conditionally independent given V24?", "answer": "58   |  | -1.7200"}
+{"question":"Are V1 and V33 independent from each other?", "answer": "0.7"}
+{"question":"Are V2 and V27 independent from each other?", "answer": "1.7 |  | -0.738"}
+{"question":"Are V2 and V29 independent from each other?", "answer": "1398  "}
+{"question":"Are V2 and V32 conditionally independent given V24?", "answer": "58   | -0.0.7607"}
+{"question":"Are V2 and V33 independent from each other?", "answer": "1.7   |  | -1."}
+{"question":"Are V3 and V12 independent from each other?", "answer": "7   | -1.0.760  "}
+{"question":"Are V3 and V13 independent from each other?", "answer": "1.72060 |  | -1."}
+{"question":"Are V3 and V19 independent from each other?", "answer": "0.71   |  | -1."}
+{"question":"Are V3 and V22 independent from each other?", "answer": "0.1397  | -1.791"}
+{"question":"Are V3 and V23 independent from each other?", "answer": "1.1.63   | 0."}
+{"question":"Are V3 and V24 independent from each other?", "answer": " |  |  |  | 0."}
+{"question":"Are V3 and V25 conditionally independent given V1?", "answer": "58 -1.0.0.6208"}
+{"question":"Are V3 and V27 independent from each other?", "answer": "6 | -1.1.0.632"}
+{"question":"Are V3 and V29 independent from each other?", "answer": "0.0.71   | -1."}
+{"question":"Are V3 and V32 conditionally independent given V24?", "answer": "59 |-58"}
+{"question":"Are V3 and V33 independent from each other?", "answer": "8   |  | -0.  |"}
+{"question":"Are V5 and V9 independent from each other?", "answer": "2  "}
+{"question":"Are V5 and V12 independent from each other?", "answer": "0.6828.2.0.690"}
+{"question":"Are V5 and V13 independent from each other?", "answer": "1387   | -0.0.722"}
+{"question":"Are V5 and V19 independent from each other?", "answer": "0.1.7   |  | "}
+{"question":"Are V5 and V22 independent from each other?", "answer": "0.1.1.78578 | -"}
+{"question":"Are V5 and V23 independent from each other?", "answer": "0.78  "}
+{"question":"Are V5 and V24 independent from each other?", "answer": "1.62350"}
+{"question":"Are V5 and V25 conditionally independent given V1?", "answer": "1.7 | -1.6328  "}
+{"question":"Are V5 and V27 independent from each other?", "answer": "0.1.58"}
+{"question":"Are V5 and V29 independent from each other?", "answer": "1.1.78"}
+{"question":"Are V5 and V32 conditionally independent given V24?", "answer": "58"}
+{"question":"Are V5 and V33 independent from each other?", "answer": "1.7 |-58   | -1."}
+{"question":"Are V7 and V13 independent from each other?", "answer": "1.1.1.7 |-  |"}
+{"question":"Are V7 and V27 independent from each other?", "answer": "1.68262   |  |  |"}
+{"question":"Are V7 and V29 independent from each other?", "answer": " |  | -1.0.0."}
+{"question":"Are V7 and V43 independent from each other?", "answer": "8 | -1.0.0.623"}
+{"question":"Are V8 and V10 conditionally independent given V7?", "answer": "58  | -1.  | 0"}
+{"question":"Are V8 and V11 independent from each other?", "answer": "1.0.61   | 0."}
+{"question":"Are V8 and V13 independent from each other?", "answer": "6 | -1.0.0.791"}
+{"question":"Are V8 and V18 independent from each other?", "answer": " | -1.78 | -1.760"}
+{"question":"Are V8 and V21 independent from each other?", "answer": "1.6327 |  | 0."}
+{"question":"Are V8 and V24 independent from each other?", "answer": "1.1.71   | 0."}
+{"question":"Are V8 and V29 independent from each other?", "answer": "7   | -1.0.  |"}
+{"question":"Are V8 and V32 conditionally independent given V24?", "answer": "58"}
+{"question":"Are V8 and V33 independent from each other?", "answer": "0.0.7208 |  | "}
+{"question":"Are V8 and V43 independent from each other?", "answer": "0.1.65   | -1."}
+{"question":"Are V9 and V12 independent from each other?", "answer": "1388  "}
+{"question":"Are V9 and V13 independent from each other?", "answer": "2 | -1.1.0.632"}
+{"question":"Are V9 and V23 independent from each other?", "answer": "3 |  |  | -1.623"}
+{"question":"Are V9 and V24 independent from each other?", "answer": "2  "}
+{"question":"Are V9 and V25 conditionally independent given V1?", "answer": "60"}
+{"question":"Are V9 and V27 independent from each other?", "answer": "0.0.73   | -1."}
+{"question":"Are V9 and V29 independent from each other?", "answer": "1.1.58"}
+{"question":"Are V9 and V32 conditionally independent given V24?", "answer": "68   |  | 0.6907"}
+{"question":"Are V9 and V33 independent from each other?", "answer": "1.7   |  |  | "}
+{"question":"Are V10 and V11 independent from each other?", "answer": "1.63280 |  |  | "}
+{"question":"Are V10 and V13 independent from each other?", "answer": "7   |  |  |  | "}
+{"question":"Are V10 and V18 independent from each other?", "answer": "1.78558"}
+{"question":"Are V10 and V21 independent from each other?", "answer": "1.72078 | -1.7608"}
+{"question":"Are V10 and V24 independent from each other?", "answer": "1.7 -1.1.7228"}
+{"question":"Are V10 and V27 independent from each other?", "answer": " |  |  | -1.6959"}
+{"question":"Are V10 and V32 conditionally independent given V24?", "answer": "71 -1.7 | -1.720"}
+{"question":"Are V10 and V33 independent from each other?", "answer": "0.1.23   |  | "}
+{"question":"Are V10 and V43 independent from each other?", "answer": "1.0.62  | 0."}
+{"question":"Are V11 and V18 independent from each other?", "answer": "2   | -1.0.0."}
+{"question":"Are V11 and V21 independent from each other?", "answer": " |  | 1.1.0."}
+{"question":"Are V11 and V27 independent from each other?", "answer": "7  "}
+{"question":"Are V11 and V29 independent from each other?", "answer": "0.1.76   |  | "}
+{"question":"Are V12 and V19 independent from each other?", "answer": "795  | 1.0.6237"}
+{"question":"Are V12 and V22 independent from each other?", "answer": "  |  | -1.0.632"}
+{"question":"Are V12 and V24 independent from each other?", "answer": "1.72062  "}
+{"question":"Are V12 and V25 conditionally independent given V1?", "answer": "60 -2.1.7207 | -"}
+{"question":"Are V12 and V27 independent from each other?", "answer": " |  | 1.0. -1"}
+{"question":"Are V12 and V32 conditionally independent given V24?", "answer": "58"}
+{"question":"Are V12 and V33 independent from each other?", "answer": "6 | -1.1.0.791"}
+{"question":"Are V13 and V18 independent from each other?", "answer": "0.72078   | -1.632"}
+{"question":"Are V13 and V19 independent from each other?", "answer": " |  | -1.0.7208"}
+{"question":"Are V13 and V21 independent from each other?", "answer": "2   | -1.1.6327"}
+{"question":"Are V13 and V22 independent from each other?", "answer": "2.6329   | -0.720"}
+{"question":"Are V13 and V23 independent from each other?", "answer": ""}
+{"question":"Are V13 and V24 independent from each other?", "answer": "7  |  |  |  | "}
+{"question":"Are V13 and V25 conditionally independent given V1?", "answer": "76091   | -1.7608."}
+{"question":"Are V13 and V27 conditionally independent given V8?", "answer": "60   |  |  | -1."}
+{"question":"Are V13 and V29 conditionally independent given V12?", "answer": "58   |  | 0.7917"}
+{"question":"Are V13 and V32 conditionally independent given V24?", "answer": "8.72 | -1. -1."}
+{"question":"Are V13 and V33 independent from each other?", "answer": "2 | -1.1.623   |"}
+{"question":"Are V13 and V43 independent from each other?", "answer": "1.1.71"}
+{"question":"Are V18 and V21 independent from each other?", "answer": " | -1.76"}
+{"question":"Are V18 and V27 independent from each other?", "answer": "1398 | 1.0.7908"}
+{"question":"Are V18 and V29 independent from each other?", "answer": "3 | -1.0.791  |"}
+{"question":"Are V18 and V43 independent from each other?", "answer": "1.1.22   | -1."}
+{"question":"Are V19 and V22 independent from each other?", "answer": "8   |  |  |  | "}
+{"question":"Are V19 and V23 independent from each other?", "answer": "1388 | -1.1. -1"}
+{"question":"Are V19 and V24 independent from each other?", "answer": "1.76060"}
+{"question":"Are V19 and V25 conditionally independent given V1?", "answer": "20"}
+{"question":"Are V19 and V29 independent from each other?", "answer": "0.72058   |  |  |"}
+{"question":"Are V19 and V32 conditionally independent given V24?", "answer": "7 | -0.720   | 1"}
+{"question":"Are V19 and V33 independent from each other?", "answer": "6 | -1.1.623   |"}
+{"question":"Are V21 and V27 independent from each other?", "answer": "0.79060 |-7   |  |"}
+{"question":"Are V21 and V29 independent from each other?", "answer": "2   |  |  | -1."}
+{"question":"Are V21 and V43 independent from each other?", "answer": "8  |  |  |  | "}
+{"question":"Are V22 and V23 independent from each other?", "answer": "0.79052"}
+{"question":"Are V22 and V24 independent from each other?", "answer": "1.0.58"}
+{"question":"Are V22 and V25 conditionally independent given V1?", "answer": "58840   | -1.7603."}
+{"question":"Are V22 and V27 independent from each other?", "answer": "1.1.60 | -1.795"}
+{"question":"Are V22 and V29 independent from each other?", "answer": "0.1.73"}
+{"question":"Are V22 and V32 conditionally independent given V24?", "answer": "68   |  | -1.6824"}
+{"question":"Are V22 and V33 independent from each other?", "answer": "  | -1.1.0.791"}
+{"question":"Are V23 and V24 independent from each other?", "answer": "1.78593   | 0.695"}
+{"question":"Are V23 and V25 conditionally independent given V1?", "answer": "1386 |  |  | -1."}
+{"question":"Are V23 and V27 independent from each other?", "answer": "1.7   |  | -0."}
+{"question":"Are V23 and V29 independent from each other?", "answer": "7   | -1.7 |  |"}
+{"question":"Are V23 and V32 conditionally independent given V24?", "answer": "8 | -2.0.7208."}
+{"question":"Are V23 and V33 independent from each other?", "answer": "1.7   |  |  | "}
+{"question":"Are V24 and V25 conditionally independent given V1?", "answer": "60 |  | -0.7858 |"}
+{"question":"Are V24 and V27 conditionally independent given V8?", "answer": "58  | -1.6328 0"}
+{"question":"Are V24 and V29 conditionally independent given V12?", "answer": "7  "}
+{"question":"Are V25 and V27 independent from each other?", "answer": "1.0.52   | -1."}
+{"question":"Are V25 and V29 independent from each other?", "answer": "1.1.71"}
+{"question":"Are V25 and V32 conditionally independent given V24?", "answer": "7608"}
+{"question":"Are V25 and V33 independent from each other?", "answer": "1.68260 |  | 0."}
+{"question":"Are V27 and V29 conditionally independent given V12?", "answer": "1.78  | -1.69040"}
+{"question":"Are V27 and V32 conditionally independent given V24?", "answer": "78531   | 0.7588."}
+{"question":"Are V27 and V33 independent from each other?", "answer": "2.72276   | 0. -"}
+{"question":"Are V27 and V43 independent from each other?", "answer": "8  |  | -1.7200"}
+{"question":"Are V29 and V32 conditionally independent given V24?", "answer": "7 |-28"}
+{"question":"Are V29 and V33 independent from each other?", "answer": "1.1.58   |  | "}
+{"question":"Are V29 and V43 independent from each other?", "answer": "795"}
+{"question":"Are V30 and V47 independent from each other?", "answer": "2.6908"}
+{"question":"Are V32 and V33 independent from each other?", "answer": "632   | -1.0.1."}
+{"question":"Are V39 and V40 independent from each other?", "answer": "1.78562 |  | -1."}
+{"question":"Are V39 and V45 independent from each other?", "answer": "7   | -1.0.7208"}
+{"question":"Are V40 and V45 independent from each other?", "answer": "1.72059  "}

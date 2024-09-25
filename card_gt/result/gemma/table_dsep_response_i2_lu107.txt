@@ -1,0 +1,7 @@
+###0: The answer is unknown. 
+
+The response states that it cannot definitively say whether V1 and V4 are conditionally independent given V0 and V3 based solely on the table.  
+######1: unknown 
+######2: unknown 
+######3: The answer is unknown. 
+###

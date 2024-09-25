@@ -1,0 +1,21 @@
+ Parents of V0 are V1, V2, V4, and V6.
+Parents of V1 are V0.
+Parents of V2 are V0 and V1.
+Parents of V3 are V1.
+Parents of V4 are V2.
+Parents of V5 are V2.
+Parents of V6 are V0.
+Parents of V7 are V5.
+Parents of V8 are V3.
+Parents of V9 are V3.
+
+Children of V0 are V2, V4, V6, and V8.
+Children of V1 are V2, V3, V8, and V9.
+Children of V2 are V4, V5, and V8.
+Children of V3 are V5, V8, and V9.
+Children of V4 are V8.
+Children of V5 are V6 and V7.
+Children of V6 are V7.
+Children of V7 are no children.
+Children of V8 are V9.
+Children of V9 are no children.

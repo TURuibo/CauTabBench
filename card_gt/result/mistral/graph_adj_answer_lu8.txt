@@ -1,0 +1,34 @@
+ Neighbors of V0 are V1, V11
+Neighbors of V1 are V0, V5, V11, V12, V13, V14, V15, V16, V17, V18, V19, V20, V21, V22, V23, V24, V25, V26, V27, V28, V29, V30, V31, V32, V33, V34, V35, V36, V37, V38, V39, V40, V41, V42, V43, V44, V45, V46, V47, V48
+Neighbors of V2 are V0, V3, V7, V9, V13, V22, V44
+Neighbors of V3 are V2, V7, V10, V21
+Neighbors of V4 are V2, V8, V38
+Neighbors of V5 are V0, V11, V12, V18
+Neighbors of V6 are V11, V12, V18
+Neighbors of V7 are V2, V13, V25, V34, V44
+Neighbors of V8 are V4, V10, V12, V39
+Neighbors of V9 are V2, V13, V22
+Neighbors of V10 are V0, V2, V8, V10, V28, V29, V34, V36, V40
+Neighbors of V11 are V0, V5, V11, V12, V18, V17, V18, V26, V36, V48
+Neighbors of V12 are V0, V5, V11, V12, V18, V12, V25, V45
+Neighbors of V13 are V2, V9, V13, V22, V43
+Neighbors of V14 are V13, V14, V44
+Neighbors of V15 are V13, V14, V44
+Neighbors of V16 are V4, V16, V24, V31
+Neighbors of V17 are V11, V18, V17, V18, V26, V36, V48
+Neighbors of V18 are V5, V18, V37
+Neighbors of V19 are V19, V31, V40
+Neighbors of V20 are V20, V21, V32
+Neighbors of V21 are V20, V21, V32
+Neighbors of V22 are V2, V9, V22, V37
+Neighbors of V23 are V22, V23, V30
+Neighbors of V24 are V16, V24, V31
+Neighbors of V25 are V7, V25, V36, V44, V46
+Neighbors of V26 are V11, V18, V26, V36, V48
+Neighbors of V27 are V2, V13, V27, V32, V40, V48
+Neighbors of V28 are V10, V28, V29, V34, V40
+Neighbors of V29 are V10, V28, V34, V40
+Neighbors of V30 are V22, V30, V40
+Neighbors of V31 are V19, V31, V40
+Neighbors of V32 are V20, V21, V32, V40
+Neighbors of V33 are V14, V33, V4

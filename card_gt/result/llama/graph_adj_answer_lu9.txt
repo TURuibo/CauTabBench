@@ -1,0 +1,30 @@
+Here are the neighbors of each node:
+
+Neighbors of V0 are V4, V28.
+Neighbors of V1 are V3, V8, V11, V12, V23.
+Neighbors of V2 are V4, V12, V35.
+Neighbors of V3 are V30.
+Neighbors of V4 are V9, V17, V36.
+Neighbors of V5 are V8.
+Neighbors of V6 are V14, V29.
+Neighbors of V8 are V20, V21.
+Neighbors of V9 are V11, V18, V24.
+Neighbors of V10 are V13.
+Neighbors of V11 are V17, V36.
+Neighbors of V12 are V31.
+Neighbors of V13 are V24.
+Neighbors of V16 are V20, V31.
+Neighbors of V18 are V41.
+Neighbors of V19 are V46.
+Neighbors of V21 are V45.
+Neighbors of V22 are V38.
+Neighbors of V23 are V35, V40.
+Neighbors of V24 are V47.
+Neighbors of V25 are V32, V37, V41.
+Neighbors of V26 are V28.
+Neighbors of V31 are V32, V37.
+Neighbors of V33 are V42.
+Neighbors of V39 are V44.
+Neighbors of V40 are V43.
+
+Let me know if you need anything else!

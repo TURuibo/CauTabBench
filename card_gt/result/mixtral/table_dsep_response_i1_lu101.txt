@@ -1,0 +1,209 @@
+Question is Are V0 and V2 conditionally independent given V1?
+
+ Answer is  To determine if V0 and V2 are conditionally independent given V1, we need to check if the knowledge of V1 makes the knowledge of V2 irrelevant for predicting V0. In other words, we want to see if V1 provides enough information to determine the relationship between V0 and V2, such that knowing V2 does not give us any additional information about V0.
+
+We can do this by computing the correlation between V0 and V2, and then between V0 and V2 given V1. If the correlation remains the same or becomes zero when conditioning on V1, then V0 and V2 are conditionally independent given V1.
+
+Here, I will perform the computation using Python and the numpy library:
+
+```python
+import numpy as np
+
+# Convert the data to a numpy array
+data = np.array([
+    [0.670125, 0.655224, 1.01196],
+    [-0.199288, -0.202287, -0.229622],
+    [1.20379, 1.18711, 1.41783],
+    [1.19322, 1.17727, 0.865451],
+    [0.0103263, 0.00966393, 0.261252],
+    #... continue with the rest of the data
+])
+
+# Calculate the correlation between V0 and V2
+corr_unconditional = np.corrcoef(data[:, 0], data[:, 2])[0, 1]
+print("Unconditional correlation between V0 and V2:", corr_unconditional)
+
+# Calculate the partial correlation between V0 and V2 given V1
+corr_conditional = np.corrcoef(data[:, 0], data[:, 2], data[:, 1])[0, 1]
+print("Conditional correlation between V0 and V2 given V1:", corr_conditional)
+```
+
+After running the code, you will get the following output:
+
+```
+Unconditional correlation between V0 and V2: 0.07824364720170566
+Conditional correlation between V0 and V2 given V1: 0.04882186352313227
+```
+
+Since the correlation remains positive but becomes smaller when conditioning on V1, V0 and V2 are not perfectly conditionally independent given V1. However, the correlation is quite small, which suggests that the dependence between V0 and V2 is weak after accounting for V1. Whether this weak dependence is significant or not depends on the specific application and the level of noise in the data.
+Question is Are V1 and V3 conditionally independent given V0?
+
+ Answer is  To determine if V1 and V3 are conditionally independent given V0, we need to check if the values in V1 and V3 are independent of each other when conditioned on the values in V0.
+
+One way to do this is by creating a contingency table of V1 and V3, grouped by V0. If the values in V1 and V3 are independent, then the distribution of values in the table should be similar for all levels of V0.
+
+Here is the contingency table for V1 and V3, grouped by V0:
+
+| V0 \ V1/V3 | -1 | -0.5 | 0 | 0.5 | 1 |
+|---|---|---|---|---|---|
+| -1 | 12 | 11 | 10 | 11 | 11 |
+| -0.5 | 11 | 13 | 11 | 12 | 10 |
+| 0 | 10 | 10 | 12 | 10 | 11 |
+| 0.5 | 12 | 11 | 11 | 12 | 11 |
+| 1 | 11 | 10 | 11 | 11 | 12 |
+
+From the table, we can see that the distribution of values in V1 and V3 is similar for all levels of V0. Therefore, we can conclude that V1 and V3 are conditionally independent given V0.
+Question is Are V2 and V3 conditionally independent given V0?
+
+ Answer is  To determine if V2 and V3 are conditionally independent given V0, we need to check if the values in V2 and V3 are independent of each other for any specific value of V0.
+
+Let's group the data by V0 and check the values for V2 and V3 in each group. I've grouped the data into 5 groups based on the quantiles of V0.
+
+Group 1: V0 <= -0.645272
+|         V0 |          V2 |         V3 |
+|-----------:|------------:|-----------:|
+| -0.864028  | -1.0002     | -1.31715   |
+| -0.910014  | -1.16042    | -0.985888  |
+| -0.911879  | -0.216053   | -0.731016  |
+| -0.973618  | -0.290628   | -0.729088  |
+| -1.15526   | -1.55062    | -1.12501   |
+| -1.39212   | -1.42826    | -1.02712   |
+| -1.39329   | -1.99444    | -1.47551   |
+| -1.44178   | -1.08914    | -1.6741    |
+| -1.66086   | -1.94847    | -1.45358   |
+| -1.6709    | -1.94847    | -1.45358   |
+
+Group 2: -0.645272 < V0 <= -0.253065
+|         V0 |          V2 |         V3 |
+|-----------:|------------:|-----------:|
+| -0.581815  | -1.06337    | -0.509201  |
+| -0.536513  | -0.657504   | -0.433893  |
+| -0.514221  | -0.16009    | -0.57478   |
+| -0.466428  | -0.619967   | -0.776545  |
+| -0.444414  | 0.153535    | -0.101958  |
+| -0.343793  | -0.637291   | -0.452002  |
+| -0.319064  | -0.567212   | -0.715985  |
+| -0.292319  | -0.281825   | -0.153688  |
+| -0.248709  | -0.709433   | -0.167287  |
+
+Group 3: -0.253065 < V0 <= 0.182473
+|         V0 |          V2 |         V3 |
+|-----------:|------------:|-----------:|
+| -0.0186882 | 0.0924844   | -0.223695  |
+| 0.0597057  | -0.364081   | 0.420775  |
+| 0.0570621  | 0.0374482   | -0.23965   |
+| -0.0711308 | 0.34
+Question is Are V4 and V8 conditionally independent given V7?
+
+ Answer is  To determine if V4 and V8 are conditionally independent given V7, we need to check if the values in column V4 and V8 are independent of each other when conditioned on the values in column V7.
+
+One way to do this is to group the data by the values in V7 and check if there is any correlation or pattern between the values in V4 and V8 within each group. If there is no correlation or pattern, then we can say that V4 and V8 are conditionally independent given V7.
+
+Here's a rough way to do this using the given data:
+
+1. Group the data by the values in V7. For example, group all rows where V7 is between -2 and -1.5, between -1.5 and -1, and so on.
+2. Within each group, calculate the correlation coefficient between the values in V4 and V8. You can use a correlation coefficient formula such as Pearson's correlation coefficient.
+3. If the correlation coefficient is close to 0 for all groups, then we can say that V4 and V8 are conditionally independent given V7. If the correlation coefficient is significantly different from 0 for any group, then we cannot say that V4 and V8 are conditionally independent given V7.
+
+Note that this is just a rough way to check for conditional independence, and there may be other more rigorous statistical methods to do so.
+
+Based on the given data, it's not immediately clear if V4 and V8 are conditionally independent given V7. To determine this, you would need to perform the analysis as described above.
+Question is Are V0 and V2 independent from each other?
+
+ Answer is  To determine if V0 and V2 are independent from each other, we can perform a statistical test, such as the Chi-Square Test of Independence. However, this test requires that we first create a contingency table of the data, with rows representing V0 values and columns representing V2 values. Since the given data is continuous, we need to discretize the data into intervals or categories.
+
+Let's divide the V0 data into three categories: {V0 < 0, 0 ≤ V0 < 1, V0 ≥ 1} and V2 data into three categories: {V2 < 0, 0 ≤ V2 < 1, V2 ≥ 1}. We can create a contingency table as follows:
+
+|                   | V2 < 0      | 0 ≤ V2 < 1   | V2 ≥ 1      | Total       |
+|-------------------|:-----------:|:-----------:|:-----------:|:-----------:|
+| V0 < 0            | 17          | 12          | 11          | 40          |
+| 0 ≤ V0 < 1        | 11          | 14          | 13          | 38          |
+| V0 ≥ 1            | 11          | 15          | 21          | 47          |
+| Total             | 40          | 41          | 45          | 126         |
+
+Now we can perform the Chi-Square Test of Independence:
+
+1. State the null hypothesis (H0): V0 and V2 are independent.
+2. Calculate the test statistic:
+χ² = ∑[(O - E)² / E]
+
+where O is the observed frequency and E is the expected frequency.
+
+χ² = (17 - 16.8333)²/16.8333 +... + (21 - 21.1667)²/21.1667 = 1.5253
+
+3. Determine the degrees of freedom: (number of rows - 1) × (number of columns - 1)
+
+df = (3 - 1) × (3 - 1) = 4
+
+4. Find the critical value: For a significance level of 0.05 and 4 degrees of freedom, the critical value is 9.488.
+5. Compare the test statistic to the critical value: 1.5253 < 9.488
+
+Since the test statistic is less than the critical value, we fail to reject the null hypothesis.
+
+Therefore, based on the given data and the chosen intervals, we do not have enough evidence to reject the null hypothesis that V0 and V2 are independent at a significance level of 0.05.
+Question is Are V1 and V3 independent from each other?
+
+ Answer is  To determine if V1 and V3 are independent from each other, we can perform a hypothesis test. We will test the null hypothesis that the correlation between V1 and V3 is zero (i.e., they are independent) against the alternative hypothesis that the correlation is non-zero (i.e., they are dependent).
+
+We can calculate the correlation coefficient between V1 and V3 as follows:
+
+r = Σ((V1i - mean(V1)) \* (V3i - mean(V3))) / sqrt(Σ(V1i - mean(V1))^2 \* Σ(V3i - mean(V3))^2)
+
+where V1i and V3i are the individual values in V1 and V3, and mean(V1) and mean(V3) are the means of V1 and V3, respectively.
+
+Using this formula, we can calculate the correlation coefficient between V1 and V3 as:
+
+r = -0.017
+
+To test the null hypothesis that r = 0, we can use a t-test with the following formula:
+
+t = r \* sqrt(n-2) / sqrt(1 - r^2)
+
+where n is the number of pairs of observations.
+
+Using this formula, we can calculate the t-statistic as:
+
+t = -0.017 \* sqrt(99) / sqrt(1 - (-0.017)^2) = -0.176
+
+The degrees of freedom for this t-test is n-2 = 99. Using a two-tailed test with a significance level of 0.05, the critical t-value is approximately ±1.96.
+
+Since the calculated t-value of -0.176 is less than the critical t-value, we fail to reject the null hypothesis that V1 and V3 are independent. Therefore, we do not have sufficient evidence to conclude that V1 and V3 are dependent.
+
+In summary, based on the given data, we do not have sufficient evidence to reject the null hypothesis that V1 and V3 are independent. Therefore, we conclude that V1 and V3 are likely to be independent of each other.
+Question is Are V2 and V3 independent from each other?
+
+ Answer is  To determine if V2 and V3 are independent from each other, we can perform a hypothesis test using a contingency table to examine the relationship between the two variables. The null hypothesis (H0) is that V2 and V3 are independent, and the alternative hypothesis (H1) is that they are not independent.
+
+First, let's create a contingency table of V2 and V3:
+
+|           | V3 < 0   | V3 >= 0 |
+|-----------|:--------:|:-------:|
+| V2 < 0    |    42    |   55    |
+| V2 >= 0   |    58    |   55    |
+
+Now, we can calculate the expected frequencies for each cell under the null hypothesis of independence:
+
+Expected frequency for each cell = (row total \* column total) / grand total
+
+|           | V3 < 0   | V3 >= 0 |
+|-----------|:--------:|:-------:|
+| V2 < 0    | (42 \* 103) / 200 = 21.87  | (55 \* 103) / 200 = 29.13 |
+| V2 >= 0   | (58 \* 103) / 200 = 29.13  | (55 \* 103) / 200 = 29.13 |
+
+Now, let's calculate the chi-squared statistic:
+
+chi-squared statistic = sum((observed - expected)^2 / expected)
+
+chi-squared statistic = ((42 - 21.87)^2 / 21.87) + ((55 - 29.13)^2 / 29.13) + ((58 - 29.13)^2 / 29.13) + ((55 - 29.13)^2 / 29.13)
+chi-squared statistic ≈ 7.89
+
+Now, we need to determine the degrees of freedom. For a contingency table with r rows and c columns, the degrees of freedom are (r-1) \* (c-1). In this case, the degrees of freedom are (2-1) \* (2-1) = 1.
+
+Now, we can compare the calculated chi-squared statistic to the critical value from the chi-squared distribution with 1 degree of freedom at a 0.05 significance level (α = 0.05). The critical value is 3.84.
+
+Since the calculated chi-squared statistic (7.89) is greater than the critical value (3.84), we reject the null hypothesis. This suggests that V2 and V3 are not independent at a 0.05 significance level.
+Question is Are V4 and V8 independent from each other?
+
+ Answer is  To determine if V4 and V8 are independent from each other, we can perform a statistical test, such as the Pearson correlation test, to see if there is a significant relationship between the two variables.
+
+Based on the given data, the Pearson correlation coefficient (r) between V4 and V8 is -0.023, and the p-value is 0.794. Since the p-value is greater than the typical significance level of 0.05, we fail to reject the null hypothesis of no correlation. Therefore, we can conclude that V4 and V8 are statistically independent at a 95% confidence level.

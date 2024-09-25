@@ -1,0 +1,2 @@
+prompt:
+ [{'role': 'user', 'content': 'You are extracting neighbor information from given responses. The response is:  Here are the neighbors of each node in the causal graph:\n\n* V0: V2\n* V1: V6\n* V2: V3\n* V3: V4, V6, V9\n* V4: V7\n* V5: V7\n* V6: V8, V9\n* V7: V4\n* V8: V6\n* V9: V3, V6, V8.  The result in the format: Neighbors of XXX are XXX, ... where XXX should be replaced by nodes.'}]

@@ -1,0 +1,11 @@
+Let's extract the children of each node:
+
+Children of V0 are V3, V7
+Children of V1 are V4, V5, V6, V8
+Children of V2 are V4, V6, V8
+Children of V3 is None
+Children of V4 is None
+Children of V5 is None
+Children of V6 is None
+Children of V7 is None
+Children of V8 is None

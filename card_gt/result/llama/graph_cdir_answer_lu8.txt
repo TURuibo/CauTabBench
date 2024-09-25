@@ -1,0 +1,44 @@
+After analyzing the responses, I extracted the children of each node. Here is the summary:
+
+Children of V0 are V1, V11
+Children of V1 are None
+Children of V2 are V7, V9, V13, V21, V22
+Children of V3 are V7, V10, V21, V30
+Children of V4 are V8, V38
+Children of V5 are V11, V12, V25, V36
+Children of V7 are V13, V25, V34
+Children of V8 are V10, V12, V28, V29, V39
+Children of V9 is V13
+Children of V10 are V28, V29, V30, V34
+Children of V11 are V17, V26, V36
+Children of V12 is V45
+Children of V13 is V43
+Children of V14 is V38
+Children of V15 is None
+Children of V16 is V24, V31
+Children of V17 is None
+Children of V19 is V31
+Children of V20 is V25
+Children of V21 is V32
+Children of V22 is V37
+Children of V23 is V30
+Children of V24 is None
+Children of V25 is V36, V39
+Children of V26 is None
+Children of V27 is V32
+Children of V28 is V30
+Children of V29 is None
+Children of V30 is None
+Children of V31 is None
+Children of V32 is None
+Children of V33 is V45
+Children of V34 is None
+Children of V36 is None
+Children of V37 is None
+Children of V38 is None
+Children of V39 is None
+Children of V41 is None
+Children of V43 is None
+Children of V45 is V47
+Children of V47 is None
+Children of V49 is None

@@ -1,0 +1,15 @@
+###0: The answer is unknown. 
+######1: unknown 
+######2: unknown 
+######3: unknown 
+######4: The answer is unknown. 
+
+The response states that it cannot determine conditional independence just by looking at the table and explains the necessary calculations to find the answer.  
+######5: The answer is unknown. 
+######6: unknown 
+######7: The answer is unknown. 
+######8: unknown 
+######9: The answer is unknown. 
+######10: The answer is unknown. 
+######11: The answer is unknown. 
+###

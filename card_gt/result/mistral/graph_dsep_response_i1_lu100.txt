@@ -1,0 +1,27 @@
+Question is Are V5 and V9 d-seperated given V4?
+
+ Answer is  Yes, V5 and V9 are d-separated given V4.
+
+To see this, we need to check if there is a path from V5 to V9 that does not pass through V4. We can do this by following the edges of the causal graph:
+
+* From V5, we can go to V3 or V4.
+* From V3, we can go to V5.
+* From V4, we can go to V5 or V9.
+* From V9, we can go to V4.
+
+So there is no path from V5 to V9 that does not pass through V4. Therefore, V5 and V9 are d-separated given V4.
+Question is Are V7 and V8 d-seperated given V6?
+
+ Answer is  To determine whether V7 and V8 are d-separated given V6, we need to check if there is a path from V6 to either V7 or V8 that does not pass through V5.
+
+We can see that there is a path from V6 to V7, and there is a path from V6 to V8, but both paths pass through V5. Therefore, V7 and V8 are not d-separated given V6.
+Question is Are V5 and V9 d-seperated?
+
+ Answer is  Yes, V5 and V9 are d-separated in the causal graph.
+
+To determine if two nodes are d-separated, we need to check if there is a path between them that does not contain any common confounding variables. In this case, the path from V5 to V9 goes through V4 and V9, but V4 is not a common confounding variable because it is not on the path from V3 to V5. Therefore, V5 and V9 are d-separated.
+Question is Are V7 and V8 d-seperated?
+
+ Answer is  Yes, V7 and V8 are d-separated in the causal graph.
+
+To determine if two nodes are d-separated in a causal graph, we need to check if there is a path between them that does not contain any common ancestor nodes. In this case, the path from V7 to V8 is V6 -> V7, and there are no common ancestor nodes on this path. Therefore, V7 and V8 are d-separated.

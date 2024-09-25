@@ -1,0 +1,27 @@
+ Neighbors of V0 are V2, V20, V39.
+Neighbors of V1 are V2.
+Neighbors of V2 are V3.
+Neighbors of V3 are V10.
+Neighbors of V4 are V7, V8, V11, V20, V24.
+Neighbors of V6 are V8, V32, V49.
+Neighbors of V7 are V9.
+Neighbors of V8 are V9, V10, V11, V12, V17, V43.
+Neighbors of V9 are V47.
+Neighbors of V10 are V14.
+Neighbors of V11 are V25.
+Neighbors of V12 are V17.
+Neighbors of V13 are V14.
+Neighbors of V14 are V22, V34.
+Neighbors of V16 are V45.
+Neighbors of V18 are V22, V32.
+Neighbors of V19 are V24, V29.
+Neighbors of V22 are V25, V44.
+Neighbors of V26 are V31.
+Neighbors of V27 are V42.
+Neighbors of V28 are V31, V33.
+Neighbors of V29 are V39.
+Neighbors of V30 are V43.
+Neighbors of V34 are V41.
+Neighbors of V38 are V47.
+Neighbors of V40 are V41, V42, V49.
+Neighbors of V43 are V44.

@@ -1,0 +1,46 @@
+{"question":"Between V0 and V2, is V0 the cause?", "answer": "0.533  "}
+{"question":"Between V0 and V10, is V0 the cause?", "answer": "1.682   | 0.4908"}
+{"question":"Between V0 and V23, is V0 the cause?", "answer": "1.6828  "}
+{"question":"Between V1 and V4, is V1 the cause?", "answer": "0.0098.67   |  |"}
+{"question":"Between V1 and V10, is V1 the cause?", "answer": "0.682   | 0.5834"}
+{"question":"Between V1 and V15, is V1 the cause?", "answer": "1.287   | 0.632  "}
+{"question":"Between V2 and V5, is V2 the cause?", "answer": "1.806   | 0.1388"}
+{"question":"Between V2 and V18, is V2 the cause?", "answer": "1.086  "}
+{"question":"Between V3 and V4, is V3 the cause?", "answer": "1.785  "}
+{"question":"Between V3 and V6, is V3 the cause?", "answer": "1.583   | 0.7917"}
+{"question":"Between V3 and V37, is V3 the cause?", "answer": "0.785  "}
+{"question":"Between V4 and V11, is V4 the cause?", "answer": "1.1429   | 0.59"}
+{"question":"Between V4 and V17, is V4 the cause?", "answer": "0.682   | 0.523  "}
+{"question":"Between V5 and V27, is V5 the cause?", "answer": "0.590  "}
+{"question":"Between V6 and V30, is V6 the cause?", "answer": "1.1379   | 0.53"}
+{"question":"Between V7 and V8, is V7 the cause?", "answer": "1.599   | 1.1388"}
+{"question":"Between V7 and V21, is V7 the cause?", "answer": "0.0957  "}
+{"question":"Between V8 and V15, is V8 the cause?", "answer": "1.0359  "}
+{"question":"Between V8 and V28, is V8 the cause?", "answer": "0.290   | 0.5333"}
+{"question":"Between V8 and V43, is V8 the cause?", "answer": "1.0868   | 0.135"}
+{"question":"Between V11 and V40, is V11 the cause?", "answer": "0.590   | 1.1385"}
+{"question":"Between V12 and V37, is V12 the cause?", "answer": "2.786   | 0.5008"}
+{"question":"Between V13 and V24, is V13 the cause?", "answer": "1.095  "}
+{"question":"Between V14 and V17, is V14 the cause?", "answer": "1.086  "}
+{"question":"Between V14 and V26, is V14 the cause?", "answer": "0.791   | 1.587  "}
+{"question":"Between V14 and V34, is V14 the cause?", "answer": "1.533   | 0.  |"}
+{"question":"Between V16 and V23, is V16 the cause?", "answer": "1.533  "}
+{"question":"Between V17 and V21, is V17 the cause?", "answer": "0.533   | 0.1358"}
+{"question":"Between V18 and V19, is V18 the cause?", "answer": "1.0017   | 0.59"}
+{"question":"Between V18 and V42, is V18 the cause?", "answer": "0.0907   | -0.532"}
+{"question":"Between V19 and V29, is V19 the cause?", "answer": "0.6328   | 0.786"}
+{"question":"Between V20 and V28, is V20 the cause?", "answer": "0.542   | 0.5908"}
+{"question":"Between V21 and V46, is V21 the cause?", "answer": "1.785  "}
+{"question":"Between V22 and V38, is V22 the cause?", "answer": "1.682  "}
+{"question":"Between V24 and V46, is V24 the cause?", "answer": "0.791  "}
+{"question":"Between V24 and V50, is V24 the cause?", "answer": "0.785   | 0.599  "}
+{"question":"Between V25 and V34, is V25 the cause?", "answer": "2.588   | 0.2899"}
+{"question":"Between V27 and V36, is V27 the cause?", "answer": "0.1428   | 0.52"}
+{"question":"Between V28 and V44, is V28 the cause?", "answer": "1.009   | 0.1388"}
+{"question":"Between V30 and V32, is V30 the cause?", "answer": "0.587  "}
+{"question":"Between V33 and V35, is V33 the cause?", "answer": "1.682   | 0.1408"}
+{"question":"Between V33 and V42, is V33 the cause?", "answer": "1.0098   | 0.632"}
+{"question":"Between V34 and V50, is V34 the cause?", "answer": "1.7907  "}
+{"question":"Between V37 and V49, is V37 the cause?", "answer": "1.289   | 0.5307"}
+{"question":"Between V40 and V48, is V40 the cause?", "answer": "2.287  "}
+{"question":"Between V45 and V49, is V45 the cause?", "answer": "1.1389.50  "}

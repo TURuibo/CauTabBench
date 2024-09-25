@@ -1,0 +1,20 @@
+{"question":"-0.2629494556173564", "answer": "0.5"}
+{"question":"0.15088568552670845", "answer": "0.15088568552670845"}
+{"question":"1.585141568896971", "answer": "0.75"}
+{"question":"1.1163596775194136", "answer": "0.214"}
+{"question":"1.5733309484690463", "answer": "NaN"}
+{"question":"-0.4066906439196288", "answer": "0.5"}
+{"question":"-0.443427282409181", "answer": "0.5"}
+{"question":"0.16928188531193666", "answer": "3.0"}
+{"question":"1.5733309484690463", "answer": "1.5733309484690463"}
+{"question":"1.6568257169561438", "answer": "0.0"}
+{"question":"-0.2629494556173564", "answer": "4.0"}
+{"question":"0.15088568552670845", "answer": "5.5"}
+{"question":"1.585141568896971", "answer": "0"}
+{"question":"1.1163596775194136", "answer": "0.66"}
+{"question":"1.5733309484690463", "answer": "1.57333"}
+{"question":"-0.4066906439196288", "answer": "Insufficient information provided for a numerical answer."}
+{"question":"-0.443427282409181", "answer": "0.5"}
+{"question":"0.16928188531193666", "answer": "0.169"}
+{"question":"1.5733309484690463", "answer": "0.157"}
+{"question":"1.6568257169561438", "answer": "0.0043244"}

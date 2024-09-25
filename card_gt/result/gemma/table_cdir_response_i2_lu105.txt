@@ -1,0 +1,21 @@
+###0: Insufficient information to determine cause-and-effect relationship. 
+###1: The provided response states that it's impossible to determine cause-and-effect relationships from the given information. 
+
+Therefore, we cannot express any variable as a cause (V1 -> V2). 
+###2: V1 -> V2  : **Cannot be determined** 
+
+The response clearly states that it's impossible to determine causation from the given table alone.  More information and an experimental design are needed. 
+###3: The provided information is insufficient to determine a cause-and-effect relationship between V1 and V3. 
+
+###4: Based on the information provided, it's impossible to determine a cause-and-effect relationship between V2 and V6. 
+
+The response explains that correlation doesn't equal causation and that more information is needed to establish a causal link. 
+###5: Based on the information provided, we cannot determine a cause-and-effect relationship. 
+
+The response states that it's impossible to say V4 -> V6 or V6 -> V4  because:
+
+* **Correlation doesn't equal causation:**  Just because they change together doesn't mean one causes the other.
+* **We lack context:**  We don't know what the data represents, making it hard to understand potential causal links. 
+
+
+More information is

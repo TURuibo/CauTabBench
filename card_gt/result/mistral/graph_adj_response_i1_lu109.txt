@@ -1,0 +1,13 @@
+response:
+  Here are the neighbors of each node in the causal graph:
+
+* V0: V2
+* V1: V6
+* V2: V3
+* V3: V4, V6, V9
+* V4: V7
+* V5: V7
+* V6: V8, V9
+* V7: V4
+* V8: V6
+* V9: V3, V6, V8

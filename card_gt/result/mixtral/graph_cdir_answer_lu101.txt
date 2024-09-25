@@ -1,0 +1,9 @@
+ Children of V0 are V1, V3,
+Children of V1 are V2,
+Children of V2 do not exist / are none,
+Children of V3 do not exist / are none,
+Children of V4 are V7,
+Children of V5 do not exist / are none,
+Children of V6 are V8,
+Children of V7 are V8,
+Children of V8 do not exist / are none.

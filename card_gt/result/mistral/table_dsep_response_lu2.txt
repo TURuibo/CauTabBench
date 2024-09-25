@@ -1,0 +1,560 @@
+{"question":"Are V0 and V46 conditionally independent given V3?", "answer": " Yes."}
+{"question":"Are V1 and V7 conditionally independent given V5?", "answer": " Yes."}
+{"question":"Are V1 and V8 conditionally independent given V5?", "answer": " Yes."}
+{"question":"Are V1 and V10 conditionally independent given V5?", "answer": " No."}
+{"question":"Are V1 and V12 conditionally independent given V7?", "answer": " No."}
+{"question":"Are V1 and V15 conditionally independent given V8?", "answer": " No."}
+{"question":"Are V1 and V19 conditionally independent given V11V12?", "answer": " Yes."}
+{"question":"Are V1 and V21 conditionally independent given V8?", "answer": " No."}
+{"question":"Are V1 and V26 conditionally independent given V7?", "answer": " No."}
+{"question":"Are V1 and V33 conditionally independent given V11?", "answer": " Yes."}
+{"question":"Are V1 and V34 conditionally independent given V7?", "answer": " No."}
+{"question":"Are V1 and V36 conditionally independent given V19V7?", "answer": " Yes."}
+{"question":"Are V1 and V42 conditionally independent given V36V7?", "answer": " No."}
+{"question":"Are V1 and V46 conditionally independent given V3?", "answer": " No."}
+{"question":"Are V1 and V47 conditionally independent given V21?", "answer": " No."}
+{"question":"Are V1 and V48 conditionally independent given V34?", "answer": " Yes, V1 and V48 are condition"}
+{"question":"Are V1 and V50 conditionally independent given V21?", "answer": " No."}
+{"question":"Are V2 and V3 conditionally independent given V1?", "answer": " No."}
+{"question":"Are V2 and V5 conditionally independent given V1?", "answer": " No."}
+{"question":"Are V2 and V6 conditionally independent given V1?", "answer": " No."}
+{"question":"Are V2 and V7 conditionally independent given V5?", "answer": " No."}
+{"question":"Are V2 and V8 conditionally independent given V5?", "answer": " No."}
+{"question":"Are V2 and V10 conditionally independent given V5?", "answer": " No."}
+{"question":"Are V2 and V11 conditionally independent given V1?", "answer": " No."}
+{"question":"Are V2 and V12 conditionally independent given V7?", "answer": " Yes, V2 and V12 are condition"}
+{"question":"Are V2 and V15 conditionally independent given V8?", "answer": " No."}
+{"question":"Are V2 and V19 conditionally independent given V11V12?", "answer": " Yes."}
+{"question":"Are V2 and V21 conditionally independent given V8?", "answer": " Yes."}
+{"question":"Are V2 and V26 conditionally independent given V7?", "answer": " No."}
+{"question":"Are V2 and V31 conditionally independent given V1?", "answer": " Yes, V2 and V31 are condition"}
+{"question":"Are V2 and V33 conditionally independent given V11?", "answer": " Yes."}
+{"question":"Are V2 and V34 conditionally independent given V7?", "answer": " No."}
+{"question":"Are V2 and V36 conditionally independent given V19V7?", "answer": " No, V2 and V36 are not"}
+{"question":"Are V2 and V40 conditionally independent given V1?", "answer": " No."}
+{"question":"Are V2 and V42 conditionally independent given V36V7?", "answer": " Yes."}
+{"question":"Are V2 and V46 conditionally independent given V3?", "answer": " No."}
+{"question":"Are V2 and V47 conditionally independent given V21?", "answer": " No, V2 and V47 are not"}
+{"question":"Are V2 and V48 conditionally independent given V34?", "answer": " No."}
+{"question":"Are V2 and V50 conditionally independent given V21?", "answer": " No."}
+{"question":"Are V3 and V5 conditionally independent given V1?", "answer": " No."}
+{"question":"Are V3 and V6 conditionally independent given V1?", "answer": " Yes."}
+{"question":"Are V3 and V7 conditionally independent given V5?", "answer": " No."}
+{"question":"Are V3 and V8 conditionally independent given V5?", "answer": " No."}
+{"question":"Are V3 and V10 conditionally independent given V5?", "answer": " No."}
+{"question":"Are V3 and V11 conditionally independent given V1?", "answer": " Yes."}
+{"question":"Are V3 and V12 conditionally independent given V7?", "answer": " No."}
+{"question":"Are V3 and V15 conditionally independent given V8?", "answer": " No."}
+{"question":"Are V3 and V19 conditionally independent given V11V12?", "answer": " No."}
+{"question":"Are V3 and V21 conditionally independent given V8?", "answer": " No."}
+{"question":"Are V3 and V25 conditionally independent given V0?", "answer": " Yes."}
+{"question":"Are V3 and V26 conditionally independent given V7?", "answer": " Yes, V3 and V26 are condition"}
+{"question":"Are V3 and V31 conditionally independent given V1?", "answer": " No, V3 and V31 are not"}
+{"question":"Are V3 and V33 conditionally independent given V11?", "answer": " No, V3 and V33 are not"}
+{"question":"Are V3 and V34 conditionally independent given V7?", "answer": " Yes."}
+{"question":"Are V3 and V36 conditionally independent given V19V7?", "answer": " Yes."}
+{"question":"Are V3 and V40 conditionally independent given V1?", "answer": " No."}
+{"question":"Are V3 and V42 conditionally independent given V36V7?", "answer": " No."}
+{"question":"Are V3 and V47 conditionally independent given V21?", "answer": " No."}
+{"question":"Are V3 and V48 conditionally independent given V34?", "answer": " No."}
+{"question":"Are V3 and V50 conditionally independent given V21?", "answer": " No."}
+{"question":"Are V4 and V15 conditionally independent given V8?", "answer": " No."}
+{"question":"Are V4 and V19 conditionally independent given V11V12?", "answer": " Yes, V4 and V19 are condition"}
+{"question":"Are V4 and V21 conditionally independent given V8?", "answer": " No."}
+{"question":"Are V4 and V36 conditionally independent given V19V7?", "answer": " No."}
+{"question":"Are V4 and V42 conditionally independent given V36V7?", "answer": " No."}
+{"question":"Are V4 and V47 conditionally independent given V21?", "answer": " No."}
+{"question":"Are V4 and V50 conditionally independent given V21?", "answer": " No."}
+{"question":"Are V5 and V6 conditionally independent given V1?", "answer": " No."}
+{"question":"Are V5 and V11 conditionally independent given V1?", "answer": " Yes."}
+{"question":"Are V5 and V12 conditionally independent given V7?", "answer": " No, V5 and V12 are not"}
+{"question":"Are V5 and V15 conditionally independent given V8?", "answer": " No."}
+{"question":"Are V5 and V19 conditionally independent given V11V12?", "answer": " No."}
+{"question":"Are V5 and V21 conditionally independent given V8?", "answer": " No."}
+{"question":"Are V5 and V26 conditionally independent given V7?", "answer": " No."}
+{"question":"Are V5 and V31 conditionally independent given V1?", "answer": " Yes, V5 and V31 are condition"}
+{"question":"Are V5 and V33 conditionally independent given V11?", "answer": " No."}
+{"question":"Are V5 and V34 conditionally independent given V7?", "answer": " No."}
+{"question":"Are V5 and V36 conditionally independent given V19V7?", "answer": " No."}
+{"question":"Are V5 and V40 conditionally independent given V1?", "answer": " No, V5 and V40 are not"}
+{"question":"Are V5 and V42 conditionally independent given V36V7?", "answer": " No, V5 and V42 are not"}
+{"question":"Are V5 and V46 conditionally independent given V3?", "answer": " Yes."}
+{"question":"Are V5 and V47 conditionally independent given V21?", "answer": " No."}
+{"question":"Are V5 and V48 conditionally independent given V34?", "answer": " Yes, V5 and V48 are condition"}
+{"question":"Are V5 and V50 conditionally independent given V21?", "answer": " No."}
+{"question":"Are V6 and V7 conditionally independent given V5?", "answer": " Yes."}
+{"question":"Are V6 and V8 conditionally independent given V5?", "answer": " No."}
+{"question":"Are V6 and V10 conditionally independent given V5?", "answer": " No."}
+{"question":"Are V6 and V11 conditionally independent given V1?", "answer": " No."}
+{"question":"Are V6 and V12 conditionally independent given V7?", "answer": " No."}
+{"question":"Are V6 and V15 conditionally independent given V8?", "answer": " No."}
+{"question":"Are V6 and V19 conditionally independent given V11V12?", "answer": " No."}
+{"question":"Are V6 and V21 conditionally independent given V8?", "answer": " Yes."}
+{"question":"Are V6 and V26 conditionally independent given V7?", "answer": " No."}
+{"question":"Are V6 and V31 conditionally independent given V1?", "answer": " No."}
+{"question":"Are V6 and V33 conditionally independent given V11?", "answer": " No."}
+{"question":"Are V6 and V34 conditionally independent given V7?", "answer": " No."}
+{"question":"Are V6 and V36 conditionally independent given V19V7?", "answer": " Yes."}
+{"question":"Are V6 and V40 conditionally independent given V1?", "answer": " Yes, V6 and V40 are condition"}
+{"question":"Are V6 and V42 conditionally independent given V36V7?", "answer": " No, V6 and V42 are not"}
+{"question":"Are V6 and V46 conditionally independent given V3?", "answer": " No, V6 and V46 are not"}
+{"question":"Are V6 and V47 conditionally independent given V21?", "answer": " No."}
+{"question":"Are V6 and V48 conditionally independent given V34?", "answer": " No."}
+{"question":"Are V6 and V50 conditionally independent given V21?", "answer": " No."}
+{"question":"Are V7 and V8 conditionally independent given V5?", "answer": " No."}
+{"question":"Are V7 and V10 conditionally independent given V5?", "answer": " No."}
+{"question":"Are V7 and V11 conditionally independent given V1?", "answer": " No."}
+{"question":"Are V7 and V15 conditionally independent given V8?", "answer": " Yes."}
+{"question":"Are V7 and V19 conditionally independent given V11V12?", "answer": " Yes."}
+{"question":"Are V7 and V21 conditionally independent given V8?", "answer": " No."}
+{"question":"Are V7 and V31 conditionally independent given V1?", "answer": " Yes."}
+{"question":"Are V7 and V33 conditionally independent given V11?", "answer": " No."}
+{"question":"Are V7 and V40 conditionally independent given V1?", "answer": " Yes."}
+{"question":"Are V7 and V46 conditionally independent given V3?", "answer": " No, V7 and V46 are not"}
+{"question":"Are V7 and V47 conditionally independent given V21?", "answer": " Yes."}
+{"question":"Are V7 and V48 conditionally independent given V34?", "answer": " No."}
+{"question":"Are V7 and V50 conditionally independent given V21?", "answer": " Yes."}
+{"question":"Are V8 and V10 conditionally independent given V5?", "answer": " No."}
+{"question":"Are V8 and V11 conditionally independent given V1?", "answer": " No."}
+{"question":"Are V8 and V12 conditionally independent given V4V7?", "answer": " No."}
+{"question":"Are V8 and V19 conditionally independent given V11V12?", "answer": " No."}
+{"question":"Are V8 and V26 conditionally independent given V7?", "answer": " Yes, V8 and V26 are condition"}
+{"question":"Are V8 and V31 conditionally independent given V1?", "answer": " Yes."}
+{"question":"Are V8 and V33 conditionally independent given V11?", "answer": " Yes."}
+{"question":"Are V8 and V34 conditionally independent given V7?", "answer": " No, V8 and V34 are not"}
+{"question":"Are V8 and V36 conditionally independent given V19V7?", "answer": " Yes."}
+{"question":"Are V8 and V40 conditionally independent given V1?", "answer": " No."}
+{"question":"Are V8 and V42 conditionally independent given V36V7?", "answer": " Yes."}
+{"question":"Are V8 and V43 conditionally independent given V4?", "answer": " No."}
+{"question":"Are V8 and V46 conditionally independent given V3?", "answer": " No."}
+{"question":"Are V8 and V47 conditionally independent given V21?", "answer": " No."}
+{"question":"Are V8 and V48 conditionally independent given V34?", "answer": " Yes."}
+{"question":"Are V8 and V50 conditionally independent given V21?", "answer": " No, V8 and V50 are not"}
+{"question":"Are V10 and V11 conditionally independent given V1?", "answer": " No."}
+{"question":"Are V10 and V12 conditionally independent given V7?", "answer": " No."}
+{"question":"Are V10 and V15 conditionally independent given V8?", "answer": " No, V10 and V15 are"}
+{"question":"Are V10 and V19 conditionally independent given V11V12?", "answer": " No."}
+{"question":"Are V10 and V21 conditionally independent given V8?", "answer": " No, V10 and V21 are"}
+{"question":"Are V10 and V26 conditionally independent given V7?", "answer": " No."}
+{"question":"Are V10 and V31 conditionally independent given V1?", "answer": " No, V10 and V31 are"}
+{"question":"Are V10 and V33 conditionally independent given V11?", "answer": " Yes, V10 and V33 are"}
+{"question":"Are V10 and V34 conditionally independent given V7?", "answer": " No."}
+{"question":"Are V10 and V36 conditionally independent given V19V7?", "answer": " No."}
+{"question":"Are V10 and V40 conditionally independent given V1?", "answer": " No."}
+{"question":"Are V10 and V42 conditionally independent given V36V7?", "answer": " No."}
+{"question":"Are V10 and V46 conditionally independent given V3?", "answer": " No."}
+{"question":"Are V10 and V47 conditionally independent given V21?", "answer": " No."}
+{"question":"Are V10 and V48 conditionally independent given V34?", "answer": " No."}
+{"question":"Are V10 and V50 conditionally independent given V21?", "answer": " No."}
+{"question":"Are V11 and V12 conditionally independent given V7?", "answer": " No."}
+{"question":"Are V11 and V15 conditionally independent given V8?", "answer": " No."}
+{"question":"Are V11 and V21 conditionally independent given V8?", "answer": " No."}
+{"question":"Are V11 and V26 conditionally independent given V7?", "answer": " No."}
+{"question":"Are V11 and V31 conditionally independent given V1?", "answer": " No."}
+{"question":"Are V11 and V34 conditionally independent given V7?", "answer": " Yes."}
+{"question":"Are V11 and V36 conditionally independent given V19V7?", "answer": " Yes, V11 and V36 are"}
+{"question":"Are V11 and V40 conditionally independent given V1?", "answer": " No."}
+{"question":"Are V11 and V42 conditionally independent given V36V7?", "answer": " No."}
+{"question":"Are V11 and V46 conditionally independent given V3?", "answer": " No."}
+{"question":"Are V11 and V47 conditionally independent given V21?", "answer": " No."}
+{"question":"Are V11 and V48 conditionally independent given V34?", "answer": " No."}
+{"question":"Are V11 and V50 conditionally independent given V21?", "answer": " No."}
+{"question":"Are V12 and V15 conditionally independent given V8?", "answer": " No."}
+{"question":"Are V12 and V21 conditionally independent given V8?", "answer": " No."}
+{"question":"Are V12 and V26 conditionally independent given V7?", "answer": " No."}
+{"question":"Are V12 and V31 conditionally independent given V1?", "answer": " Yes."}
+{"question":"Are V12 and V33 conditionally independent given V11?", "answer": " No."}
+{"question":"Are V12 and V34 conditionally independent given V7?", "answer": " Yes."}
+{"question":"Are V12 and V36 conditionally independent given V19V7?", "answer": " No."}
+{"question":"Are V12 and V40 conditionally independent given V1?", "answer": " No."}
+{"question":"Are V12 and V42 conditionally independent given V36V7?", "answer": " No."}
+{"question":"Are V12 and V43 conditionally independent given V4?", "answer": " Yes."}
+{"question":"Are V12 and V46 conditionally independent given V3?", "answer": " No."}
+{"question":"Are V12 and V47 conditionally independent given V21?", "answer": " Yes, V12 and V47 are"}
+{"question":"Are V12 and V48 conditionally independent given V34?", "answer": " No, V12 and V48 are"}
+{"question":"Are V12 and V50 conditionally independent given V21?", "answer": " No."}
+{"question":"Are V15 and V18 conditionally independent given V13?", "answer": " No."}
+{"question":"Are V15 and V19 conditionally independent given V11V12?", "answer": " No."}
+{"question":"Are V15 and V21 conditionally independent given V8?", "answer": " Yes."}
+{"question":"Are V15 and V26 conditionally independent given V7?", "answer": " No."}
+{"question":"Are V15 and V31 conditionally independent given V1?", "answer": " Yes."}
+{"question":"Are V15 and V33 conditionally independent given V11V13?", "answer": " Yes, V15 and V33 are"}
+{"question":"Are V15 and V34 conditionally independent given V7?", "answer": " No."}
+{"question":"Are V15 and V36 conditionally independent given V19V7?", "answer": " No."}
+{"question":"Are V15 and V40 conditionally independent given V1?", "answer": " No, V15 and V40 are"}
+{"question":"Are V15 and V42 conditionally independent given V36V7?", "answer": " No."}
+{"question":"Are V15 and V43 conditionally independent given V4?", "answer": " No."}
+{"question":"Are V15 and V46 conditionally independent given V3?", "answer": " No."}
+{"question":"Are V15 and V47 conditionally independent given V21?", "answer": " No."}
+{"question":"Are V15 and V48 conditionally independent given V34?", "answer": " No."}
+{"question":"Are V15 and V50 conditionally independent given V21?", "answer": " No."}
+{"question":"Are V16 and V21 conditionally independent given V17?", "answer": " No, V16 and V21 are"}
+{"question":"Are V16 and V47 conditionally independent given V21?", "answer": " No."}
+{"question":"Are V16 and V50 conditionally independent given V21?", "answer": " No."}
+{"question":"Are V17 and V39 conditionally independent given V16?", "answer": " Yes."}
+{"question":"Are V17 and V47 conditionally independent given V21?", "answer": " No."}
+{"question":"Are V17 and V50 conditionally independent given V21?", "answer": " No."}
+{"question":"Are V18 and V33 conditionally independent given V13?", "answer": " No."}
+{"question":"Are V19 and V21 conditionally independent given V8?", "answer": " Yes."}
+{"question":"Are V19 and V26 conditionally independent given V7?", "answer": " Yes."}
+{"question":"Are V19 and V31 conditionally independent given V1?", "answer": " No."}
+{"question":"Are V19 and V33 conditionally independent given V11?", "answer": " No."}
+{"question":"Are V19 and V34 conditionally independent given V7?", "answer": " No."}
+{"question":"Are V19 and V40 conditionally independent given V1?", "answer": " Yes."}
+{"question":"Are V19 and V42 conditionally independent given V36V7?", "answer": " No."}
+{"question":"Are V19 and V43 conditionally independent given V4?", "answer": " No."}
+{"question":"Are V19 and V46 conditionally independent given V3?", "answer": " No, V19 and V46 are"}
+{"question":"Are V19 and V47 conditionally independent given V21?", "answer": " No, V19 and V47 are"}
+{"question":"Are V19 and V48 conditionally independent given V34?", "answer": " No."}
+{"question":"Are V19 and V50 conditionally independent given V21?", "answer": " No."}
+{"question":"Are V21 and V26 conditionally independent given V7?", "answer": " No."}
+{"question":"Are V21 and V31 conditionally independent given V1?", "answer": " No, V21 and V31 are"}
+{"question":"Are V21 and V33 conditionally independent given V11?", "answer": " No."}
+{"question":"Are V21 and V34 conditionally independent given V7?", "answer": " Yes."}
+{"question":"Are V21 and V36 conditionally independent given V19V7?", "answer": " Yes."}
+{"question":"Are V21 and V39 conditionally independent given V16?", "answer": " Yes."}
+{"question":"Are V21 and V40 conditionally independent given V1?", "answer": " No."}
+{"question":"Are V21 and V42 conditionally independent given V36V7?", "answer": " No, V21 and V42 are"}
+{"question":"Are V21 and V43 conditionally independent given V4?", "answer": " Yes."}
+{"question":"Are V21 and V46 conditionally independent given V3?", "answer": " No."}
+{"question":"Are V21 and V48 conditionally independent given V34?", "answer": " Yes."}
+{"question":"Are V25 and V46 conditionally independent given V3?", "answer": " Yes."}
+{"question":"Are V26 and V31 conditionally independent given V1?", "answer": " Yes."}
+{"question":"Are V26 and V33 conditionally independent given V11?", "answer": " No."}
+{"question":"Are V26 and V34 conditionally independent given V7?", "answer": " No."}
+{"question":"Are V26 and V36 conditionally independent given V19V7?", "answer": " No, V26 and V36 are"}
+{"question":"Are V26 and V40 conditionally independent given V1?", "answer": " No."}
+{"question":"Are V26 and V42 conditionally independent given V36V7?", "answer": " Yes."}
+{"question":"Are V26 and V46 conditionally independent given V3?", "answer": " Yes."}
+{"question":"Are V26 and V47 conditionally independent given V21?", "answer": " Yes."}
+{"question":"Are V26 and V48 conditionally independent given V34?", "answer": " No."}
+{"question":"Are V26 and V50 conditionally independent given V21?", "answer": " No."}
+{"question":"Are V31 and V33 conditionally independent given V11?", "answer": " No."}
+{"question":"Are V31 and V34 conditionally independent given V7?", "answer": " No."}
+{"question":"Are V31 and V36 conditionally independent given V19V7?", "answer": " No, V31 and V36 are"}
+{"question":"Are V31 and V40 conditionally independent given V1?", "answer": " No."}
+{"question":"Are V31 and V42 conditionally independent given V36V7?", "answer": " Yes."}
+{"question":"Are V31 and V46 conditionally independent given V3?", "answer": " No, V31 and V46 are"}
+{"question":"Are V31 and V47 conditionally independent given V21?", "answer": " No, V31 and V47 are"}
+{"question":"Are V31 and V48 conditionally independent given V34?", "answer": " No."}
+{"question":"Are V31 and V50 conditionally independent given V21?", "answer": " No."}
+{"question":"Are V33 and V34 conditionally independent given V7?", "answer": " No."}
+{"question":"Are V33 and V36 conditionally independent given V19V7?", "answer": " No, V33 and V36 are"}
+{"question":"Are V33 and V40 conditionally independent given V1?", "answer": " No."}
+{"question":"Are V33 and V42 conditionally independent given V36V7?", "answer": " No."}
+{"question":"Are V33 and V46 conditionally independent given V3?", "answer": " No, V33 and V46 are"}
+{"question":"Are V33 and V47 conditionally independent given V21?", "answer": " No."}
+{"question":"Are V33 and V48 conditionally independent given V34?", "answer": " No."}
+{"question":"Are V33 and V50 conditionally independent given V21?", "answer": " No."}
+{"question":"Are V34 and V36 conditionally independent given V19V7?", "answer": " No."}
+{"question":"Are V34 and V40 conditionally independent given V1?", "answer": " No."}
+{"question":"Are V34 and V42 conditionally independent given V36V7?", "answer": " Yes."}
+{"question":"Are V34 and V46 conditionally independent given V3?", "answer": " No."}
+{"question":"Are V34 and V47 conditionally independent given V21?", "answer": " No."}
+{"question":"Are V34 and V50 conditionally independent given V21?", "answer": " Yes, V34 and V50 are"}
+{"question":"Are V36 and V40 conditionally independent given V1?", "answer": " No."}
+{"question":"Are V36 and V43 conditionally independent given V4?", "answer": " No."}
+{"question":"Are V36 and V46 conditionally independent given V3?", "answer": " No."}
+{"question":"Are V36 and V47 conditionally independent given V21?", "answer": " No."}
+{"question":"Are V36 and V48 conditionally independent given V34?", "answer": " No."}
+{"question":"Are V36 and V50 conditionally independent given V21?", "answer": " No, V36 and V50 are"}
+{"question":"Are V39 and V47 conditionally independent given V21?", "answer": " No."}
+{"question":"Are V39 and V50 conditionally independent given V21?", "answer": " No."}
+{"question":"Are V40 and V42 conditionally independent given V36V7?", "answer": " No."}
+{"question":"Are V40 and V46 conditionally independent given V3?", "answer": " No."}
+{"question":"Are V40 and V47 conditionally independent given V21?", "answer": " No."}
+{"question":"Are V40 and V48 conditionally independent given V34?", "answer": " No."}
+{"question":"Are V40 and V50 conditionally independent given V21?", "answer": " No."}
+{"question":"Are V42 and V43 conditionally independent given V4?", "answer": " No."}
+{"question":"Are V42 and V46 conditionally independent given V3?", "answer": " No."}
+{"question":"Are V42 and V47 conditionally independent given V21?", "answer": " No."}
+{"question":"Are V42 and V48 conditionally independent given V34?", "answer": " No, V42 and V48 are"}
+{"question":"Are V42 and V50 conditionally independent given V21?", "answer": " No."}
+{"question":"Are V43 and V47 conditionally independent given V21?", "answer": " No, V43 and V47 are"}
+{"question":"Are V43 and V50 conditionally independent given V21?", "answer": " No."}
+{"question":"Are V46 and V47 conditionally independent given V21?", "answer": " Yes."}
+{"question":"Are V46 and V48 conditionally independent given V34?", "answer": " Yes."}
+{"question":"Are V46 and V50 conditionally independent given V21?", "answer": " No."}
+{"question":"Are V47 and V48 conditionally independent given V34?", "answer": " No, V47 and V48 are"}
+{"question":"Are V47 and V50 conditionally independent given V21?", "answer": " No."}
+{"question":"Are V48 and V50 conditionally independent given V21?", "answer": " Yes."}
+{"question":"Are V0 and V46 independent from each other?", "answer": " No, V0 and V46 are not"}
+{"question":"Are V1 and V7 independent from each other?", "answer": " No, V1 and V7 are not independent"}
+{"question":"Are V1 and V8 independent from each other?", "answer": " No."}
+{"question":"Are V1 and V10 independent from each other?", "answer": " No."}
+{"question":"Are V1 and V12 independent from each other?", "answer": " Yes."}
+{"question":"Are V1 and V15 independent from each other?", "answer": " No."}
+{"question":"Are V1 and V19 conditionally independent given V12?", "answer": " Yes."}
+{"question":"Are V1 and V21 independent from each other?", "answer": " No."}
+{"question":"Are V1 and V26 independent from each other?", "answer": " No, V1 and V26 are not"}
+{"question":"Are V1 and V33 independent from each other?", "answer": " No."}
+{"question":"Are V1 and V34 independent from each other?", "answer": " No."}
+{"question":"Are V1 and V36 conditionally independent given V7?", "answer": " No."}
+{"question":"Are V1 and V42 conditionally independent given V7?", "answer": " No."}
+{"question":"Are V1 and V46 independent from each other?", "answer": " No, V1 and V46 are not"}
+{"question":"Are V1 and V47 independent from each other?", "answer": " No."}
+{"question":"Are V1 and V48 independent from each other?", "answer": " No."}
+{"question":"Are V1 and V50 independent from each other?", "answer": " No, V1 and V50 are not"}
+{"question":"Are V2 and V3 independent from each other?", "answer": " No, V2 and V3 are not independent"}
+{"question":"Are V2 and V5 independent from each other?", "answer": " Yes."}
+{"question":"Are V2 and V6 independent from each other?", "answer": " No, V2 and V6 are not independent"}
+{"question":"Are V2 and V7 independent from each other?", "answer": " No."}
+{"question":"Are V2 and V8 independent from each other?", "answer": " No, V2 and V8 are not independent"}
+{"question":"Are V2 and V10 independent from each other?", "answer": " No."}
+{"question":"Are V2 and V11 independent from each other?", "answer": " No, V2 and V11 are not"}
+{"question":"Are V2 and V12 independent from each other?", "answer": " Yes."}
+{"question":"Are V2 and V15 independent from each other?", "answer": " No."}
+{"question":"Are V2 and V19 conditionally independent given V12?", "answer": " Yes."}
+{"question":"Are V2 and V21 independent from each other?", "answer": " No."}
+{"question":"Are V2 and V26 independent from each other?", "answer": " No."}
+{"question":"Are V2 and V31 independent from each other?", "answer": " No, V2 and V31 are not"}
+{"question":"Are V2 and V33 independent from each other?", "answer": " No."}
+{"question":"Are V2 and V34 independent from each other?", "answer": " No."}
+{"question":"Are V2 and V36 conditionally independent given V7?", "answer": " Yes, V2 and V36 are condition"}
+{"question":"Are V2 and V40 independent from each other?", "answer": " No."}
+{"question":"Are V2 and V42 conditionally independent given V7?", "answer": " No."}
+{"question":"Are V2 and V46 independent from each other?", "answer": " No."}
+{"question":"Are V2 and V47 independent from each other?", "answer": " No."}
+{"question":"Are V2 and V48 independent from each other?", "answer": " No, V2 and V48 are not"}
+{"question":"Are V2 and V50 independent from each other?", "answer": " Yes."}
+{"question":"Are V3 and V5 independent from each other?", "answer": " No, V3 and V5 are not independent"}
+{"question":"Are V3 and V6 independent from each other?", "answer": " No."}
+{"question":"Are V3 and V7 independent from each other?", "answer": " No."}
+{"question":"Are V3 and V8 independent from each other?", "answer": " No."}
+{"question":"Are V3 and V10 independent from each other?", "answer": " No."}
+{"question":"Are V3 and V11 independent from each other?", "answer": " Yes, V3 and V11 are independent"}
+{"question":"Are V3 and V12 independent from each other?", "answer": " No."}
+{"question":"Are V3 and V15 independent from each other?", "answer": " No, V3 and V15 are not"}
+{"question":"Are V3 and V19 conditionally independent given V12?", "answer": " No, V3 and V19 are not"}
+{"question":"Are V3 and V21 independent from each other?", "answer": " No."}
+{"question":"Are V3 and V25 independent from each other?", "answer": " No."}
+{"question":"Are V3 and V26 independent from each other?", "answer": " No."}
+{"question":"Are V3 and V31 independent from each other?", "answer": " No, V3 and V31 are not"}
+{"question":"Are V3 and V33 independent from each other?", "answer": " No."}
+{"question":"Are V3 and V34 independent from each other?", "answer": " No."}
+{"question":"Are V3 and V36 conditionally independent given V7?", "answer": " No."}
+{"question":"Are V3 and V40 independent from each other?", "answer": " No."}
+{"question":"Are V3 and V42 conditionally independent given V7?", "answer": " No."}
+{"question":"Are V3 and V47 independent from each other?", "answer": " Yes."}
+{"question":"Are V3 and V48 independent from each other?", "answer": " No."}
+{"question":"Are V3 and V50 independent from each other?", "answer": " Yes."}
+{"question":"Are V4 and V15 independent from each other?", "answer": " No."}
+{"question":"Are V4 and V19 conditionally independent given V12?", "answer": " No."}
+{"question":"Are V4 and V21 independent from each other?", "answer": " No."}
+{"question":"Are V4 and V36 conditionally independent given V7?", "answer": " No."}
+{"question":"Are V4 and V42 conditionally independent given V7?", "answer": " No."}
+{"question":"Are V4 and V47 independent from each other?", "answer": " No."}
+{"question":"Are V4 and V50 independent from each other?", "answer": " No."}
+{"question":"Are V5 and V6 independent from each other?", "answer": " No."}
+{"question":"Are V5 and V11 independent from each other?", "answer": " No, V5 and V11 are not"}
+{"question":"Are V5 and V12 independent from each other?", "answer": " No."}
+{"question":"Are V5 and V15 independent from each other?", "answer": " No."}
+{"question":"Are V5 and V19 conditionally independent given V12?", "answer": " No, V5 and V19 are not"}
+{"question":"Are V5 and V21 independent from each other?", "answer": " No."}
+{"question":"Are V5 and V26 independent from each other?", "answer": " Yes."}
+{"question":"Are V5 and V31 independent from each other?", "answer": " No, V5 and V31 are not"}
+{"question":"Are V5 and V33 independent from each other?", "answer": " No."}
+{"question":"Are V5 and V34 independent from each other?", "answer": " Yes."}
+{"question":"Are V5 and V36 conditionally independent given V7?", "answer": " No, V5 and V36 are not"}
+{"question":"Are V5 and V40 independent from each other?", "answer": " No, V5 and V40 are not"}
+{"question":"Are V5 and V42 conditionally independent given V7?", "answer": " Yes."}
+{"question":"Are V5 and V46 independent from each other?", "answer": " No."}
+{"question":"Are V5 and V47 independent from each other?", "answer": " No."}
+{"question":"Are V5 and V48 independent from each other?", "answer": " No."}
+{"question":"Are V5 and V50 independent from each other?", "answer": " No."}
+{"question":"Are V6 and V7 independent from each other?", "answer": " No."}
+{"question":"Are V6 and V8 independent from each other?", "answer": " No, V6 and V8 are not independent"}
+{"question":"Are V6 and V10 independent from each other?", "answer": " No, V6 and V10 are not"}
+{"question":"Are V6 and V11 independent from each other?", "answer": " No."}
+{"question":"Are V6 and V12 independent from each other?", "answer": " No."}
+{"question":"Are V6 and V15 independent from each other?", "answer": " No."}
+{"question":"Are V6 and V19 conditionally independent given V12?", "answer": " No."}
+{"question":"Are V6 and V21 independent from each other?", "answer": " No."}
+{"question":"Are V6 and V26 independent from each other?", "answer": " No."}
+{"question":"Are V6 and V31 independent from each other?", "answer": " No."}
+{"question":"Are V6 and V33 independent from each other?", "answer": " No."}
+{"question":"Are V6 and V34 independent from each other?", "answer": " No."}
+{"question":"Are V6 and V36 conditionally independent given V7?", "answer": " No."}
+{"question":"Are V6 and V40 independent from each other?", "answer": " Yes."}
+{"question":"Are V6 and V42 conditionally independent given V7?", "answer": " No."}
+{"question":"Are V6 and V46 independent from each other?", "answer": " Yes"}
+{"question":"Are V6 and V47 independent from each other?", "answer": " Yes."}
+{"question":"Are V6 and V48 independent from each other?", "answer": " No."}
+{"question":"Are V6 and V50 independent from each other?", "answer": " No, V6 and V50 are not"}
+{"question":"Are V7 and V8 independent from each other?", "answer": " No, V7 and V8 are not independent"}
+{"question":"Are V7 and V10 independent from each other?", "answer": " No."}
+{"question":"Are V7 and V11 independent from each other?", "answer": " No, V7 and V11 are not"}
+{"question":"Are V7 and V15 independent from each other?", "answer": " No."}
+{"question":"Are V7 and V19 conditionally independent given V12?", "answer": " No."}
+{"question":"Are V7 and V21 independent from each other?", "answer": " Yes."}
+{"question":"Are V7 and V31 independent from each other?", "answer": " No."}
+{"question":"Are V7 and V33 independent from each other?", "answer": " No."}
+{"question":"Are V7 and V40 independent from each other?", "answer": " No."}
+{"question":"Are V7 and V46 independent from each other?", "answer": " No."}
+{"question":"Are V7 and V47 independent from each other?", "answer": " Yes."}
+{"question":"Are V7 and V48 independent from each other?", "answer": " Yes"}
+{"question":"Are V7 and V50 independent from each other?", "answer": " No, V7 and V50 are not"}
+{"question":"Are V8 and V10 independent from each other?", "answer": " No."}
+{"question":"Are V8 and V11 independent from each other?", "answer": " No."}
+{"question":"Are V8 and V12 conditionally independent given V7?", "answer": " Yes."}
+{"question":"Are V8 and V19 conditionally independent given V12?", "answer": " No."}
+{"question":"Are V8 and V26 independent from each other?", "answer": " No, V8 and V26 are not"}
+{"question":"Are V8 and V31 independent from each other?", "answer": " No, V8 and V31 are not"}
+{"question":"Are V8 and V33 independent from each other?", "answer": " No, V8 and V33 are not"}
+{"question":"Are V8 and V34 independent from each other?", "answer": " No."}
+{"question":"Are V8 and V36 conditionally independent given V7?", "answer": " Yes."}
+{"question":"Are V8 and V40 independent from each other?", "answer": " No."}
+{"question":"Are V8 and V42 conditionally independent given V7?", "answer": " No."}
+{"question":"Are V8 and V43 independent from each other?", "answer": " Yes."}
+{"question":"Are V8 and V46 independent from each other?", "answer": " No."}
+{"question":"Are V8 and V47 independent from each other?", "answer": " No."}
+{"question":"Are V8 and V48 independent from each other?", "answer": " No."}
+{"question":"Are V8 and V50 independent from each other?", "answer": " No."}
+{"question":"Are V10 and V11 independent from each other?", "answer": " No."}
+{"question":"Are V10 and V12 independent from each other?", "answer": " No."}
+{"question":"Are V10 and V15 independent from each other?", "answer": " No."}
+{"question":"Are V10 and V19 conditionally independent given V12?", "answer": " No."}
+{"question":"Are V10 and V21 independent from each other?", "answer": " No."}
+{"question":"Are V10 and V26 independent from each other?", "answer": " No, V10 and V26 are"}
+{"question":"Are V10 and V31 independent from each other?", "answer": " No, V10 and V31 are"}
+{"question":"Are V10 and V33 independent from each other?", "answer": " No."}
+{"question":"Are V10 and V34 independent from each other?", "answer": " No, V10 and V34 are"}
+{"question":"Are V10 and V36 conditionally independent given V7?", "answer": " No."}
+{"question":"Are V10 and V40 independent from each other?", "answer": " No."}
+{"question":"Are V10 and V42 conditionally independent given V7?", "answer": " No, V10 and V42 are"}
+{"question":"Are V10 and V46 independent from each other?", "answer": " Yes."}
+{"question":"Are V10 and V47 independent from each other?", "answer": " No."}
+{"question":"Are V10 and V48 independent from each other?", "answer": " No, V10 and V48 are"}
+{"question":"Are V10 and V50 independent from each other?", "answer": " No, V10 and V50 are"}
+{"question":"Are V11 and V12 independent from each other?", "answer": " Yes"}
+{"question":"Are V11 and V15 independent from each other?", "answer": " No."}
+{"question":"Are V11 and V21 independent from each other?", "answer": " No."}
+{"question":"Are V11 and V26 independent from each other?", "answer": " No, V11 and V26 are"}
+{"question":"Are V11 and V31 independent from each other?", "answer": " No."}
+{"question":"Are V11 and V34 independent from each other?", "answer": " No."}
+{"question":"Are V11 and V36 conditionally independent given V7?", "answer": " No, V11 and V36 are"}
+{"question":"Are V11 and V40 independent from each other?", "answer": " No, V11 and V40 are"}
+{"question":"Are V11 and V42 conditionally independent given V7?", "answer": " Yes."}
+{"question":"Are V11 and V46 independent from each other?", "answer": " No."}
+{"question":"Are V11 and V47 independent from each other?", "answer": " No, V11 and V47 are"}
+{"question":"Are V11 and V48 independent from each other?", "answer": " No, V11 and V48 are"}
+{"question":"Are V11 and V50 independent from each other?", "answer": " No."}
+{"question":"Are V12 and V15 independent from each other?", "answer": " No, V12 and V15 are"}
+{"question":"Are V12 and V21 independent from each other?", "answer": " No."}
+{"question":"Are V12 and V26 independent from each other?", "answer": " No."}
+{"question":"Are V12 and V31 independent from each other?", "answer": " No."}
+{"question":"Are V12 and V33 independent from each other?", "answer": " No."}
+{"question":"Are V12 and V34 independent from each other?", "answer": " No, V12 and V34 are"}
+{"question":"Are V12 and V36 conditionally independent given V7?", "answer": " No."}
+{"question":"Are V12 and V40 independent from each other?", "answer": " Yes."}
+{"question":"Are V12 and V42 conditionally independent given V7?", "answer": " No, V12 and V42 are"}
+{"question":"Are V12 and V43 independent from each other?", "answer": " Yes"}
+{"question":"Are V12 and V46 independent from each other?", "answer": " No."}
+{"question":"Are V12 and V47 independent from each other?", "answer": " No."}
+{"question":"Are V12 and V48 independent from each other?", "answer": " No."}
+{"question":"Are V12 and V50 independent from each other?", "answer": " No."}
+{"question":"Are V15 and V18 independent from each other?", "answer": " No."}
+{"question":"Are V15 and V19 conditionally independent given V12?", "answer": " No."}
+{"question":"Are V15 and V21 independent from each other?", "answer": " No."}
+{"question":"Are V15 and V26 independent from each other?", "answer": " No."}
+{"question":"Are V15 and V31 independent from each other?", "answer": " No."}
+{"question":"Are V15 and V33 conditionally independent given V13?", "answer": " No, V15 and V33 are"}
+{"question":"Are V15 and V34 independent from each other?", "answer": " No, V15 and V34 are"}
+{"question":"Are V15 and V36 conditionally independent given V7?", "answer": " No."}
+{"question":"Are V15 and V40 independent from each other?", "answer": " No."}
+{"question":"Are V15 and V42 conditionally independent given V7?", "answer": " Yes, V15 and V42 are"}
+{"question":"Are V15 and V43 independent from each other?", "answer": " No, V15 and V43 are"}
+{"question":"Are V15 and V46 independent from each other?", "answer": " No."}
+{"question":"Are V15 and V47 independent from each other?", "answer": " Yes."}
+{"question":"Are V15 and V48 independent from each other?", "answer": " No, V15 and V48 are"}
+{"question":"Are V15 and V50 independent from each other?", "answer": " No, V15 and V50 are"}
+{"question":"Are V16 and V21 independent from each other?", "answer": " No."}
+{"question":"Are V16 and V47 independent from each other?", "answer": " No."}
+{"question":"Are V16 and V50 independent from each other?", "answer": " No."}
+{"question":"Are V17 and V39 independent from each other?", "answer": " No."}
+{"question":"Are V17 and V47 independent from each other?", "answer": " No, V17 and V47 are"}
+{"question":"Are V17 and V50 independent from each other?", "answer": " No."}
+{"question":"Are V18 and V33 independent from each other?", "answer": " No."}
+{"question":"Are V19 and V21 independent from each other?", "answer": " Yes"}
+{"question":"Are V19 and V26 independent from each other?", "answer": " No."}
+{"question":"Are V19 and V31 independent from each other?", "answer": " No."}
+{"question":"Are V19 and V33 independent from each other?", "answer": " No."}
+{"question":"Are V19 and V34 independent from each other?", "answer": " No, V19 and V34 are"}
+{"question":"Are V19 and V40 independent from each other?", "answer": " No."}
+{"question":"Are V19 and V42 conditionally independent given V7?", "answer": " No."}
+{"question":"Are V19 and V43 independent from each other?", "answer": " No."}
+{"question":"Are V19 and V46 independent from each other?", "answer": " Yes."}
+{"question":"Are V19 and V47 independent from each other?", "answer": " Yes, V19 and V47 are"}
+{"question":"Are V19 and V48 independent from each other?", "answer": " No, V19 and V48 are"}
+{"question":"Are V19 and V50 independent from each other?", "answer": " Yes."}
+{"question":"Are V21 and V26 independent from each other?", "answer": " No."}
+{"question":"Are V21 and V31 independent from each other?", "answer": " Yes."}
+{"question":"Are V21 and V33 independent from each other?", "answer": " No."}
+{"question":"Are V21 and V34 independent from each other?", "answer": " No."}
+{"question":"Are V21 and V36 conditionally independent given V7?", "answer": " No."}
+{"question":"Are V21 and V39 independent from each other?", "answer": " No."}
+{"question":"Are V21 and V40 independent from each other?", "answer": " No, V21 and V40 are"}
+{"question":"Are V21 and V42 conditionally independent given V7?", "answer": " Yes."}
+{"question":"Are V21 and V43 independent from each other?", "answer": " No."}
+{"question":"Are V21 and V46 independent from each other?", "answer": " No."}
+{"question":"Are V21 and V48 independent from each other?", "answer": " No, V21 and V48 are"}
+{"question":"Are V25 and V46 independent from each other?", "answer": " No."}
+{"question":"Are V26 and V31 independent from each other?", "answer": " No, V26 and V31 are"}
+{"question":"Are V26 and V33 independent from each other?", "answer": " No, V26 and V33 are"}
+{"question":"Are V26 and V34 independent from each other?", "answer": " No."}
+{"question":"Are V26 and V36 conditionally independent given V7?", "answer": " No, V26 and V36 are"}
+{"question":"Are V26 and V40 independent from each other?", "answer": " No, V26 and V40 are"}
+{"question":"Are V26 and V42 conditionally independent given V7?", "answer": " No."}
+{"question":"Are V26 and V46 independent from each other?", "answer": " Yes."}
+{"question":"Are V26 and V47 independent from each other?", "answer": " No."}
+{"question":"Are V26 and V48 independent from each other?", "answer": " Yes, V26 and V48 are"}
+{"question":"Are V26 and V50 independent from each other?", "answer": " Yes."}
+{"question":"Are V31 and V33 independent from each other?", "answer": " No."}
+{"question":"Are V31 and V34 independent from each other?", "answer": " No."}
+{"question":"Are V31 and V36 conditionally independent given V7?", "answer": " No."}
+{"question":"Are V31 and V40 independent from each other?", "answer": " Yes, V31 and V40 are"}
+{"question":"Are V31 and V42 conditionally independent given V7?", "answer": " No."}
+{"question":"Are V31 and V46 independent from each other?", "answer": " No."}
+{"question":"Are V31 and V47 independent from each other?", "answer": " No."}
+{"question":"Are V31 and V48 independent from each other?", "answer": " Yes."}
+{"question":"Are V31 and V50 independent from each other?", "answer": " No, V31 and V50 are"}
+{"question":"Are V33 and V34 independent from each other?", "answer": " No."}
+{"question":"Are V33 and V36 conditionally independent given V7?", "answer": " No."}
+{"question":"Are V33 and V40 independent from each other?", "answer": " No, V33 and V40 are"}
+{"question":"Are V33 and V42 conditionally independent given V7?", "answer": " No."}
+{"question":"Are V33 and V46 independent from each other?", "answer": " No."}
+{"question":"Are V33 and V47 independent from each other?", "answer": " Yes."}
+{"question":"Are V33 and V48 independent from each other?", "answer": " No, V33 and V48 are"}
+{"question":"Are V33 and V50 independent from each other?", "answer": " No."}
+{"question":"Are V34 and V36 conditionally independent given V7?", "answer": " No."}
+{"question":"Are V34 and V40 independent from each other?", "answer": " No."}
+{"question":"Are V34 and V42 conditionally independent given V7?", "answer": " No."}
+{"question":"Are V34 and V46 independent from each other?", "answer": " No."}
+{"question":"Are V34 and V47 independent from each other?", "answer": " No."}
+{"question":"Are V34 and V50 independent from each other?", "answer": " Yes."}
+{"question":"Are V36 and V40 independent from each other?", "answer": " No."}
+{"question":"Are V36 and V43 independent from each other?", "answer": " No, V36 and V43 are"}
+{"question":"Are V36 and V46 independent from each other?", "answer": " Yes"}
+{"question":"Are V36 and V47 independent from each other?", "answer": " No, V36 and V47 are"}
+{"question":"Are V36 and V48 independent from each other?", "answer": " No."}
+{"question":"Are V36 and V50 independent from each other?", "answer": " No."}
+{"question":"Are V39 and V47 independent from each other?", "answer": " No."}
+{"question":"Are V39 and V50 independent from each other?", "answer": " No."}
+{"question":"Are V40 and V42 conditionally independent given V7?", "answer": " No."}
+{"question":"Are V40 and V46 independent from each other?", "answer": " No, V40 and V46 are"}
+{"question":"Are V40 and V47 independent from each other?", "answer": " No, V40 and V47 are"}
+{"question":"Are V40 and V48 independent from each other?", "answer": " No."}
+{"question":"Are V40 and V50 independent from each other?", "answer": " No."}
+{"question":"Are V42 and V43 independent from each other?", "answer": " No."}
+{"question":"Are V42 and V46 independent from each other?", "answer": " No."}
+{"question":"Are V42 and V47 independent from each other?", "answer": " Yes."}
+{"question":"Are V42 and V48 independent from each other?", "answer": " No, V42 and V48 are"}
+{"question":"Are V42 and V50 independent from each other?", "answer": " No."}
+{"question":"Are V43 and V47 independent from each other?", "answer": " No."}
+{"question":"Are V43 and V50 independent from each other?", "answer": " No."}
+{"question":"Are V46 and V47 independent from each other?", "answer": " No."}
+{"question":"Are V46 and V48 independent from each other?", "answer": " No."}
+{"question":"Are V46 and V50 independent from each other?", "answer": " No."}
+{"question":"Are V47 and V48 independent from each other?", "answer": " Yes."}
+{"question":"Are V47 and V50 independent from each other?", "answer": " No."}
+{"question":"Are V48 and V50 independent from each other?", "answer": " No, V48 and V50 are"}

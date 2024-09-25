@@ -1,0 +1,50 @@
+ Neighbors of V0 are V2, V10, V23
+Neighbors of V1 are V4, V10, V15
+Neighbors of V2 are V5, V18
+Neighbors of V3 are V4, V6, V37
+Neighbors of V4 are V11, V17
+Neighbors of V5 are V27
+Neighbors of V6 are V30
+Neighbors of V7 are V8, V21
+Neighbors of V8 are V15, V28, V43
+Neighbors of V9 are V19
+Neighbors of V10 are V23, V18
+Neighbors of V11 are V40
+Neighbors of V12 are V37
+Neighbors of V13 are V24
+Neighbors of V14 are V17, V26, V34
+Neighbors of V15 are V8, V21, V28
+Neighbors of V16 are V23
+Neighbors of V17 are V14, V21
+Neighbors of V18 are V10, V19
+Neighbors of V19 are V18, V29
+Neighbors of V20 are V28
+Neighbors of V21 are V7, V46
+Neighbors of V22 are V22
+Neighbors of V23 are V0, V10, V18
+Neighbors of V24 are V13
+Neighbors of V25 are V25
+Neighbors of V26 are V14
+Neighbors of V27 are V5
+Neighbors of V28 are V6, V20
+Neighbors of V29 are V19
+Neighbors of V30 are V6, V32
+Neighbors of V31 are V33
+Neighbors of V32 are V30
+Neighbors of V33 are V33, V42
+Neighbors of V34 are V14
+Neighbors of V35 are V33
+Neighbors of V36 are V27
+Neighbors of V37 are V12, V37
+Neighbors of V38 are V22
+Neighbors of V39 are V33
+Neighbors of V40 are V11
+Neighbors of V41 are V40
+Neighbors of V42 are V18, V42
+Neighbors of V43 are V8, V43
+Neighbors of V44 are V28
+Neighbors of V45 are V45
+Neighbors of V46 are V21, V46
+Neighbors of V47 are V21
+Neighbors of V48 are V40
+Neighbors of V49 are V37.

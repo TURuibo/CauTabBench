@@ -1,0 +1,50 @@
+ Children of V0: V0, V5, V8, V18, V22
+Children of V1: V6, V7, V12
+Children of V2: V6, V7, V12
+Children of V3: V6, V7, V12
+Children of V4: V5, V8, V18, V22, V7, V9, V26
+Children of V5: V0, V5, V8, V18, V22, V33, V43, V44
+Children of V6: V2, V3, V4, V5, V7, V8, V12
+Children of V7: V4, V9, V26
+Children of V8: V4, V10, V26
+Children of V9: V4, V12, V24, V36, V49
+Children of V10: V8, V9
+Children of V11: V12
+Children of V12: V4, V6, V8, V10, V14, V15, V27, V30, V34, V47
+Children of V13: V15
+Children of V14: V5, V13, V30, V34, V35
+Children of V15: V5, V13, V30, V34, V35, V25
+Children of V16: V19
+Children of V17: V16, V19
+Children of V18: V0, V4, V18, V22
+Children of V19: V16, V17, V20, V24, V28, V36
+Children of V20: V20, V24, V28
+Children of V21: V25
+Children of V22: V0, V4, V18, V22
+Children of V23: V25
+Children of V24: V9, V26, V36, V49
+Children of V25: V5, V13, V30, V34, V35, V29, V34, V39, V43
+Children of V26: V9, V24, V36
+Children of V27: V12
+Children of V28: V20, V28
+Children of V29: V25
+Children of V30: V16, V19, V34
+Children of V31: V34
+Children of V32: V34
+Children of V33: V5, V33
+Children of V34: V14, V35
+Children of V35: V15, V35
+Children of V36: V9, V24, V36, V49
+Children of V37: V29
+Children of V38: V39
+Children of V39: V25
+Children of V40: V40
+Children of V41: V40, V41
+Children of V42: V40, V41
+Children of V43: V5, V43
+Children of V44: V14, V44
+Children of V45: V21
+Children of V46: V45
+Children of V47: V12
+Children of V48: V20
+Children of V49: V32

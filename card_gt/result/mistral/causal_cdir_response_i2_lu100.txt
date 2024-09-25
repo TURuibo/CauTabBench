@@ -1,0 +1,30 @@
+bt:0 response:
+  Parents of V0 are V0 and V1, and Children of V0 are V3, V4, V5, V6, V7, V8, and V9.
+
+Parents of V1 are V0 and V1, and Children of V1 are V3, V4, V5, V6, V7, V8, and V9.
+
+Parents of V2 are V0 and V1, and Children of V2 are V3, V4, V5, V6, V7, V8, and V9.
+
+Parents of V3 are V0 and V1, and Children of V3 are V5 and V6.
+
+Parents of V4 are V0 and V3, and Children of V4 are V5 and V9.
+
+Parents of V5 are V3 and V4, and Children of V5 are V6 and V7.
+
+Parents of V6 are V4 and V5, and Children of V6 are V7 and V8.
+
+Parents of V7 are V6 and V9, and Children of V7 are V8.
+
+Parents of V8 are V6 and V9, and Children of V8 are V7 and V9.
+
+Parents of V9 are V5 and V6, and Children of V9 are V7, V8, and V9.
+bt:0 response:
+  The parents and children of each node in the causal graph are as follows:
+
+* V3: Children: V5, Parents: None
+* V4: Children: V5, V9, Parents: None
+* V5: Children: None, Parents: V3, V4
+* V6: Children: V7, V8, Parents: None
+* V7: Children: None, Parents: V6
+* V8: Children: None, Parents: V6
+* V9: Children: None, Parents: V4

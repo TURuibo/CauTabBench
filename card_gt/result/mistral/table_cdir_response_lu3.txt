@@ -1,0 +1,37 @@
+{"question":"Between V0 and V4, is V0 the cause?", "answer": " No."}
+{"question":"Between V0 and V5, is V0 the cause?", "answer": " No."}
+{"question":"Between V0 and V8, is V0 the cause?", "answer": " Yes."}
+{"question":"Between V0 and V18, is V0 the cause?", "answer": " No."}
+{"question":"Between V0 and V22, is V0 the cause?", "answer": " No, it is not possible to determine whether V"}
+{"question":"Between V2 and V6, is V2 the cause?", "answer": " No, V2 is not the cause of V"}
+{"question":"Between V3 and V6, is V3 the cause?", "answer": " Yes."}
+{"question":"Between V4 and V7, is V4 the cause?", "answer": " No."}
+{"question":"Between V5 and V14, is V5 the cause?", "answer": " No."}
+{"question":"Between V5 and V33, is V5 the cause?", "answer": " No."}
+{"question":"Between V5 and V43, is V5 the cause?", "answer": " No."}
+{"question":"Between V6 and V7, is V6 the cause?", "answer": " Yes."}
+{"question":"Between V6 and V8, is V6 the cause?", "answer": " I'm sorry, but I cannot provide a"}
+{"question":"Between V8 and V10, is V8 the cause?", "answer": " No."}
+{"question":"Between V9 and V24, is V9 the cause?", "answer": " No."}
+{"question":"Between V9 and V36, is V9 the cause?", "answer": " No."}
+{"question":"Between V9 and V49, is V9 the cause?", "answer": " No."}
+{"question":"Between V12 and V47, is V12 the cause?", "answer": " No."}
+{"question":"Between V13 and V15, is V13 the cause?", "answer": " No."}
+{"question":"Between V14 and V30, is V14 the cause?", "answer": " No."}
+{"question":"Between V14 and V34, is V14 the cause?", "answer": " No."}
+{"question":"Between V15 and V25, is V15 the cause?", "answer": " No."}
+{"question":"Between V16 and V17, is V16 the cause?", "answer": " Yes"}
+{"question":"Between V19 and V36, is V19 the cause?", "answer": " Yes."}
+{"question":"Between V20 and V24, is V20 the cause?", "answer": " No."}
+{"question":"Between V20 and V28, is V20 the cause?", "answer": " No."}
+{"question":"Between V21 and V45, is V21 the cause?", "answer": " No."}
+{"question":"Between V21 and V50, is V21 the cause?", "answer": " No."}
+{"question":"Between V25 and V29, is V25 the cause?", "answer": " No, V25 is not the cause."}
+{"question":"Between V25 and V34, is V25 the cause?", "answer": " No, I cannot determine if V25 is"}
+{"question":"Between V25 and V39, is V25 the cause?", "answer": " No."}
+{"question":"Between V25 and V43, is V25 the cause?", "answer": " I'm sorry, but I cannot provide a"}
+{"question":"Between V29 and V37, is V29 the cause?", "answer": " No."}
+{"question":"Between V30 and V39, is V30 the cause?", "answer": " No."}
+{"question":"Between V32 and V49, is V32 the cause?", "answer": " Yes"}
+{"question":"Between V35 and V41, is V35 the cause?", "answer": " No."}
+{"question":"Between V40 and V41, is V40 the cause?", "answer": " Yes."}

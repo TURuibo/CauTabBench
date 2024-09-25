@@ -1,0 +1,4 @@
+{"question":"Are V5 and V9 conditionally independent given V4?", "answer": " No, V5 and V9 are not conditionally independent given V4."}
+{"question":"Are V7 and V8 conditionally independent given V6?", "answer": " Yes."}
+{"question":"Are V5 and V9 independent from each other?", "answer": " No."}
+{"question":"Are V7 and V8 independent from each other?", "answer": " Yes."}

@@ -1,0 +1,10 @@
+ Parents of V0 are None, Children of V0 are None
+Parents of V1 are None, Children of V1 are None
+Parents of V2 are None, Children of V2 are None
+Parents of V3 are None, Children of V3 are V5
+Parents of V4 are None, Children of V4 are V5, V9
+Parents of V5 are V3, V4, Children of V5 are None
+Parents of V6 are None, Children of V6 are V7, V8
+Parents of V7 are V6, Children of V7 are None
+Parents of V8 are V6, Children of V8 are None
+Parents of V9 are V4, Children of V9 are None

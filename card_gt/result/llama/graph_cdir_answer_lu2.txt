@@ -1,0 +1,73 @@
+After analyzing the parents of each node, I extracted the children for each node. Here is the summary:
+
+Children of V0 are V20, V25, V46,
+
+Children of V1 are V2, V3, V5, V6, V7, V11, V14, V31, V40,
+
+Children of V2 is V3,
+
+Children of V3 is V8,
+
+Children of V4 are V8, V12, V43,
+
+Children of V5 are V8, V10, V21,
+
+Children of V6 is None,
+
+Children of V7 are V8, V12, V34, V36, V42,
+
+Children of V8 is V15,
+
+Children of V9 is V26,
+
+Children of V10 is None,
+
+Children of V11 is V19, V33,
+
+Children of V12 is V19,
+
+Children of V13 are V15, V18, V33, V39,
+
+Children of V14 is V31,
+
+Children of V16 is V17, V39,
+
+Children of V17 is V21,
+
+Children of V18 is None,
+
+Children of V19 is V36,
+
+Children of V20 is V25,
+
+Children of V21 is V47,
+
+Children of V24 is V41,
+
+Children of V27 is V44,
+
+Children of V37 is V45,
+
+Children of V39 is None,
+
+Children of V40 is None,
+
+Children of V41 is None,
+
+Children of V42 is None,
+
+Children of V43 is None,
+
+Children of V44 is None,
+
+Children of V45 is None,
+
+Children of V46 is None,
+
+Children of V47 is None,
+
+Children of V48 is None,
+
+Children of V49 is None.
+
+Note: If a node has no children, it is denoted by "None".

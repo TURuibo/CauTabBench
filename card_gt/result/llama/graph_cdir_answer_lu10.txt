@@ -1,0 +1,47 @@
+Here is the summary of children for each node:
+
+Children of V0 are V1, V30
+Children of V1 are V2
+Children of V2 are None
+Children of V3 are V5, V21, V32, V34
+Children of V4 are V26
+Children of V5 are V27, V34
+Children of V7 are V8, V9, V14, V15, V20, V21, V39
+Children of V8 are V26, V48
+Children of V9 are V10, V15, V39
+Children of V10 are V17, V32
+Children of V11 are V15, V29, V37
+Children of V13 are V20
+Children of V14 is V20, V21
+Children of V15 is V25, V37
+Children of V17 is V39
+Children of V20 is V37
+Children of V21 is None
+Children of V22 is V24
+Children of V23 is V41
+Children of V24 is None
+Children of V25 is None
+Children of V26 is None
+Children of V27 is V42, V44, V49
+Children of V28 is V42
+Children of V29 is V33
+Children of V30 is None
+Children of V31 is V35
+Children of V32 is None
+Children of V33 is None
+Children of V34 is None
+Children of V35 is None
+Children of V36 is V40
+Children of V37 is None
+Children of V38 is None
+Children of V39 is None
+Children of V40 is None
+Children of V41 is V47
+Children of V42 is None
+Children of V43 is None
+Children of V44 is None
+Children of V45 is None
+Children of V46 is None
+Children of V47 is None
+Children of V48 is None
+Children of V49 is None

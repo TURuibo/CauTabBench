@@ -1,0 +1,10 @@
+ Neighbors of V0: V1, V2, V3, V9
+Neighbors of V1: V3, V5, V6, V9
+Neighbors of V2: V7
+Neighbors of V3: V1, V9
+Neighbors of V4: None
+Neighbors of V5: V1, V6
+Neighbors of V6: V1, V5
+Neighbors of V7: V2
+Neighbors of V8: None
+Neighbors of V9: V0, V1, V3, V5, V6, V9

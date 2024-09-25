@@ -1,0 +1,14 @@
+Here's a summary of the children of each node in the causal graph:
+
+* **V0:** No children
+* **V1:** No children
+* **V2:** No children
+* **V3:** Children are V5 
+* **V4:** Children are V5
+* **V5:** No children
+* **V6:** Children are V7, V8
+* **V7:** No children
+* **V8:** No children 
+
+
+Let me know if you'd like to explore any other aspects of this causal graph!

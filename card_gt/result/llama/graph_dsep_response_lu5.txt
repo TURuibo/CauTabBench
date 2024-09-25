@@ -1,0 +1,600 @@
+{"question":"Are V0 and V3 d-seperated given V1?", "answer": "The answer is no."}
+{"question":"Are V0 and V5 d-seperated given V1?", "answer": "The answer is no."}
+{"question":"Are V0 and V8 d-seperated given V4V5?", "answer": "The answer is no."}
+{"question":"Are V0 and V9 d-seperated given V5?", "answer": "The answer is no."}
+{"question":"Are V0 and V10 d-seperated given V7?", "answer": "The answer is no."}
+{"question":"Are V0 and V15 d-seperated given V10?", "answer": "The answer is no."}
+{"question":"Are V0 and V16 d-seperated given V5?", "answer": "The answer is no."}
+{"question":"Are V0 and V18 d-seperated given V7V9?", "answer": "The answer is no."}
+{"question":"Are V0 and V19 d-seperated given V5?", "answer": "The answer is no."}
+{"question":"Are V0 and V20 d-seperated given V5?", "answer": "The answer is no."}
+{"question":"Are V0 and V21 d-seperated given V1?", "answer": "The answer is no."}
+{"question":"Are V0 and V23 d-seperated given V11V9?", "answer": "The answer is NO."}
+{"question":"Are V0 and V28 d-seperated given V7?", "answer": "The answer is yes."}
+{"question":"Are V0 and V35 d-seperated given V15?", "answer": "The answer is: yes"}
+{"question":"Are V0 and V37 d-seperated given V23V7?", "answer": "The answer is no."}
+{"question":"Are V0 and V38 d-seperated given V11?", "answer": "The answer is no."}
+{"question":"Are V0 and V39 d-seperated given V23?", "answer": "The answer is yes."}
+{"question":"Are V0 and V48 d-seperated given V16?", "answer": "The answer is no."}
+{"question":"Are V0 and V49 d-seperated given V2V25?", "answer": "The answer is yes."}
+{"question":"Are V1 and V7 d-seperated given V0?", "answer": "The answer is no."}
+{"question":"Are V1 and V8 d-seperated given V4V5?", "answer": "The answer is yes."}
+{"question":"Are V1 and V9 d-seperated given V5?", "answer": "The answer is no."}
+{"question":"Are V1 and V10 d-seperated given V7?", "answer": "The answer is no."}
+{"question":"Are V1 and V11 d-seperated given V0V2?", "answer": "The answer is no."}
+{"question":"Are V1 and V15 d-seperated given V10?", "answer": "The answer is no."}
+{"question":"Are V1 and V16 d-seperated given V5?", "answer": "The answer is no."}
+{"question":"Are V1 and V18 d-seperated given V7V9?", "answer": "The answer is no."}
+{"question":"Are V1 and V19 d-seperated given V5?", "answer": "The answer is no."}
+{"question":"Are V1 and V20 d-seperated given V5?", "answer": "The answer is no."}
+{"question":"Are V1 and V23 d-seperated given V11V9?", "answer": "The answer is: no"}
+{"question":"Are V1 and V25 d-seperated given V0?", "answer": "The answer is no."}
+{"question":"Are V1 and V28 d-seperated given V7?", "answer": "The answer is no."}
+{"question":"Are V1 and V35 d-seperated given V15?", "answer": "The answer is no."}
+{"question":"Are V1 and V37 d-seperated given V23V7?", "answer": "The answer is no."}
+{"question":"Are V1 and V38 d-seperated given V11?", "answer": "The answer is no."}
+{"question":"Are V1 and V39 d-seperated given V23?", "answer": "The answer is: yes"}
+{"question":"Are V1 and V48 d-seperated given V16?", "answer": "The answer is no."}
+{"question":"Are V1 and V49 d-seperated given V2V25?", "answer": "The answer is no."}
+{"question":"Are V2 and V3 d-seperated given V1?", "answer": "The answer is yes."}
+{"question":"Are V2 and V5 d-seperated given V1?", "answer": "The answer is: No"}
+{"question":"Are V2 and V7 d-seperated given V0?", "answer": "The answer is yes."}
+{"question":"Are V2 and V8 d-seperated given V4V5?", "answer": "The answer is yes."}
+{"question":"Are V2 and V9 d-seperated given V5?", "answer": "The answer is no."}
+{"question":"Are V2 and V10 d-seperated given V7?", "answer": "The answer is no."}
+{"question":"Are V2 and V15 d-seperated given V10?", "answer": "The answer is no."}
+{"question":"Are V2 and V16 d-seperated given V5?", "answer": "The answer is no."}
+{"question":"Are V2 and V18 d-seperated given V7V9?", "answer": "The answer is: The answer is YES."}
+{"question":"Are V2 and V19 d-seperated given V5?", "answer": "The answer is yes."}
+{"question":"Are V2 and V20 d-seperated given V5?", "answer": "The answer is no."}
+{"question":"Are V2 and V21 d-seperated given V1?", "answer": "The answer is no."}
+{"question":"Are V2 and V23 d-seperated given V11V9?", "answer": "The answer is: NO"}
+{"question":"Are V2 and V25 d-seperated given V0?", "answer": "The answer is no."}
+{"question":"Are V2 and V28 d-seperated given V7?", "answer": "The answer is no."}
+{"question":"Are V2 and V35 d-seperated given V15?", "answer": "The answer is no."}
+{"question":"Are V2 and V37 d-seperated given V23V7?", "answer": "The answer is no."}
+{"question":"Are V2 and V38 d-seperated given V11?", "answer": "The answer is no."}
+{"question":"Are V2 and V39 d-seperated given V23?", "answer": "The answer is yes."}
+{"question":"Are V2 and V48 d-seperated given V16?", "answer": "The answer is no."}
+{"question":"Are V3 and V5 d-seperated given V1?", "answer": "The answer is no."}
+{"question":"Are V3 and V7 d-seperated given V0?", "answer": "The answer is yes."}
+{"question":"Are V3 and V8 d-seperated given V4V5?", "answer": "The answer is: No"}
+{"question":"Are V3 and V9 d-seperated given V5?", "answer": "The answer is: yes"}
+{"question":"Are V3 and V10 d-seperated given V7?", "answer": "The answer is yes."}
+{"question":"Are V3 and V11 d-seperated given V0V2?", "answer": "The answer is no."}
+{"question":"Are V3 and V15 d-seperated given V10?", "answer": "The answer is no."}
+{"question":"Are V3 and V16 d-seperated given V5?", "answer": "The answer is no."}
+{"question":"Are V3 and V18 d-seperated given V7V9?", "answer": "The answer is: yes"}
+{"question":"Are V3 and V19 d-seperated given V5?", "answer": "The answer is no."}
+{"question":"Are V3 and V20 d-seperated given V5?", "answer": "The answer is no."}
+{"question":"Are V3 and V21 d-seperated given V1?", "answer": "The answer is yes."}
+{"question":"Are V3 and V23 d-seperated given V11V9?", "answer": "The answer is no."}
+{"question":"Are V3 and V25 d-seperated given V0?", "answer": "The answer is: no"}
+{"question":"Are V3 and V28 d-seperated given V7?", "answer": "The answer is no."}
+{"question":"Are V3 and V35 d-seperated given V15?", "answer": "The answer is no."}
+{"question":"Are V3 and V37 d-seperated given V23V7?", "answer": "The answer is no."}
+{"question":"Are V3 and V38 d-seperated given V11?", "answer": "The answer is yes."}
+{"question":"Are V3 and V39 d-seperated given V23?", "answer": "The answer is: Yes."}
+{"question":"Are V3 and V48 d-seperated given V16?", "answer": "The answer is: The answer is YES."}
+{"question":"Are V3 and V49 d-seperated given V2V25?", "answer": "The answer is no."}
+{"question":"Are V4 and V9 d-seperated given V5?", "answer": "The answer is: the answer is NO."}
+{"question":"Are V4 and V16 d-seperated given V5?", "answer": "The answer is no."}
+{"question":"Are V4 and V18 d-seperated given V7V9?", "answer": "The answer is no."}
+{"question":"Are V4 and V19 d-seperated given V5?", "answer": "The answer is: the answer is no."}
+{"question":"Are V4 and V20 d-seperated given V5?", "answer": "The answer is no."}
+{"question":"Are V4 and V23 d-seperated given V11V9?", "answer": "The answer is: The answer is NO."}
+{"question":"Are V4 and V37 d-seperated given V23V7?", "answer": "The answer is: Yes."}
+{"question":"Are V4 and V39 d-seperated given V23?", "answer": "The answer is no."}
+{"question":"Are V4 and V48 d-seperated given V16?", "answer": "The answer is no."}
+{"question":"Are V5 and V7 d-seperated given V0?", "answer": "The answer is no."}
+{"question":"Are V5 and V10 d-seperated given V7?", "answer": "The answer is no."}
+{"question":"Are V5 and V11 d-seperated given V0V2?", "answer": "The answer is no."}
+{"question":"Are V5 and V15 d-seperated given V10?", "answer": "The answer is no."}
+{"question":"Are V5 and V18 d-seperated given V7V9?", "answer": "The answer is no."}
+{"question":"Are V5 and V21 d-seperated given V1?", "answer": "The answer is yes."}
+{"question":"Are V5 and V23 d-seperated given V11V9?", "answer": "The answer is no."}
+{"question":"Are V5 and V25 d-seperated given V0?", "answer": "The answer is no."}
+{"question":"Are V5 and V28 d-seperated given V7?", "answer": "The answer is no."}
+{"question":"Are V5 and V29 d-seperated given V4?", "answer": "The answer is yes."}
+{"question":"Are V5 and V35 d-seperated given V15?", "answer": "The answer is no."}
+{"question":"Are V5 and V37 d-seperated given V23V7?", "answer": "The answer is no."}
+{"question":"Are V5 and V38 d-seperated given V11?", "answer": "The answer is no."}
+{"question":"Are V5 and V39 d-seperated given V23?", "answer": "The answer is no."}
+{"question":"Are V5 and V48 d-seperated given V16?", "answer": "The answer is no."}
+{"question":"Are V5 and V49 d-seperated given V2V25?", "answer": "The answer is no."}
+{"question":"Are V6 and V15 d-seperated given V10?", "answer": "The answer is no."}
+{"question":"Are V6 and V35 d-seperated given V15?", "answer": "The answer is no."}
+{"question":"Are V7 and V8 d-seperated given V4V5?", "answer": "The answer is: no"}
+{"question":"Are V7 and V9 d-seperated given V5?", "answer": "The answer is yes."}
+{"question":"Are V7 and V11 d-seperated given V0V2?", "answer": "The answer is no."}
+{"question":"Are V7 and V15 d-seperated given V10?", "answer": "The answer is yes."}
+{"question":"Are V7 and V16 d-seperated given V5?", "answer": "The answer is no."}
+{"question":"Are V7 and V19 d-seperated given V5?", "answer": "The answer is no."}
+{"question":"Are V7 and V20 d-seperated given V5?", "answer": "The answer is no."}
+{"question":"Are V7 and V21 d-seperated given V1?", "answer": "The answer is no."}
+{"question":"Are V7 and V23 d-seperated given V11V9?", "answer": "The answer is: no"}
+{"question":"Are V7 and V25 d-seperated given V0?", "answer": "The answer is no."}
+{"question":"Are V7 and V35 d-seperated given V15?", "answer": "The answer is no."}
+{"question":"Are V7 and V38 d-seperated given V11?", "answer": "The answer is yes."}
+{"question":"Are V7 and V39 d-seperated given V23?", "answer": "The answer is no."}
+{"question":"Are V7 and V48 d-seperated given V16?", "answer": "The answer is yes."}
+{"question":"Are V7 and V49 d-seperated given V2V25?", "answer": "The answer is YES."}
+{"question":"Are V8 and V9 d-seperated given V5?", "answer": "The answer is no."}
+{"question":"Are V8 and V10 d-seperated given V7?", "answer": "The answer is no."}
+{"question":"Are V8 and V11 d-seperated given V0V2?", "answer": "The answer is: The answer is no."}
+{"question":"Are V8 and V15 d-seperated given V10?", "answer": "The answer is yes."}
+{"question":"Are V8 and V16 d-seperated given V5?", "answer": "The answer is: yes"}
+{"question":"Are V8 and V18 d-seperated given V7V9?", "answer": "The answer is no."}
+{"question":"Are V8 and V19 d-seperated given V5?", "answer": "The answer is no."}
+{"question":"Are V8 and V20 d-seperated given V5?", "answer": "The answer is yes."}
+{"question":"Are V8 and V21 d-seperated given V1?", "answer": "The answer is no."}
+{"question":"Are V8 and V23 d-seperated given V11V9?", "answer": "The answer is no."}
+{"question":"Are V8 and V25 d-seperated given V0?", "answer": "The answer is no."}
+{"question":"Are V8 and V28 d-seperated given V7?", "answer": "The answer is no."}
+{"question":"Are V8 and V29 d-seperated given V4?", "answer": "The answer is yes."}
+{"question":"Are V8 and V35 d-seperated given V15?", "answer": "The answer is yes."}
+{"question":"Are V8 and V37 d-seperated given V23V7?", "answer": "The answer is: no."}
+{"question":"Are V8 and V38 d-seperated given V11?", "answer": "The answer is yes."}
+{"question":"Are V8 and V39 d-seperated given V23?", "answer": "The answer is yes."}
+{"question":"Are V8 and V48 d-seperated given V16?", "answer": "The answer is YES."}
+{"question":"Are V8 and V49 d-seperated given V2V25?", "answer": "The answer is no."}
+{"question":"Are V9 and V10 d-seperated given V7?", "answer": "The answer is: no"}
+{"question":"Are V9 and V11 d-seperated given V0V2?", "answer": "The answer is no."}
+{"question":"Are V9 and V15 d-seperated given V10?", "answer": "The answer is no."}
+{"question":"Are V9 and V16 d-seperated given V5?", "answer": "The answer is no."}
+{"question":"Are V9 and V19 d-seperated given V5?", "answer": "The answer is no."}
+{"question":"Are V9 and V20 d-seperated given V5?", "answer": "The answer is no."}
+{"question":"Are V9 and V21 d-seperated given V1?", "answer": "The answer is no."}
+{"question":"Are V9 and V25 d-seperated given V0?", "answer": "The answer is yes."}
+{"question":"Are V9 and V28 d-seperated given V7?", "answer": "The answer is no."}
+{"question":"Are V9 and V29 d-seperated given V4?", "answer": "The answer is no."}
+{"question":"Are V9 and V35 d-seperated given V15?", "answer": "The answer is no."}
+{"question":"Are V9 and V37 d-seperated given V23V7?", "answer": "The answer is no."}
+{"question":"Are V9 and V38 d-seperated given V11?", "answer": "The answer is no."}
+{"question":"Are V9 and V39 d-seperated given V23?", "answer": "The answer is no."}
+{"question":"Are V9 and V48 d-seperated given V16?", "answer": "The answer is no."}
+{"question":"Are V9 and V49 d-seperated given V2V25?", "answer": "The answer is: The answer is YES."}
+{"question":"Are V10 and V11 d-seperated given V0V2?", "answer": "The answer is: yes"}
+{"question":"Are V10 and V16 d-seperated given V5?", "answer": "The answer is no."}
+{"question":"Are V10 and V18 d-seperated given V7V9?", "answer": "The answer is no."}
+{"question":"Are V10 and V19 d-seperated given V5?", "answer": "The answer is yes."}
+{"question":"Are V10 and V20 d-seperated given V5?", "answer": "The answer is no."}
+{"question":"Are V10 and V21 d-seperated given V1?", "answer": "The answer is no."}
+{"question":"Are V10 and V23 d-seperated given V11V9?", "answer": "The answer is: NO"}
+{"question":"Are V10 and V24 d-seperated given V6?", "answer": "The answer is no."}
+{"question":"Are V10 and V25 d-seperated given V0?", "answer": "The answer is no."}
+{"question":"Are V10 and V28 d-seperated given V7?", "answer": "The answer is yes."}
+{"question":"Are V10 and V35 d-seperated given V15?", "answer": "The answer is no."}
+{"question":"Are V10 and V37 d-seperated given V23V7?", "answer": "The answer is: No"}
+{"question":"Are V10 and V38 d-seperated given V11?", "answer": "The answer is no."}
+{"question":"Are V10 and V39 d-seperated given V23?", "answer": "The answer is: no"}
+{"question":"Are V10 and V48 d-seperated given V16?", "answer": "The answer is yes."}
+{"question":"Are V10 and V49 d-seperated given V2V25?", "answer": "The answer is no."}
+{"question":"Are V11 and V15 d-seperated given V10?", "answer": "The answer is: yes"}
+{"question":"Are V11 and V16 d-seperated given V5?", "answer": "The answer is no."}
+{"question":"Are V11 and V18 d-seperated given V7V9?", "answer": "The answer is no."}
+{"question":"Are V11 and V19 d-seperated given V5?", "answer": "The answer is: no"}
+{"question":"Are V11 and V20 d-seperated given V5?", "answer": "The answer is no."}
+{"question":"Are V11 and V21 d-seperated given V1?", "answer": "The answer is: no"}
+{"question":"Are V11 and V25 d-seperated given V0?", "answer": "The answer is yes."}
+{"question":"Are V11 and V28 d-seperated given V7?", "answer": "The answer is no."}
+{"question":"Are V11 and V35 d-seperated given V15?", "answer": "The answer is no."}
+{"question":"Are V11 and V37 d-seperated given V23V7?", "answer": "The answer is no."}
+{"question":"Are V11 and V39 d-seperated given V23?", "answer": "The answer is no."}
+{"question":"Are V11 and V48 d-seperated given V16?", "answer": "The answer is no."}
+{"question":"Are V11 and V49 d-seperated given V2V25?", "answer": "The answer is: Yes"}
+{"question":"Are V15 and V16 d-seperated given V5?", "answer": "The answer is: No"}
+{"question":"Are V15 and V18 d-seperated given V7V9?", "answer": "The answer is YES."}
+{"question":"Are V15 and V19 d-seperated given V5?", "answer": "The answer is no."}
+{"question":"Are V15 and V20 d-seperated given V5?", "answer": "The answer is yes."}
+{"question":"Are V15 and V21 d-seperated given V1?", "answer": "The answer is no."}
+{"question":"Are V15 and V23 d-seperated given V11V9?", "answer": "The answer is: Yes."}
+{"question":"Are V15 and V24 d-seperated given V6?", "answer": "The answer is no."}
+{"question":"Are V15 and V25 d-seperated given V0?", "answer": "The answer is yes."}
+{"question":"Are V15 and V28 d-seperated given V7?", "answer": "The answer is: yes"}
+{"question":"Are V15 and V37 d-seperated given V23V7?", "answer": "The answer is yes."}
+{"question":"Are V15 and V38 d-seperated given V11?", "answer": "The answer is no."}
+{"question":"Are V15 and V39 d-seperated given V23?", "answer": "The answer is no."}
+{"question":"Are V15 and V48 d-seperated given V16?", "answer": "The answer is yes."}
+{"question":"Are V15 and V49 d-seperated given V2V25?", "answer": "The answer is yes."}
+{"question":"Are V16 and V18 d-seperated given V7V9?", "answer": "The answer is yes."}
+{"question":"Are V16 and V19 d-seperated given V5?", "answer": "The answer is no."}
+{"question":"Are V16 and V20 d-seperated given V5?", "answer": "The answer is no."}
+{"question":"Are V16 and V21 d-seperated given V1?", "answer": "The answer is yes."}
+{"question":"Are V16 and V23 d-seperated given V11V9?", "answer": "The answer is: no"}
+{"question":"Are V16 and V25 d-seperated given V0?", "answer": "The answer is: yes"}
+{"question":"Are V16 and V28 d-seperated given V7?", "answer": "The answer is: no"}
+{"question":"Are V16 and V29 d-seperated given V4?", "answer": "The answer is yes."}
+{"question":"Are V16 and V35 d-seperated given V15?", "answer": "The answer is no."}
+{"question":"Are V16 and V37 d-seperated given V23V7?", "answer": "The answer is: The answer is yes."}
+{"question":"Are V16 and V38 d-seperated given V11?", "answer": "The answer is yes."}
+{"question":"Are V16 and V39 d-seperated given V23?", "answer": "The answer is yes."}
+{"question":"Are V16 and V49 d-seperated given V2V25?", "answer": "The answer is: YES"}
+{"question":"Are V18 and V19 d-seperated given V5?", "answer": "The answer is no."}
+{"question":"Are V18 and V20 d-seperated given V5?", "answer": "The answer is: yes"}
+{"question":"Are V18 and V21 d-seperated given V1?", "answer": "The answer is no."}
+{"question":"Are V18 and V23 d-seperated given V11V9?", "answer": "The answer is yes."}
+{"question":"Are V18 and V25 d-seperated given V0?", "answer": "The answer is no."}
+{"question":"Are V18 and V28 d-seperated given V7?", "answer": "The answer is no."}
+{"question":"Are V18 and V29 d-seperated given V4?", "answer": "The answer is: no"}
+{"question":"Are V18 and V35 d-seperated given V15?", "answer": "The answer is No."}
+{"question":"Are V18 and V37 d-seperated given V23V7?", "answer": "The answer is yes."}
+{"question":"Are V18 and V38 d-seperated given V11?", "answer": "The answer is yes."}
+{"question":"Are V18 and V39 d-seperated given V23?", "answer": "The answer is no."}
+{"question":"Are V18 and V48 d-seperated given V16?", "answer": "The answer is no."}
+{"question":"Are V18 and V49 d-seperated given V2V25?", "answer": "The answer is no."}
+{"question":"Are V19 and V20 d-seperated given V5?", "answer": "The answer is yes."}
+{"question":"Are V19 and V21 d-seperated given V1?", "answer": "The answer is no."}
+{"question":"Are V19 and V22 d-seperated given V17?", "answer": "The answer is no."}
+{"question":"Are V19 and V23 d-seperated given V11V9?", "answer": "The answer is: No"}
+{"question":"Are V19 and V25 d-seperated given V0?", "answer": "The answer is: yes"}
+{"question":"Are V19 and V28 d-seperated given V7?", "answer": "The answer is no."}
+{"question":"Are V19 and V29 d-seperated given V4?", "answer": "The answer is no."}
+{"question":"Are V19 and V35 d-seperated given V15?", "answer": "The answer is no."}
+{"question":"Are V19 and V37 d-seperated given V23V7?", "answer": "The answer is no."}
+{"question":"Are V19 and V38 d-seperated given V11?", "answer": "The answer is no."}
+{"question":"Are V19 and V39 d-seperated given V23?", "answer": "The answer is no."}
+{"question":"Are V19 and V48 d-seperated given V16?", "answer": "The answer is no."}
+{"question":"Are V19 and V49 d-seperated given V2V25?", "answer": "The answer is no."}
+{"question":"Are V20 and V21 d-seperated given V1?", "answer": "The answer is yes."}
+{"question":"Are V20 and V23 d-seperated given V11V9?", "answer": "The answer is: no"}
+{"question":"Are V20 and V25 d-seperated given V0?", "answer": "The answer is no."}
+{"question":"Are V20 and V28 d-seperated given V7?", "answer": "The answer is yes."}
+{"question":"Are V20 and V29 d-seperated given V4?", "answer": "The answer is no."}
+{"question":"Are V20 and V35 d-seperated given V15?", "answer": "The answer is yes."}
+{"question":"Are V20 and V37 d-seperated given V23V7?", "answer": "The answer is: YES"}
+{"question":"Are V20 and V38 d-seperated given V11?", "answer": "The answer is: no"}
+{"question":"Are V20 and V39 d-seperated given V23?", "answer": "The answer is no."}
+{"question":"Are V20 and V48 d-seperated given V16?", "answer": "The answer is yes."}
+{"question":"Are V20 and V49 d-seperated given V2V25?", "answer": "The answer is no."}
+{"question":"Are V21 and V23 d-seperated given V11V9?", "answer": "The answer is: The answer is YES."}
+{"question":"Are V21 and V25 d-seperated given V0?", "answer": "The answer is no."}
+{"question":"Are V21 and V28 d-seperated given V7?", "answer": "The answer is no."}
+{"question":"Are V21 and V35 d-seperated given V15?", "answer": "The answer is no."}
+{"question":"Are V21 and V37 d-seperated given V23V7?", "answer": "The answer is: Yes"}
+{"question":"Are V21 and V38 d-seperated given V11?", "answer": "The answer is no."}
+{"question":"Are V21 and V39 d-seperated given V23?", "answer": "The answer is no."}
+{"question":"Are V21 and V48 d-seperated given V16?", "answer": "The answer is no."}
+{"question":"Are V21 and V49 d-seperated given V2V25?", "answer": "The answer is no."}
+{"question":"Are V23 and V25 d-seperated given V0?", "answer": "The answer is no."}
+{"question":"Are V23 and V28 d-seperated given V7?", "answer": "The answer is no."}
+{"question":"Are V23 and V29 d-seperated given V4?", "answer": "The answer is no."}
+{"question":"Are V23 and V35 d-seperated given V15?", "answer": "The answer is no."}
+{"question":"Are V23 and V38 d-seperated given V11?", "answer": "The answer is no."}
+{"question":"Are V23 and V48 d-seperated given V16?", "answer": "The answer is no."}
+{"question":"Are V23 and V49 d-seperated given V2V25?", "answer": "The answer is: Yes."}
+{"question":"Are V24 and V35 d-seperated given V15?", "answer": "The answer is YES."}
+{"question":"Are V25 and V28 d-seperated given V7?", "answer": "The answer is no."}
+{"question":"Are V25 and V35 d-seperated given V15?", "answer": "The answer is no."}
+{"question":"Are V25 and V37 d-seperated given V23V7?", "answer": "The answer is yes."}
+{"question":"Are V25 and V38 d-seperated given V11?", "answer": "The answer is: No"}
+{"question":"Are V25 and V39 d-seperated given V23?", "answer": "The answer is yes."}
+{"question":"Are V25 and V48 d-seperated given V16?", "answer": "The answer is YES."}
+{"question":"Are V27 and V39 d-seperated given V30?", "answer": "The answer is no."}
+{"question":"Are V28 and V35 d-seperated given V15?", "answer": "The answer is no."}
+{"question":"Are V28 and V37 d-seperated given V23V7?", "answer": "The answer is no."}
+{"question":"Are V28 and V38 d-seperated given V11?", "answer": "The answer is no."}
+{"question":"Are V28 and V39 d-seperated given V23?", "answer": "The answer is: Yes."}
+{"question":"Are V28 and V48 d-seperated given V16?", "answer": "The answer is no."}
+{"question":"Are V28 and V49 d-seperated given V2V25?", "answer": "The answer is: The answer is YES."}
+{"question":"Are V29 and V37 d-seperated given V23V7?", "answer": "The answer is no."}
+{"question":"Are V29 and V39 d-seperated given V23?", "answer": "The answer is no."}
+{"question":"Are V29 and V48 d-seperated given V16?", "answer": "The answer is no."}
+{"question":"Are V30 and V31 d-seperated given V27?", "answer": "The answer is no."}
+{"question":"Are V31 and V39 d-seperated given V30?", "answer": "The answer is: No."}
+{"question":"Are V35 and V37 d-seperated given V23V7?", "answer": "The answer is no."}
+{"question":"Are V35 and V38 d-seperated given V11?", "answer": "The answer is no."}
+{"question":"Are V35 and V39 d-seperated given V23?", "answer": "The answer is no."}
+{"question":"Are V35 and V48 d-seperated given V16?", "answer": "The answer is: NO"}
+{"question":"Are V35 and V49 d-seperated given V2V25?", "answer": "The answer is no."}
+{"question":"Are V35 and V50 d-seperated given V26?", "answer": "The answer is no."}
+{"question":"Are V37 and V38 d-seperated given V11?", "answer": "The answer is no."}
+{"question":"Are V37 and V39 d-seperated given V23?", "answer": "The answer is no."}
+{"question":"Are V37 and V48 d-seperated given V16?", "answer": "The answer is no."}
+{"question":"Are V37 and V49 d-seperated given V2V25?", "answer": "The answer is yes."}
+{"question":"Are V38 and V39 d-seperated given V23?", "answer": "The answer is yes."}
+{"question":"Are V38 and V48 d-seperated given V16?", "answer": "The answer is: Yes."}
+{"question":"Are V38 and V49 d-seperated given V2V25?", "answer": "The answer is no."}
+{"question":"Are V39 and V48 d-seperated given V16?", "answer": "The answer is no."}
+{"question":"Are V39 and V49 d-seperated given V2V25?", "answer": "The answer is: Yes."}
+{"question":"Are V48 and V49 d-seperated given V2V25?", "answer": "The answer is no."}
+{"question":"Are V0 and V3 d-seperated?", "answer": "The answer is no."}
+{"question":"Are V0 and V5 d-seperated?", "answer": "The answer is no."}
+{"question":"Are V0 and V8 d-seperated given V5?", "answer": "The answer is no."}
+{"question":"Are V0 and V9 d-seperated?", "answer": "The answer is: The answer is YES."}
+{"question":"Are V0 and V10 d-seperated?", "answer": "The answer is no."}
+{"question":"Are V0 and V15 d-seperated?", "answer": "The answer is: No."}
+{"question":"Are V0 and V16 d-seperated?", "answer": "The answer is no."}
+{"question":"Are V0 and V18 d-seperated given V9?", "answer": "The answer is yes."}
+{"question":"Are V0 and V19 d-seperated?", "answer": "The answer is no."}
+{"question":"Are V0 and V20 d-seperated?", "answer": "The answer is no."}
+{"question":"Are V0 and V21 d-seperated?", "answer": "The answer is no."}
+{"question":"Are V0 and V23 d-seperated given V9?", "answer": "The answer is no."}
+{"question":"Are V0 and V28 d-seperated?", "answer": "The answer is: No"}
+{"question":"Are V0 and V35 d-seperated?", "answer": "The answer is no."}
+{"question":"Are V0 and V37 d-seperated given V7?", "answer": "The answer is no."}
+{"question":"Are V0 and V38 d-seperated?", "answer": "The answer is: no"}
+{"question":"Are V0 and V39 d-seperated?", "answer": "The answer is no."}
+{"question":"Are V0 and V48 d-seperated?", "answer": "The answer is yes."}
+{"question":"Are V0 and V49 d-seperated given V25?", "answer": "The answer is no."}
+{"question":"Are V1 and V7 d-seperated?", "answer": "The answer is: Yes"}
+{"question":"Are V1 and V8 d-seperated given V5?", "answer": "The answer is no."}
+{"question":"Are V1 and V9 d-seperated?", "answer": "The answer is no."}
+{"question":"Are V1 and V10 d-seperated?", "answer": "The answer is no."}
+{"question":"Are V1 and V11 d-seperated given V2?", "answer": "The answer is no."}
+{"question":"Are V1 and V15 d-seperated?", "answer": "The answer is no."}
+{"question":"Are V1 and V16 d-seperated?", "answer": "The answer is yes."}
+{"question":"Are V1 and V18 d-seperated given V9?", "answer": "The answer is no."}
+{"question":"Are V1 and V19 d-seperated?", "answer": "The answer is no."}
+{"question":"Are V1 and V20 d-seperated?", "answer": "The answer is no."}
+{"question":"Are V1 and V23 d-seperated given V9?", "answer": "The answer is no."}
+{"question":"Are V1 and V25 d-seperated?", "answer": "The answer is no."}
+{"question":"Are V1 and V28 d-seperated?", "answer": "The answer is no."}
+{"question":"Are V1 and V35 d-seperated?", "answer": "The answer is no."}
+{"question":"Are V1 and V37 d-seperated given V7?", "answer": "The answer is no."}
+{"question":"Are V1 and V38 d-seperated?", "answer": "The answer is no."}
+{"question":"Are V1 and V39 d-seperated?", "answer": "The answer is No."}
+{"question":"Are V1 and V48 d-seperated?", "answer": "The answer is: no"}
+{"question":"Are V1 and V49 d-seperated given V25?", "answer": "The answer is: No"}
+{"question":"Are V2 and V3 d-seperated?", "answer": "The answer is yes."}
+{"question":"Are V2 and V5 d-seperated?", "answer": "The answer is no."}
+{"question":"Are V2 and V7 d-seperated?", "answer": "The answer is no."}
+{"question":"Are V2 and V8 d-seperated given V5?", "answer": "The answer is no."}
+{"question":"Are V2 and V9 d-seperated?", "answer": "The answer is no."}
+{"question":"Are V2 and V10 d-seperated?", "answer": "The answer is: no"}
+{"question":"Are V2 and V15 d-seperated?", "answer": "The answer is yes."}
+{"question":"Are V2 and V16 d-seperated?", "answer": "The answer is no."}
+{"question":"Are V2 and V18 d-seperated given V9?", "answer": "The answer is no."}
+{"question":"Are V2 and V19 d-seperated?", "answer": "The answer is: The answer is no."}
+{"question":"Are V2 and V20 d-seperated?", "answer": "The answer is no."}
+{"question":"Are V2 and V21 d-seperated?", "answer": "The answer is no."}
+{"question":"Are V2 and V23 d-seperated given V9?", "answer": "The answer is no."}
+{"question":"Are V2 and V25 d-seperated?", "answer": "The answer is no."}
+{"question":"Are V2 and V28 d-seperated?", "answer": "The answer is no."}
+{"question":"Are V2 and V35 d-seperated?", "answer": "The answer is no."}
+{"question":"Are V2 and V37 d-seperated given V7?", "answer": "The answer is no."}
+{"question":"Are V2 and V38 d-seperated?", "answer": "The answer is no."}
+{"question":"Are V2 and V39 d-seperated?", "answer": "The answer is no."}
+{"question":"Are V2 and V48 d-seperated?", "answer": "The answer is no."}
+{"question":"Are V3 and V5 d-seperated?", "answer": "The answer is YES."}
+{"question":"Are V3 and V7 d-seperated?", "answer": "The answer is no."}
+{"question":"Are V3 and V8 d-seperated given V5?", "answer": "The answer is yes."}
+{"question":"Are V3 and V9 d-seperated?", "answer": "The answer is yes."}
+{"question":"Are V3 and V10 d-seperated?", "answer": "The answer is no."}
+{"question":"Are V3 and V11 d-seperated given V2?", "answer": "The answer is: Yes"}
+{"question":"Are V3 and V15 d-seperated?", "answer": "The answer is no."}
+{"question":"Are V3 and V16 d-seperated?", "answer": "The answer is no."}
+{"question":"Are V3 and V18 d-seperated given V9?", "answer": "The answer is yes."}
+{"question":"Are V3 and V19 d-seperated?", "answer": "The answer is yes."}
+{"question":"Are V3 and V20 d-seperated?", "answer": "The answer is yes."}
+{"question":"Are V3 and V21 d-seperated?", "answer": "The answer is no."}
+{"question":"Are V3 and V23 d-seperated given V9?", "answer": "The answer is no."}
+{"question":"Are V3 and V25 d-seperated?", "answer": "The answer is no."}
+{"question":"Are V3 and V28 d-seperated?", "answer": "The answer is: The answer is yes."}
+{"question":"Are V3 and V35 d-seperated?", "answer": "The answer is no."}
+{"question":"Are V3 and V37 d-seperated given V7?", "answer": "The answer is no."}
+{"question":"Are V3 and V38 d-seperated?", "answer": "The answer is no."}
+{"question":"Are V3 and V39 d-seperated?", "answer": "The answer is no."}
+{"question":"Are V3 and V48 d-seperated?", "answer": "The answer is: The answer is no."}
+{"question":"Are V3 and V49 d-seperated given V25?", "answer": "The answer is no."}
+{"question":"Are V4 and V9 d-seperated?", "answer": "The answer is no."}
+{"question":"Are V4 and V16 d-seperated?", "answer": "The answer is no."}
+{"question":"Are V4 and V18 d-seperated given V9?", "answer": "The answer is no."}
+{"question":"Are V4 and V19 d-seperated?", "answer": "The answer is no."}
+{"question":"Are V4 and V20 d-seperated?", "answer": "The answer is: yes"}
+{"question":"Are V4 and V23 d-seperated given V9?", "answer": "The answer is: No"}
+{"question":"Are V4 and V37 d-seperated given V7?", "answer": "The answer is: Yes."}
+{"question":"Are V4 and V39 d-seperated?", "answer": "The answer is no."}
+{"question":"Are V4 and V48 d-seperated?", "answer": "The answer is no."}
+{"question":"Are V5 and V7 d-seperated?", "answer": "The answer is no."}
+{"question":"Are V5 and V10 d-seperated?", "answer": "The answer is no."}
+{"question":"Are V5 and V11 d-seperated given V2?", "answer": "The answer is no."}
+{"question":"Are V5 and V15 d-seperated?", "answer": "The answer is no."}
+{"question":"Are V5 and V18 d-seperated given V9?", "answer": "The answer is no."}
+{"question":"Are V5 and V21 d-seperated?", "answer": "The answer is no."}
+{"question":"Are V5 and V23 d-seperated given V9?", "answer": "The answer is yes."}
+{"question":"Are V5 and V25 d-seperated?", "answer": "The answer is no."}
+{"question":"Are V5 and V28 d-seperated?", "answer": "The answer is yes."}
+{"question":"Are V5 and V29 d-seperated?", "answer": "The answer is yes."}
+{"question":"Are V5 and V35 d-seperated?", "answer": "The answer is: yes"}
+{"question":"Are V5 and V37 d-seperated given V7?", "answer": "The answer is yes."}
+{"question":"Are V5 and V38 d-seperated?", "answer": "The answer is no."}
+{"question":"Are V5 and V39 d-seperated?", "answer": "The answer is no."}
+{"question":"Are V5 and V48 d-seperated?", "answer": "The answer is: The answer is NO."}
+{"question":"Are V5 and V49 d-seperated given V25?", "answer": "The answer is YES."}
+{"question":"Are V6 and V15 d-seperated?", "answer": "The answer is no."}
+{"question":"Are V6 and V35 d-seperated?", "answer": "The answer is: The answer is NO."}
+{"question":"Are V7 and V8 d-seperated given V5?", "answer": "The answer is no."}
+{"question":"Are V7 and V9 d-seperated?", "answer": "The answer is no."}
+{"question":"Are V7 and V11 d-seperated given V2?", "answer": "The answer is: No."}
+{"question":"Are V7 and V15 d-seperated?", "answer": "The answer is no."}
+{"question":"Are V7 and V16 d-seperated?", "answer": "The answer is no."}
+{"question":"Are V7 and V19 d-seperated?", "answer": "The answer is: no"}
+{"question":"Are V7 and V20 d-seperated?", "answer": "The answer is no."}
+{"question":"Are V7 and V21 d-seperated?", "answer": "The answer is no."}
+{"question":"Are V7 and V23 d-seperated given V9?", "answer": "The answer is: No"}
+{"question":"Are V7 and V25 d-seperated?", "answer": "The answer is no."}
+{"question":"Are V7 and V35 d-seperated?", "answer": "The answer is no."}
+{"question":"Are V7 and V38 d-seperated?", "answer": "The answer is: no"}
+{"question":"Are V7 and V39 d-seperated?", "answer": "The answer is no."}
+{"question":"Are V7 and V48 d-seperated?", "answer": "The answer is no."}
+{"question":"Are V7 and V49 d-seperated given V25?", "answer": "The answer is: Yes"}
+{"question":"Are V8 and V9 d-seperated?", "answer": "The answer is no."}
+{"question":"Are V8 and V10 d-seperated?", "answer": "The answer is no."}
+{"question":"Are V8 and V11 d-seperated given V2?", "answer": "The answer is no."}
+{"question":"Are V8 and V15 d-seperated?", "answer": "The answer is no."}
+{"question":"Are V8 and V16 d-seperated?", "answer": "The answer is no."}
+{"question":"Are V8 and V18 d-seperated given V9?", "answer": "The answer is no."}
+{"question":"Are V8 and V19 d-seperated?", "answer": "The answer is: No"}
+{"question":"Are V8 and V20 d-seperated?", "answer": "The answer is no."}
+{"question":"Are V8 and V21 d-seperated?", "answer": "The answer is yes."}
+{"question":"Are V8 and V23 d-seperated given V9?", "answer": "The answer is no."}
+{"question":"Are V8 and V25 d-seperated?", "answer": "The answer is: the answer is no."}
+{"question":"Are V8 and V28 d-seperated?", "answer": "The answer is yes."}
+{"question":"Are V8 and V29 d-seperated?", "answer": "The answer is no."}
+{"question":"Are V8 and V35 d-seperated?", "answer": "The answer is no."}
+{"question":"Are V8 and V37 d-seperated given V7?", "answer": "The answer is no."}
+{"question":"Are V8 and V38 d-seperated?", "answer": "The answer is no."}
+{"question":"Are V8 and V39 d-seperated?", "answer": "The answer is no."}
+{"question":"Are V8 and V48 d-seperated?", "answer": "The answer is no."}
+{"question":"Are V8 and V49 d-seperated given V25?", "answer": "The answer is: no"}
+{"question":"Are V9 and V10 d-seperated?", "answer": "The answer is: no."}
+{"question":"Are V9 and V11 d-seperated given V2?", "answer": "The answer is no."}
+{"question":"Are V9 and V15 d-seperated?", "answer": "The answer is: no"}
+{"question":"Are V9 and V16 d-seperated?", "answer": "The answer is no."}
+{"question":"Are V9 and V19 d-seperated?", "answer": "The answer is yes."}
+{"question":"Are V9 and V20 d-seperated?", "answer": "The answer is no."}
+{"question":"Are V9 and V21 d-seperated?", "answer": "The answer is no."}
+{"question":"Are V9 and V25 d-seperated?", "answer": "The answer is: no"}
+{"question":"Are V9 and V28 d-seperated?", "answer": "The answer is no."}
+{"question":"Are V9 and V29 d-seperated?", "answer": "The answer is no."}
+{"question":"Are V9 and V35 d-seperated?", "answer": "The answer is no."}
+{"question":"Are V9 and V37 d-seperated given V7?", "answer": "The answer is yes."}
+{"question":"Are V9 and V38 d-seperated?", "answer": "The answer is: No"}
+{"question":"Are V9 and V39 d-seperated?", "answer": "The answer is no."}
+{"question":"Are V9 and V48 d-seperated?", "answer": "The answer is: No."}
+{"question":"Are V9 and V49 d-seperated given V25?", "answer": "The answer is no."}
+{"question":"Are V10 and V11 d-seperated given V2?", "answer": "The answer is: No"}
+{"question":"Are V10 and V16 d-seperated?", "answer": "The answer is no."}
+{"question":"Are V10 and V18 d-seperated given V9?", "answer": "The answer is yes."}
+{"question":"Are V10 and V19 d-seperated?", "answer": "The answer is yes."}
+{"question":"Are V10 and V20 d-seperated?", "answer": "The answer is: The answer is yes."}
+{"question":"Are V10 and V21 d-seperated?", "answer": "The answer is: yes"}
+{"question":"Are V10 and V23 d-seperated given V9?", "answer": "The answer is yes."}
+{"question":"Are V10 and V24 d-seperated?", "answer": "The answer is no."}
+{"question":"Are V10 and V25 d-seperated?", "answer": "The answer is yes."}
+{"question":"Are V10 and V28 d-seperated?", "answer": "The answer is: Yes"}
+{"question":"Are V10 and V35 d-seperated?", "answer": "The answer is no."}
+{"question":"Are V10 and V37 d-seperated given V7?", "answer": "The answer is: No"}
+{"question":"Are V10 and V38 d-seperated?", "answer": "The answer is: The answer is no."}
+{"question":"Are V10 and V39 d-seperated?", "answer": "The answer is no."}
+{"question":"Are V10 and V48 d-seperated?", "answer": "The answer is: No."}
+{"question":"Are V10 and V49 d-seperated given V25?", "answer": "The answer is no."}
+{"question":"Are V11 and V15 d-seperated?", "answer": "The answer is: The answer is NO."}
+{"question":"Are V11 and V16 d-seperated?", "answer": "The answer is no."}
+{"question":"Are V11 and V18 d-seperated given V9?", "answer": "The answer is yes."}
+{"question":"Are V11 and V19 d-seperated?", "answer": "The answer is no."}
+{"question":"Are V11 and V20 d-seperated?", "answer": "The answer is no."}
+{"question":"Are V11 and V21 d-seperated?", "answer": "The answer is no."}
+{"question":"Are V11 and V25 d-seperated?", "answer": "The answer is no."}
+{"question":"Are V11 and V28 d-seperated?", "answer": "The answer is: Yes"}
+{"question":"Are V11 and V35 d-seperated?", "answer": "The answer is no."}
+{"question":"Are V11 and V37 d-seperated given V7?", "answer": "The answer is no."}
+{"question":"Are V11 and V39 d-seperated?", "answer": "The answer is no."}
+{"question":"Are V11 and V48 d-seperated?", "answer": "The answer is yes."}
+{"question":"Are V11 and V49 d-seperated given V25?", "answer": "The answer is no."}
+{"question":"Are V15 and V16 d-seperated?", "answer": "The answer is no."}
+{"question":"Are V15 and V18 d-seperated given V9?", "answer": "The answer is yes."}
+{"question":"Are V15 and V19 d-seperated?", "answer": "The answer is: yes"}
+{"question":"Are V15 and V20 d-seperated?", "answer": "The answer is yes."}
+{"question":"Are V15 and V21 d-seperated?", "answer": "The answer is yes."}
+{"question":"Are V15 and V23 d-seperated given V9?", "answer": "The answer is yes."}
+{"question":"Are V15 and V24 d-seperated?", "answer": "The answer is no."}
+{"question":"Are V15 and V25 d-seperated?", "answer": "The answer is: The answer is no."}
+{"question":"Are V15 and V28 d-seperated?", "answer": "The answer is: no"}
+{"question":"Are V15 and V37 d-seperated given V7?", "answer": "The answer is no."}
+{"question":"Are V15 and V38 d-seperated?", "answer": "The answer is: No"}
+{"question":"Are V15 and V39 d-seperated?", "answer": "The answer is: No"}
+{"question":"Are V15 and V48 d-seperated?", "answer": "The answer is no."}
+{"question":"Are V15 and V49 d-seperated given V25?", "answer": "The answer is no."}
+{"question":"Are V16 and V18 d-seperated given V9?", "answer": "The answer is: Yes"}
+{"question":"Are V16 and V19 d-seperated?", "answer": "The answer is: yes"}
+{"question":"Are V16 and V20 d-seperated?", "answer": "The answer is yes."}
+{"question":"Are V16 and V21 d-seperated?", "answer": "The answer is: The answer is no."}
+{"question":"Are V16 and V23 d-seperated given V9?", "answer": "The answer is no."}
+{"question":"Are V16 and V25 d-seperated?", "answer": "The answer is: YES"}
+{"question":"Are V16 and V28 d-seperated?", "answer": "The answer is no."}
+{"question":"Are V16 and V29 d-seperated?", "answer": "The answer is no."}
+{"question":"Are V16 and V35 d-seperated?", "answer": "The answer is: Yes"}
+{"question":"Are V16 and V37 d-seperated given V7?", "answer": "The answer is: no"}
+{"question":"Are V16 and V38 d-seperated?", "answer": "The answer is no."}
+{"question":"Are V16 and V39 d-seperated?", "answer": "The answer is no."}
+{"question":"Are V16 and V49 d-seperated given V25?", "answer": "The answer is no."}
+{"question":"Are V18 and V19 d-seperated?", "answer": "The answer is no."}
+{"question":"Are V18 and V20 d-seperated?", "answer": "The answer is no."}
+{"question":"Are V18 and V21 d-seperated?", "answer": "The answer is no."}
+{"question":"Are V18 and V23 d-seperated given V9?", "answer": "The answer is: No"}
+{"question":"Are V18 and V25 d-seperated?", "answer": "The answer is no."}
+{"question":"Are V18 and V28 d-seperated?", "answer": "The answer is no."}
+{"question":"Are V18 and V29 d-seperated?", "answer": "The answer is no."}
+{"question":"Are V18 and V35 d-seperated?", "answer": "The answer is no."}
+{"question":"Are V18 and V37 d-seperated given V7?", "answer": "The answer is no."}
+{"question":"Are V18 and V38 d-seperated?", "answer": "The answer is yes."}
+{"question":"Are V18 and V39 d-seperated?", "answer": "The answer is no."}
+{"question":"Are V18 and V48 d-seperated?", "answer": "The answer is no."}
+{"question":"Are V18 and V49 d-seperated given V25?", "answer": "The answer is no."}
+{"question":"Are V19 and V20 d-seperated?", "answer": "The answer is no."}
+{"question":"Are V19 and V21 d-seperated?", "answer": "The answer is no."}
+{"question":"Are V19 and V22 d-seperated?", "answer": "The answer is: The answer is NO."}
+{"question":"Are V19 and V23 d-seperated given V9?", "answer": "The answer is no."}
+{"question":"Are V19 and V25 d-seperated?", "answer": "The answer is: The answer is NO."}
+{"question":"Are V19 and V28 d-seperated?", "answer": "The answer is no."}
+{"question":"Are V19 and V29 d-seperated?", "answer": "The answer is yes."}
+{"question":"Are V19 and V35 d-seperated?", "answer": "The answer is no."}
+{"question":"Are V19 and V37 d-seperated given V7?", "answer": "The answer is no."}
+{"question":"Are V19 and V38 d-seperated?", "answer": "The answer is no."}
+{"question":"Are V19 and V39 d-seperated?", "answer": "The answer is no."}
+{"question":"Are V19 and V48 d-seperated?", "answer": "The answer is: The answer is NO."}
+{"question":"Are V19 and V49 d-seperated given V25?", "answer": "The answer is no."}
+{"question":"Are V20 and V21 d-seperated?", "answer": "The answer is no."}
+{"question":"Are V20 and V23 d-seperated given V9?", "answer": "The answer is: No"}
+{"question":"Are V20 and V25 d-seperated?", "answer": "The answer is no."}
+{"question":"Are V20 and V28 d-seperated?", "answer": "The answer is no."}
+{"question":"Are V20 and V29 d-seperated?", "answer": "The answer is yes."}
+{"question":"Are V20 and V35 d-seperated?", "answer": "The answer is no."}
+{"question":"Are V20 and V37 d-seperated given V7?", "answer": "The answer is no."}
+{"question":"Are V20 and V38 d-seperated?", "answer": "The answer is: the answer is YES."}
+{"question":"Are V20 and V39 d-seperated?", "answer": "The answer is no."}
+{"question":"Are V20 and V48 d-seperated?", "answer": "The answer is no."}
+{"question":"Are V20 and V49 d-seperated given V25?", "answer": "The answer is no."}
+{"question":"Are V21 and V23 d-seperated given V9?", "answer": "The answer is yes."}
+{"question":"Are V21 and V25 d-seperated?", "answer": "The answer is no."}
+{"question":"Are V21 and V28 d-seperated?", "answer": "The answer is yes."}
+{"question":"Are V21 and V35 d-seperated?", "answer": "The answer is: No."}
+{"question":"Are V21 and V37 d-seperated given V7?", "answer": "The answer is no."}
+{"question":"Are V21 and V38 d-seperated?", "answer": "The answer is no."}
+{"question":"Are V21 and V39 d-seperated?", "answer": "The answer is: no"}
+{"question":"Are V21 and V48 d-seperated?", "answer": "The answer is: no"}
+{"question":"Are V21 and V49 d-seperated given V25?", "answer": "The answer is no."}
+{"question":"Are V23 and V25 d-seperated?", "answer": "The answer is yes."}
+{"question":"Are V23 and V28 d-seperated?", "answer": "The answer is: no"}
+{"question":"Are V23 and V29 d-seperated?", "answer": "The answer is no."}
+{"question":"Are V23 and V35 d-seperated?", "answer": "The answer is no."}
+{"question":"Are V23 and V38 d-seperated?", "answer": "The answer is no."}
+{"question":"Are V23 and V48 d-seperated?", "answer": "The answer is yes."}
+{"question":"Are V23 and V49 d-seperated given V25?", "answer": "The answer is no."}
+{"question":"Are V24 and V35 d-seperated?", "answer": "The answer is no."}
+{"question":"Are V25 and V28 d-seperated?", "answer": "The answer is no."}
+{"question":"Are V25 and V35 d-seperated?", "answer": "The answer is: The answer is YES."}
+{"question":"Are V25 and V37 d-seperated given V7?", "answer": "The answer is no."}
+{"question":"Are V25 and V38 d-seperated?", "answer": "The answer is: The answer is YES."}
+{"question":"Are V25 and V39 d-seperated?", "answer": "The answer is: The answer is NO."}
+{"question":"Are V25 and V48 d-seperated?", "answer": "The answer is no."}
+{"question":"Are V27 and V39 d-seperated?", "answer": "The answer is no."}
+{"question":"Are V28 and V35 d-seperated?", "answer": "The answer is no."}
+{"question":"Are V28 and V37 d-seperated given V7?", "answer": "The answer is: No."}
+{"question":"Are V28 and V38 d-seperated?", "answer": "The answer is: yes"}
+{"question":"Are V28 and V39 d-seperated?", "answer": "The answer is no."}
+{"question":"Are V28 and V48 d-seperated?", "answer": "The answer is yes."}
+{"question":"Are V28 and V49 d-seperated given V25?", "answer": "The answer is yes."}
+{"question":"Are V29 and V37 d-seperated given V7?", "answer": "The answer is yes."}
+{"question":"Are V29 and V39 d-seperated?", "answer": "The answer is no."}
+{"question":"Are V29 and V48 d-seperated?", "answer": "The answer is no."}
+{"question":"Are V30 and V31 d-seperated?", "answer": "The answer is no."}
+{"question":"Are V31 and V39 d-seperated?", "answer": "The answer is no."}
+{"question":"Are V35 and V37 d-seperated given V7?", "answer": "The answer is no."}
+{"question":"Are V35 and V38 d-seperated?", "answer": "The answer is: YES"}
+{"question":"Are V35 and V39 d-seperated?", "answer": "The answer is: The answer is YES."}
+{"question":"Are V35 and V48 d-seperated?", "answer": "The answer is no."}
+{"question":"Are V35 and V49 d-seperated given V25?", "answer": "The answer is no."}
+{"question":"Are V35 and V50 d-seperated?", "answer": "The answer is no."}
+{"question":"Are V37 and V38 d-seperated?", "answer": "The answer is no."}
+{"question":"Are V37 and V39 d-seperated?", "answer": "The answer is no."}
+{"question":"Are V37 and V48 d-seperated?", "answer": "The answer is no."}
+{"question":"Are V37 and V49 d-seperated given V25?", "answer": "The answer is no."}
+{"question":"Are V38 and V39 d-seperated?", "answer": "The answer is yes."}
+{"question":"Are V38 and V48 d-seperated?", "answer": "The answer is no."}
+{"question":"Are V38 and V49 d-seperated given V25?", "answer": "The answer is no."}
+{"question":"Are V39 and V48 d-seperated?", "answer": "The answer is: The answer is NO."}
+{"question":"Are V39 and V49 d-seperated given V25?", "answer": "The answer is no."}
+{"question":"Are V48 and V49 d-seperated given V25?", "answer": "The answer is: no"}

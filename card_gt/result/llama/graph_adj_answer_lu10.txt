@@ -1,0 +1,37 @@
+Based on the given response, here are the neighbors for each node:
+
+Neighbors of V0 are V1, V30.
+Neighbors of V1 are V2.
+Neighbors of V2 are V18, V19.
+Neighbors of V3 are V5, V21, V32.
+Neighbors of V4 are V26.
+Neighbors of V5 are V27, V34.
+Neighbors of V7 are V8, V9, V14.
+Neighbors of V8 are V26, V35, V49.
+Neighbors of V9 are V10, V15, V18, V30.
+Neighbors of V10 are V17, V32.
+Neighbors of V11 are V15, V29, V37.
+Neighbors of V13 are V20.
+Neighbors of V14 are V20, V21.
+Neighbors of V15 are V25, V9.
+Neighbors of V17 are V39.
+Neighbors of V20 are V37.
+Neighbors of V21 are V27.
+Neighbors of V22 are V24.
+Neighbors of V23 are V41.
+Neighbors of V27 are V44, V49.
+Neighbors of V28 are V42.
+Neighbors of V29 are V33.
+Neighbors of V30 are V44.
+Neighbors of V31 are V35.
+Neighbors of V34 are V42.
+Neighbors of V36 are V40.
+Neighbors of V41 are V47.
+Neighbors of V42 are None.
+Neighbors of V43 are None.
+Neighbors of V44 are V8, V27, V49.
+Neighbors of V45 are None.
+Neighbors of V46 are None.
+Neighbors of V47 are None.
+Neighbors of V48 are None.
+Neighbors of V49 are V8, V27, V44.
