@@ -10,7 +10,7 @@ def get_gt_intervention_distribution(gcm_gt, causal_model_gt,sim_seed,sz=1000):
     np.random.seed(77)
     intervention_ls = np.random.randn(51)*5
 
-    with open(f'./data/table/intervention_{sim_seed}_gt.txt', 'w') as file:
+    with open(cwd+f'/data/table/intervention_{sim_seed}_gt.txt', 'w') as file:
         for inv_dim in range(51):
             itvn = intervention_ls[inv_dim]
             res = np.mean(interv_gen(gcm_gt, causal_model_gt,inv_dim,itvn,sz),axis=0)
