@@ -173,8 +173,13 @@ python eva_causal_table_cdir.py --cm lu --llm llama --input_type table
 ### Generating questions and answers for causal inference tasks
 Open task_cf_intv.ipynb and run code the block for generating questions and answers for causal inference tasks.
 
-* Generating intervention inference questions and answers 
+* Generating intervention inference questions  
 * Generating counterfactual inference questions and answers
+* Generating inervention inference answer with the following code:
+```
+cd card_gt  
+python inter_gt.py --cm lu
+```
 
 ### Applying LLMs to the causal inference tasks
 **Intervention inferece**
