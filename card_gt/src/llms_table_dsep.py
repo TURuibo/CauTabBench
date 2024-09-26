@@ -6,7 +6,7 @@ from src.utils import *
 
 
 def load_task(graph_id,input_type):
-    with open(f'./benchmark/{input_type}/{graph_id}_questions.txt', 'r') as file:
+    with open(cwd+f'/data/{input_type}/{graph_id}_questions.txt', 'r') as file:
         questions_ls = file.readlines()
     return questions_ls
 

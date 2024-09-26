@@ -31,6 +31,30 @@ It includes benchmarking tasks from the perspectives of causal graph reasoning, 
 
 ##  Measuring knowledge discovery ability of LLM
 
+### Conditional independence estimation 
+
+**Generating benchmark data**
+Open task_cf_intv.ipynb and run code the block for generating questions and answers.
+* Knowledge discovery: Generating conditional independence questions and answers
+
+**Applying LLMs to the task**
+```
+cd card_gt  
+python src/llm_table_desp.py --llm llama  --max_new_tokens 10 --sim_seed 10  --input_type table --max_table_rows 50 --batch_size 1
+```
+
+* max_new_tokens: number of maximum generated tokens
+* sim_seed: the index of causal graphs
+* input_type: input data type for inference, 'table' or 'graph' 
+* max_table_rows: the number of rows of input tables
+* batch_size: parameter for calling LLMs
+
+**Evaluation**
+``` 
+cd card_gt  
+python eva_causal_table_cdir.py --cm lu --llm llama --input_type table
+```
+
 ### Causal direction estimation 
 
 **Generating benchmark data**
