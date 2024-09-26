@@ -2,8 +2,8 @@
 This is a repository for paper ["CARD-GT: Rethinking Language Model Capabilities for Causal Reasoning and Decision-Making Using Causal Graphs and Tabular Data"]().
 It includes benchmarking tasks from the perspectives of causal graph reasoning, knowledge discovery, and decision-making.
 
-CARD-GT
 ![alt text](https://github.com/TURuibo/CauTabBench/blob/main/card_gt/causal_benchmark.png "Overview")
+Our benchmark, CARD-GT, for evaluating LLMs on causal reasoning and decision making from three aspects, i.e., causal graph reasoning, knowledge discovery, and decision making. The left figure shows that a task consists of input data, such as causal graphs and tables, questions about causal statements, and ground-truth answers for evaluation. The right figure shows that each aspect has multiple tasks, e.g., the causal statements about adjacency matrix, d-separation, and causal direction, are used for causal graph reasoning and knowledge discovery evaluation and the statements about intervention and counterfactual reasoning are used for decision making evaluation.
 
 ```
 ├── task_performance_correlation.ipynb  <- correlation analysis of the performance of LLMs on different tasks
