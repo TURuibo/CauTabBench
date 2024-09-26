@@ -14,6 +14,7 @@ It includes benchmarking tasks from the perspectives of causal graph reasoning, 
 │   ├── ...
 │   └── table/     
 │   
+├── task_performance_correlation.ipynb  <- correlation analysis of the performance of LLMs on different tasks
 ├── task_cf_intv.ipynb               <- Generating benchmark data for causal graph reasoning, knowledge discovery, and decision-making tasks,  it also evaluates the results of decision-making task
 ├── eva_causal_graph_adj_cdir.py        <- Causal graph reasoning: evaluate adjacency matrix or dag estimation with causal  graphs as input
 ├── eva_causal_graph_dsep.py            <- Causal graph reasoning: evaluate d-separation estimation with causal graphs as input
