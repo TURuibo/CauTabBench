@@ -3,7 +3,7 @@ This is a repository for paper ["CARD-GT: Rethinking Language Model Capabilities
 It includes benchmarking tasks from the perspectives of causal graph reasoning, knowledge discovery, and decision-making.
 
 CARD-GT
-![alt text](https://github.com/TURuibo/CauTabBench/blob/main/benchmark.png "Overview")
+![alt text](https://github.com/TURuibo/CauTabBench/blob/main/card_gt/causal_benchmark.png "Overview")
 
 ```
 ├── task_performance_correlation.ipynb  <- correlation analysis of the performance of LLMs on different tasks
