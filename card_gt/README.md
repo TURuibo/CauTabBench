@@ -4,8 +4,10 @@ It includes benchmarking tasks from the perspectives of causal graph reasoning, 
 
 ├── .github              
 │
-├── task_cf_intv.ipynb <- Generating benchmark data for causal graph reasoning, knowledge discovery, and decision-making tasks,
-│                           <- it also evaluates the results of decision-making task
+├── task_cf_intv.ipynb               <- Generating benchmark data for causal graph reasoning, knowledge discovery, and decision-making tasks,
+│                                           <- it also evaluates the results of decision-making task
+├── eva_causal_table_cdir.py         <- Knowledge discovery: evaluate causal direction estimation of 
+
 ├── data/              <- Benchmark data
 │   ├── graph/         <- Causal graph reasoning tasks: questions and answers
 │   └── table/         <- Knolwedge discovery and decision making: questions and answers
@@ -36,6 +38,35 @@ It includes benchmarking tasks from the perspectives of causal graph reasoning, 
 * counterfactural inference: python card_gt/eva_counterfactural_llm.py --cm lu --sz 400 --llm qwen_100i --seed_sim 105
 
 
+
+
+## Knowledge discovery: 
+
+### Causal direction estimation 
+
+**Generating benchmark data**
+Open task_cf_intv.ipynb and run code the block for generating questions and answers.
+* Knowledge discovery: Generating causal direction questions
+All the answers to the question is yes.
+
+**Applying LLMs to the task**
+```
+cd card_gt  
+python src/llm_table_cdir.py --llm llama  --max_new_tokens 10 --sim_seed 10  --input_type table --max_table_rows 50 --batch_size 1
+```
+
+* max_new_tokens: number of maximum generated tokens
+* sim_seed: the index of causal graphs
+* input_type: input data type for inference, 'table' or 'graph' 
+* max_table_rows: the number of rows of input tables
+* batch_size: parameter for calling LLMs
+
+**Evaluation**
+``` 
+cd card_gt  
+python eva_causal_table_cdir.py --cm lu --llm llama --input_type table
+```
+
 ## Measuring Decision-making ability of LLM: 
 
 ### Generating questions and answers for causal inference tasks
@@ -46,10 +77,16 @@ Open task_cf_intv.ipynb and run code the block for generating questions and answ
 
 ### Applying LLMs to the causal inference tasks
 **Intervention inferece**
-```python llm_table_graph_inf.py --llm llama  --max_new_tokens 1000 --sim_seed 10  --input_type table --max_table_rows 50 --batch_size 1 ```
+```
+cd card_gt  
+python src/llm_table_graph_inf.py --llm llama  --max_new_tokens 1000 --sim_seed 10  --input_type table --max_table_rows 50 --batch_size 1 
+```
 
 **Counterfactual inferece**
-```python llm_table_graph_cf.py --llm llama  --max_new_tokens 1000 --sim_seed 10  --input_type table --max_table_rows 50 --batch_size 1 ```
+```
+cd card_gt  
+python src/llm_table_graph_cf.py --llm llama  --max_new_tokens 1000 --sim_seed 10  --input_type table --max_table_rows 50 --batch_size 1 
+```
 
 * max_new_tokens: number of maximum generated tokens
 * sim_seed: the index of causal graphs

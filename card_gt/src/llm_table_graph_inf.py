@@ -1,7 +1,7 @@
 import os,sys
-cwd = os.path.abspath(os.path.curdir)
+cwd = os.path.abspath(os.path.curdir) # /parent_dir/card_gt
 parent_dir = os.path.abspath(os.path.join(cwd, os.pardir))
-sys.path.append(cwd)  # workplace
+sys.path.append(cwd)  # workplace: ./CAUTABBENCH
 import time
 from src.utils import *
 
@@ -16,11 +16,11 @@ def load_causal_inference_task(input_type):
     return questions_ls
     
 def create_output_fiels(dataname,seed_sim,llm,result_path,prefix):
-    with open(parent_dir+f'/{result_path}/{llm}/{prefix}_intv_response_{dataname}{seed_sim}.txt', 'w') as file:
+    with open(cwd+f'/{result_path}/{llm}/{prefix}_intv_response_{dataname}{seed_sim}.txt', 'w') as file:
         file.write('')
     
 def save_results(dataname,seed_sim,llm,response_ls,result_path,prefix,questions):   
-    with open(parent_dir+f'/{result_path}/{llm}/{prefix}_intv_response_{dataname}{seed_sim}.txt', 'a') as file:
+    with open(cwd+f'/{result_path}/{llm}/{prefix}_intv_response_{dataname}{seed_sim}.txt', 'a') as file:
         for response,question in zip(response_ls,questions):
             response = response.replace('\n', '')
             file.write(f'{{"question":\"{question.rstrip()}\", "answer": \"{response}\"}}\n')

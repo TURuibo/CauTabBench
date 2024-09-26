@@ -2,11 +2,10 @@ import numpy as np
 import os,sys
 cwd = os.path.abspath(os.path.curdir)
 sys.path.append(cwd)  # workplace
-
-from utils.utils import get_args
+from src.utils import get_args
 
 def load_llm_answer(graph_id,result_path,llm,prefix):
-    with open(cwd+f'/card_gt{result_path}/{llm}/{prefix}_cdir_response_lu{graph_id}.txt', 'r') as file:
+    with open(cwd+f'{result_path}/{llm}/{prefix}_cdir_response_lu{graph_id}.txt', 'r') as file:
         answers = file.readlines()
 
     ans = []
@@ -35,10 +34,8 @@ if __name__ == "__main__":
     args = get_args()
     seed =args.seed # 29
     dataname = args.cm  # lg 
-    sz =args.sz # 15000
-    bt = args.bt  # 10
     llm = args.llm  # null
-    sim_seed = args.seed_sim   # 101
+    
     input_type =  args.input_type
 
 
