@@ -1,6 +1,27 @@
 # Introduction
-These are the codes for evaluating the quality of generated tabular data of LLMs.
+This is a repository for paper ["CARD-GT: Rethinking Language Model Capabilities for Causal Reasoning and Decision-Making Using Causal Graphs and Tabular Data"]().
+It includes benchmarking tasks from the perspectives of causal graph reasoning, knowledge discovery, and decision-making.
 
+├── .github              
+│
+├── task_cf_intv.ipynb <- Generating benchmark data for causal graph reasoning, knowledge discovery, and decision-making tasks,
+│                           <- it also evaluates the results of decision-making task
+├── data/              <- Benchmark data
+│   ├── graph/         <- Causal graph reasoning tasks: questions and answers
+│   └── table/         <- Knolwedge discovery and decision making: questions and answers
+│   
+├── results/           <- responses of LLms
+│   ├── llama/         
+│   ├── ...
+│   └── table/         
+│   
+├── src/                   <- Source code
+│   │
+│   ├── llm_table_graph_inf.py          <- using llms for intervention inference tasks
+│   ├── llm_table_graph_cf.py           <- using llms for counterfactual inference tasks
+│   ├── utils.py                        <- util functions
+│   └── ...                   <- Q1: Downloaded mistral source code
+│   
 
 # Usage
 * Generated tabular data: Given the benchmark dataset with causal graph and tabular data in " data/sim_lu/100", the corresponding generated tabular data should be saved in directory: "synthetic/sim_lu/100/qwen_100i.csv".  
