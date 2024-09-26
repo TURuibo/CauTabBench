@@ -3,23 +3,24 @@ This is a repository for paper ["CARD-GT: Rethinking Language Model Capabilities
 It includes benchmarking tasks from the perspectives of causal graph reasoning, knowledge discovery, and decision-making.
 
 ```
-├── .github              
-│
-├── data/              <- Benchmark data
-│   ├── graph/         <- Causal graph reasoning tasks: questions and answers
-│   └── table/         <- Knolwedge discovery and decision making: questions and answers
-│   
-├── results/           <- responses of LLms
-│   ├── llama/         
-│   ├── ...
-│   └── table/     
-│   
 ├── task_performance_correlation.ipynb  <- correlation analysis of the performance of LLMs on different tasks
 ├── task_cf_intv.ipynb               <- Generating benchmark data for causal graph reasoning, knowledge discovery, and decision-making tasks,  it also evaluates the results of decision-making task
 ├── eva_causal_graph_adj_cdir.py        <- Causal graph reasoning: evaluate adjacency matrix or dag estimation with causal  graphs as input
 ├── eva_causal_graph_dsep.py            <- Causal graph reasoning: evaluate d-separation estimation with causal graphs as input
 ├── eva_causal_table_dsep.py            <- Knowledge discovery: evaluate conditional independence estimation with tables as input
 ├── eva_causal_table_cdir.py            <- Knowledge discovery: evaluate causal direction estimation with tables as input
+│
+│
+├── data/              <- Benchmark data
+│   │
+│   ├── graph/         <- Causal graph reasoning tasks: questions and answers
+│   └── table/         <- Knolwedge discovery and decision making: questions and answers
+│   
+├── results/           <- responses of LLms
+│   │
+│   ├── llama/         
+│   ├── ...
+│   └── table/     
 │   
 ├── src/                   <- Source code
 │   │
@@ -33,6 +34,7 @@ It includes benchmarking tasks from the perspectives of causal graph reasoning, 
 │   └── utils.py                <- util functions
 │   
 ```
+# Benchmark for Causal Reasoning and Decision-Making
 
 ##  Measuring causal graph reasoning ability of LLM
 ### Adjacency matrix estimation 
