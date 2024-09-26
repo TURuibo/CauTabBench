@@ -1,32 +1,49 @@
 import os,sys
 cwd = os.path.abspath(os.path.curdir)
 sys.path.append(cwd)  # workplace
-
+import re
 import argparse
 import pandas as pd
 import numpy as np
 import torch
 import transformers
-
+import networkx as nx
+import numpy as np
+import pandas as pd
+from dowhy import gcm
+from causallearn.graph.Dag import Dag
+from causallearn.graph.GraphNode import GraphNode
 
 def get_args():
     parser = argparse.ArgumentParser(description='Pipeline')
+
     # General configs
+    parser.add_argument('--dataname', type=str, default='adult', help='Name of dataset.')
+    parser.add_argument('--mode', type=str, default='train', help='Mode: train or sample.')
+    parser.add_argument('--method', type=str, default='tabsyn', help='Method: tabsyn or baseline.')
+    parser.add_argument('--gpu', type=int, default=0, help='GPU index.')
     parser.add_argument('--seed',type=int, default=29)   
-    parser.add_argument('--sim_seed',type=int, default=109)   
-    parser.add_argument('--cm',type=str, default='lu')   
+    parser.add_argument('--cm',type=str, default='lg')   
     parser.add_argument('--bt',type=int, default=10)   
+    parser.add_argument('--n_nodes',type=int, default=51)   
+
+    parser.add_argument('--seed_sim',type=int, default=101)   
+    parser.add_argument('--llm',type=str, default='null')   
+    parser.add_argument('--n_nodes',type=int, default=10)   
+    parser.add_argument('--n_prt',type=int, default=2)   
+    parser.add_argument('--sz',type=int, default=19019)   
+    parser.add_argument('--noise_coeff',type=float, default=0.4)   
+    parser.add_argument('--input_type',type=str, default='graph')   
+    parser.add_argument('--task_type',type=str, default='null')   
     parser.add_argument('--max_table_rows',type=int, default=10)   
     parser.add_argument('--batch_size',type=int, default=10)
     parser.add_argument('--max_new_tokens',type=int, default=10000)   
     parser.add_argument('--prow_num',type=int, default=100)
-    parser.add_argument('--llm',type=str, default='null')
     parser.add_argument('--temperature',type=float, default=0.6)  
     parser.add_argument('--top_p',type=float, default=0.9) 
-    parser.add_argument('--input_type',type=str, default='graph')   
-    parser.add_argument('--result_path',type=str, default='/result')   
-    parser.add_argument('--task_type',type=str, default='null')   
+    parser.add_argument('--result_path',type=str, default='/result')       
     args = parser.parse_args()
+
     return args
 
 
@@ -294,3 +311,112 @@ def get_causal_inference_prompt_refinement(response_ls):
           }] for response in response_ls
         ]
     return messages
+
+
+# Evaluate Counterfactual and intervention inference
+
+def extract_yes_no(text):
+    # Use regular expressions to find occurrences of "yes" or "no" in the text
+    yes_no_responses = re.findall(r'\b(yes|no)\b', text, flags=re.IGNORECASE)
+    
+    # Normalize the responses to lower case (or capitalize as needed)
+    normalized_responses = [response.capitalize() for response in yes_no_responses]
+    
+    return normalized_responses
+
+
+def remove_quotes(input_str):
+    # Find the start of the "answer" field
+    start_index = input_str.find('"answer": "') + len('"answer": "')
+    
+    # Find the end of the answer field (next double quote after the value)
+    # end_index = input_str.find('"', start_index)
+    
+    # Extract the text after "answer": 
+    answer_text = input_str[start_index:].replace('"', '')
+    
+    return input_str[:start_index] + answer_text[:-2] +'"}'
+
+def remove_quotes_in_answer(input_str):
+    # Regex pattern to match the "answer" field content and remove quotes inside it
+    modified_str = re.sub(r'("answer":\s*")([^"]*)"', lambda m: m.group(1) + m.group(2).replace('"', '') + '"', input_str)
+    return modified_str
+
+
+def one_hot_encode_to_boolean(number, num_classes):
+    """
+    One-hot encode a number as boolean array.
+    
+    Args:
+    - number: The number to encode.
+    - num_classes: The total number of classes.
+    
+    Returns:
+    - one_hot_bool: The one-hot encoded boolean array.
+    """
+    one_hot_bool = np.zeros(num_classes, dtype=bool)
+    one_hot_bool[number] = True
+    return ~one_hot_bool
+
+
+def cf_gen(gcm, causal_model, inv_dim, inv_data, obs_data):
+    samples = gcm.counterfactual_samples(causal_model,
+                                         {inv_dim: lambda y: inv_data},
+                                         observed_data=obs_data)
+    return samples.to_numpy()
+
+def interv_gen(gcm, causal_model,inv_dim,inv_data,sz=1000):
+    samples = gcm.interventional_samples(causal_model,
+                                        {inv_dim: lambda y: inv_data},
+                                        num_samples_to_draw=sz)
+    return samples.to_numpy()
+
+
+def train_scm_model(adj_df,data_df):
+    causal_graph = nx.from_numpy_array(adj_df.to_numpy(), create_using=nx.DiGraph)
+    causal_model = gcm.InvertibleStructuralCausalModel(causal_graph)
+    nrow,_ = adj_df.shape
+    data = data_df.iloc[:,:nrow]
+    data.dropna(inplace=True)
+
+    data.columns = list(causal_graph.nodes)
+    dag,nodes = adj2dag(adj_df.to_numpy())
+    cg_nodes = list(causal_graph.nodes)
+
+    gcm.auto.assign_causal_mechanisms(causal_model, data)
+
+    for ind,node in enumerate(list(cg_nodes)):
+        if len(dag.get_parents(nodes[ind])) == 0 :
+            causal_model.set_causal_mechanism(node, gcm.EmpiricalDistribution())
+        else:     
+            causal_model.set_causal_mechanism(node, gcm.AdditiveNoiseModel(gcm.ml.create_linear_regressor()))
+
+    gcm.fit(causal_model, data)
+    return gcm,causal_model,causal_graph
+
+def mae_mean_cf(gcm_gt, causal_model_gt,gcm_syn, causal_model_syn,data_df,sz=1000,n_nodes=51):
+    intervention_ls = np.random.randn(n_nodes)*5
+    mae_dims = []
+    for inv_dim in range(n_nodes):
+        for itvn in intervention_ls:
+            index = np.arange(0,len(data_df.iloc[:,0]))
+            np.random.shuffle(index)
+            AE = np.abs(np.mean(cf_gen(gcm_gt, causal_model_gt,inv_dim,itvn,data_df.iloc[index[:sz]]),axis=0)-\
+                        np.mean(cf_gen(gcm_syn, causal_model_syn,inv_dim,itvn,data_df.iloc[index[:sz]]),axis=0))
+            MAE_i = np.mean(AE[one_hot_encode_to_boolean(inv_dim,n_nodes)])
+            mae_dims.append(MAE_i)
+    return np.mean(mae_dims)
+
+def adj2dag(adj_df):
+    G = nx.from_numpy_array(adj_df, create_using=nx.DiGraph)
+    nodes = ini_nodes(adj_df)
+    dag = Dag(nodes)
+    for i,j in list(G.edges()):
+        dag.add_directed_edge(nodes[i], nodes[j])
+    return dag,nodes
+
+def ini_nodes(adj_df):
+    nodes = []
+    for i in range(len(adj_df[0,:])):
+        nodes.append(GraphNode(str(i)))
+    return nodes
