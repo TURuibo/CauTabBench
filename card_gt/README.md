@@ -2,6 +2,7 @@
 This is a repository for paper ["CARD-GT: Rethinking Language Model Capabilities for Causal Reasoning and Decision-Making Using Causal Graphs and Tabular Data"]().
 It includes benchmarking tasks from the perspectives of causal graph reasoning, knowledge discovery, and decision-making.
 
+```
 ├── .github              
 │
 ├── task_cf_intv.ipynb               <- Generating benchmark data for causal graph reasoning, knowledge discovery, and decision-making tasks,
@@ -25,10 +26,10 @@ It includes benchmarking tasks from the perspectives of causal graph reasoning, 
 │   ├── utils.py                        <- util functions
 │   └── ...                   <- Q1: Downloaded mistral source code
 │   
+```
 
 
-
-## Knowledge discovery: 
+##  Measuring knowledge discovery ability of LLM
 
 ### Causal direction estimation 
 
@@ -55,7 +56,7 @@ cd card_gt
 python eva_causal_table_cdir.py --cm lu --llm llama --input_type table
 ```
 
-## Measuring Decision-making ability of LLM: 
+## Measuring Decision-making ability of LLM
 
 ### Generating questions and answers for causal inference tasks
 Open task_cf_intv.ipynb and run code the block for generating questions and answers for causal inference tasks.
