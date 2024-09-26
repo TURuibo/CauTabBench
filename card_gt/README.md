@@ -1,6 +1,9 @@
-# Introduction
+# Benchmark CARD-GT 
 This is a repository for paper ["CARD-GT: Rethinking Language Model Capabilities for Causal Reasoning and Decision-Making Using Causal Graphs and Tabular Data"]().
 It includes benchmarking tasks from the perspectives of causal graph reasoning, knowledge discovery, and decision-making.
+
+CARD-GT
+![alt text](https://github.com/TURuibo/CauTabBench/blob/main/benchmark.png "Overview")
 
 ```
 ├── task_performance_correlation.ipynb  <- correlation analysis of the performance of LLMs on different tasks

@@ -34,4 +34,4 @@ data/sim_poly_g/
 data/sim_sg/
 data/sim1/
 result/*
-eval_llms/result/*/*.txt
+card_gt/result/*/*.txt
