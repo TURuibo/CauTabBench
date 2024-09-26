@@ -1,5 +1,0 @@
-Based on the given response, here is the summary of children for each node:
-
-Children of V3 are V5
-Children of V4 are V5
-Children of V6 are V7, V8

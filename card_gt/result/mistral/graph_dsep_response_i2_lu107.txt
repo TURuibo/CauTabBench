@@ -1,4 +1,0 @@
- Yes, V1 and V4 are d-separated given V0V3.
- No, V6 and V8 are not d-separated given V2.
- Yes, V1 and V4 are d-separated given V3.
- No, V6 and V8 are not d-separated in the given causal graph.

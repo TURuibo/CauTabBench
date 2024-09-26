@@ -1,4 +1,0 @@
- Yes, V5 and V9 are d-separated given V4.
- No, V7 and V8 are not d-separated given V6.
- Yes.
- Yes, V7 and V8 are d-separated in the causal graph.

@@ -1,6 +1,0 @@
-Given the causal graph with nodes V0 to V8 and specified edges, let's summarize the children of each node:
-
-- **Children of V3 are V5**
-- **Children of V4 are V5**
-- **Children of V6 are V3, V4, V7, V8**
-- **V0, V1, and V2 have no children**

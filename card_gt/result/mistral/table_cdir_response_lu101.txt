@@ -1,6 +1,0 @@
-{"question":"Between V0 and V1, is V0 the cause?", "answer": " No, I cannot determine whether V0 is the"}
-{"question":"Between V0 and V3, is V0 the cause?", "answer": " No."}
-{"question":"Between V1 and V2, is V1 the cause?", "answer": " No."}
-{"question":"Between V4 and V7, is V4 the cause?", "answer": " No."}
-{"question":"Between V6 and V8, is V6 the cause?", "answer": " No, V6 is not the cause of the"}
-{"question":"Between V7 and V8, is V7 the cause?", "answer": " No."}

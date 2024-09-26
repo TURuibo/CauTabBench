@@ -1,9 +1,0 @@
-Here's a summary of the children of each node in the causal graph:
-
-* **Children of V0 are V1, V2, V3**
-* **Children of V4 are V6**
-* **Children of V5 are V7**
-* **Children of V6 are V8** 
-
-
-Let me know if you'd like to explore any other properties of this causal graph! 

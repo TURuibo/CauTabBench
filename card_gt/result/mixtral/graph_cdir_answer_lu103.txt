@@ -1,9 +1,0 @@
- Children of V0 are none,
-Children of V1 are V2 and V3,
-Children of V2 are none,
-Children of V3 are none,
-Children of V4 are V6,
-Children of V5 are V7,
-Children of V6 are V8,
-Children of V7 are none,
-Children of V8 are none.

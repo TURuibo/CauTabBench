@@ -1,4 +1,0 @@
-{"question":"Between V0 and V2, is V0 the cause?", "answer": " I can't answer this question with just a"}
-{"question":"Between V1 and V2, is V1 the cause?", "answer": " No."}
-{"question":"Between V1 and V3, is V1 the cause?", "answer": " No."}
-{"question":"Between V5 and V7, is V5 the cause?", "answer": " Yes, V5 is the cause."}

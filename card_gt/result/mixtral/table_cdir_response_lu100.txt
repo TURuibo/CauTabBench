@@ -1,5 +1,0 @@
-{"question":"Between V3 and V5, which is the cause?", "answer": " It is not possible to determine the causal relationship"}
-{"question":"Between V4 and V5, which is the cause?", "answer": " It is not possible to determine the causal relationship"}
-{"question":"Between V4 and V9, which is the cause?", "answer": " It is not possible to determine the causal relationship"}
-{"question":"Between V6 and V7, which is the cause?", "answer": " It is not possible to determine the causal relationship"}
-{"question":"Between V6 and V8, which is the cause?", "answer": " It is not possible to determine the causal relationship"}

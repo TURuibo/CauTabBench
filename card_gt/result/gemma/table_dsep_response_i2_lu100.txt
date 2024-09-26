@@ -1,7 +1,0 @@
-###0: The answer is unknown. 
-
-The response states that it cannot definitively say whether V5 and V9 are conditionally independent given V4 based on the information provided.  
-######1: The answer is unknown. 
-######2: unknown 
-######3: The answer is unknown. 
-###

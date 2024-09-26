@@ -1,8 +1,0 @@
-{"question":"Are V0 and V2 conditionally independent given V1?", "answer": " To answer this question, we need to check if"}
-{"question":"Are V1 and V3 conditionally independent given V0?", "answer": " To determine if V1 and V3 are condition"}
-{"question":"Are V2 and V3 conditionally independent given V0?", "answer": " To answer this question, we need to check if"}
-{"question":"Are V4 and V8 conditionally independent given V7?", "answer": " To answer the question, we need to check if"}
-{"question":"Are V0 and V2 independent from each other?", "answer": " No.To see why, let'"}
-{"question":"Are V1 and V3 independent from each other?", "answer": " To determine if V1 and V3 are independent"}
-{"question":"Are V2 and V3 independent from each other?", "answer": " To determine if V2 and V3 are independent"}
-{"question":"Are V4 and V8 independent from each other?", "answer": " To determine if V4 and V8 are independent"}
