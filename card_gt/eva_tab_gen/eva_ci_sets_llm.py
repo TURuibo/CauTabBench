@@ -16,7 +16,14 @@ from sklearn.metrics import RocCurveDisplay
 from sklearn.metrics import PrecisionRecallDisplay
 from joblib import Parallel, delayed
 import time
-from utils.utils import get_args
+
+# Get the parent directory
+parent_dir = os.path.abspath(os.path.join(cwd, os.pardir))
+
+# Add the parent directory to sys.path
+sys.path.append(parent_dir)
+
+from src.utils import get_args,adj2dag
 
 def find_collider(dag,nodes,i,j):
     return list(set([int(n.get_name()) for n in dag.get_children(nodes[i])])&set([int(n.get_name()) for n in dag.get_children(nodes[j])]))
@@ -26,20 +33,6 @@ def get_num_nodes(adj_df):
     num_nodes = len(adj_df[0,:])
     return num_nodes
 
-def ini_nodes(adj_df):
-    nodes = []
-    for i in range(len(adj_df[0,:])):
-        nodes.append(GraphNode(str(i)))
-    return nodes
-
-
-def adj2dag(adj_df):
-    G = nx.from_numpy_array(adj_df, create_using=nx.DiGraph)
-    nodes = ini_nodes(adj_df)
-    dag = Dag(nodes)
-    for i,j in list(G.edges()):
-        dag.add_directed_edge(nodes[i], nodes[j])
-    return dag,nodes
 
 def get_sets(adj_df):
     dag,nodes = adj2dag(adj_df)

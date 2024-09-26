@@ -6,7 +6,7 @@ import numpy as np
 import pandas as pd
 from dowhy import gcm
 from card_gt.eva_tab_gen.eva_ci_sets_llm import *
-from utils.utils import get_args
+from src.utils import get_args
 
 
 def one_hot_encode_to_boolean(number, num_classes=10):
