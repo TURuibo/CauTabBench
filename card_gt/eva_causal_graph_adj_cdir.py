@@ -1,11 +1,13 @@
 import os,sys
 cwd = os.path.abspath(os.path.curdir)
+parent_dir = os.path.abspath(os.path.join(cwd, os.pardir))
+
 sys.path.append(cwd)  # workplace
 from src.causal_eval.helper import get_adjacency_matrice
 import pandas as pd
 import numpy as np
 from cdt.metrics import precision_recall
-from utils.utils import get_args
+from src.utils import get_args
 
 
 def get_f1(precision, recall):
@@ -19,7 +21,7 @@ def test(adj_llm,adj_gt):
     return f1,precision,recall
 
 def get_dag_gt(dataname,seed_sim):
-    adj_path = f'./data/sim_{dataname}/{seed_sim}/generated_graph_target.csv'
+    adj_path = parent_dir +f'/data/sim_{dataname}/{seed_sim}/generated_graph_target.csv'
     graph_np = pd.read_csv(adj_path)
     nrow,_ = graph_np.shape
     graph_np = graph_np.iloc[:nrow-1,:nrow-1]
@@ -27,7 +29,7 @@ def get_dag_gt(dataname,seed_sim):
     return dag_gt
 
 def get_adj_gt(dataname,seed_sim):
-    adj_path = f'./data/sim_{dataname}/{seed_sim}/generated_graph_target.csv'
+    adj_path = parent_dir +f'/data/sim_{dataname}/{seed_sim}/generated_graph_target.csv'
     graph_np = pd.read_csv(adj_path)
     nrow,_ = graph_np.shape
     graph_np = graph_np.iloc[:nrow-1,:nrow-1]
@@ -44,14 +46,14 @@ if __name__ == "__main__":
     task_type = args.task_type
     f1_gs, precision_gs,recall_gs  = [], [], []
 
-    for seed_sim in range(100,110):
+    for seed_sim in range(1,11):
         print(seed_sim)
         if task_type == 'graph_adj':
             adj_gt = get_adj_gt(dataname,seed_sim)
         elif task_type =='graph_cdir':
             adj_gt = get_dag_gt(dataname,seed_sim)
         f1_ls, precision_ls,recall_ls  = [], [], []
-        file_dir = f'./eval_llms/result/{llm}/{task_type}_answer_{dataname}{seed_sim}.txt'
+        file_dir = cwd+f'/result/{llm}/{task_type}_answer_{dataname}{seed_sim}.txt'
         n_nodes,_= adj_gt.shape
         adj_llm = get_adjacency_matrice(file_dir,n_nodes)
 

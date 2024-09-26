@@ -99,7 +99,7 @@ if __name__ == "__main__":
     response = outputs[0]["generated_text"][-1]["content"]
     print(response)
     
-    messages = get_prompt_graph2adj(response)
+    messages = get_prompt_text2adj(response)
     if llm == 'qwen':
         outputs = pipe(
             messages,

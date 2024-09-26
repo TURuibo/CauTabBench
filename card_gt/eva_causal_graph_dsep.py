@@ -7,9 +7,11 @@ sys.path.append(cwd)  # workplace
 import pandas as pd
 import numpy as np
 
-from utils.utils import get_args
+from src.utils import get_args
 from sklearn.metrics import RocCurveDisplay
 import matplotlib.pyplot as plt
+
+
 def save_results(dataname,seed_sim,response_ls,response_adj_ls,result_path,prefix,questions):
     with open(cwd+f'{result_path}/{llm}/{prefix}_dsep_response_i1_{dataname}{seed_sim}.txt', 'a') as file:
         for response,question in zip(response_ls,questions):
@@ -26,7 +28,7 @@ def create_output_fiels(dataname,seed_sim,result_path,prefix):
         file.write('')
 
 def load_gt_answer(graph_id,result_path,llm,prefix):
-    with open(cwd+f'/card_gt/data/{prefix}/{graph_id}_answers.txt', 'r') as file:
+    with open(cwd+f'/data/{prefix}/{graph_id}_answers.txt', 'r') as file:
         answers = file.readlines()
     ans = []
     
@@ -64,15 +66,15 @@ def text_file_to_json(input_file):
 
 
 def load_llm_answer(graph_id,result_path,llm,prefix):
-    with open(cwd+f'/card_gt{result_path}/{llm}/{prefix}_dsep_response_lu{graph_id}_preds.txt', 'w') as file:
-        print(cwd+f'/card_gt{result_path}/{llm}/{prefix}_dsep_response_lu{graph_id}_preds.txt')
+    with open(cwd+f'{result_path}/{llm}/{prefix}_dsep_response_lu{graph_id}_preds.txt', 'w') as file:
+        print(cwd+f'{result_path}/{llm}/{prefix}_dsep_response_lu{graph_id}_preds.txt')
         file.write('')
     answers = []
-    with open(cwd+f'/card_gt{result_path}/{llm}/{prefix}_dsep_response_lu{graph_id}.txt', 'r') as file:
+    with open(cwd+f'{result_path}/{llm}/{prefix}_dsep_response_lu{graph_id}.txt', 'r') as file:
         answers = file.readlines()
         
     ans = []
-    with open(cwd+f'/card_gt/{result_path}/{llm}/{prefix}_dsep_response_lu{graph_id}_preds.txt', 'a') as file:
+    with open(cwd+f'/{result_path}/{llm}/{prefix}_dsep_response_lu{graph_id}_preds.txt', 'a') as file:
         for js_data in answers:
             js_data = js_data.replace("\\", "")
 
@@ -115,5 +117,5 @@ if __name__ == "__main__":
     roc = RocCurveDisplay.from_predictions(labels, preds, name=llm,ax=ax_roc)
     auc = roc.roc_auc
     plt.legend()
-    plt.savefig(cwd+f'/card_gt/result/{llm}/{dataname}.pdf')
+    plt.savefig(cwd+f'/result/{llm}/{dataname}.pdf')
     print(f'{auc:.3f}')

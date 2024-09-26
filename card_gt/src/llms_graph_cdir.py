@@ -22,9 +22,8 @@ def save_results(dataname,seed_sim,task_type,response_adj,adj_gt):
             file.write(f'{response_adj}')        
         else:
             file.write(f'{response_adj}\n')        
-        # file.write(f'{response_adj}\n')
+
     with open(cwd+f'/result/{llm}/{task_type}_gt_adj_{dataname}{seed_sim}.txt', 'a') as file:
-        # file.write(f'{adj_gt}\n')
         if response_adj[-1:] == '\n':
             file.write(f'{adj_gt}')        
         else:

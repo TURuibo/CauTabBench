@@ -54,6 +54,11 @@ def get_graph_prompt(causal_graph_data,task):
          "content": f"You are reasoning over causal graphs. {causal_graph_data}. {task}"},]
     return messages
 
+def get_prompt_text2adj(response):
+    messages = [
+        {"role": "user", 
+         "content": f"You are extracting neighbor information from given responses. The response is: {response}.  The result in the format: Neighbors of XXX are XXX, ... where XXX should be replaced by nodes."},]
+    return messages
 
 def get_task(task_type):
         if task_type == 'graph_cdir':

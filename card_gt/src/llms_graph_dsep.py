@@ -5,13 +5,10 @@ import time
 import numpy as np
 import torch
 import transformers
-import argparse
 from src.utils import *
 
-
-
 def load_task(graph_id,input_type):
-    with open(f'./benchmark/{input_type}/{graph_id}_questions.txt', 'r') as file:
+    with open(cwd+f'/data/{input_type}/{graph_id}_questions.txt', 'r') as file:
         questions_ls = file.readlines()
     return questions_ls
 
@@ -19,17 +16,8 @@ def load_task(graph_id,input_type):
 def create_output_fiels(dataname,seed_sim,result_path,prefix):
     with open(cwd+f'{result_path}/{llm}/{prefix}_dsep_response_{dataname}{seed_sim}.txt', 'w') as file:
         file.write('')
-    # with open(cwd+f'{result_path}/{llm}/{prefix}_dsep_response_i2_{dataname}{seed_sim}.txt', 'w') as file:
-    #     file.write('')
-
 
 def save_results(dataname,seed_sim,response_ls,response_adj_ls,result_path,prefix,questions):
-    # with open(cwd+f'{result_path}/{llm}/{prefix}_dsep_response_i1_{dataname}{seed_sim}.txt', 'a') as file:
-    #     for response,question in zip(response_ls,questions):
-    #         response = response.replace('\n', '')
-    #         file.write(f'{{"question":\"{question.rstrip()}\", "answer": \"{response}\"}}\n')
-            # file.write(f'Question is {question}\n Answer is {response}\n')
-    
     with open(cwd+f'{result_path}/{llm}/{prefix}_dsep_response_{dataname}{seed_sim}.txt', 'a') as file:
         for response_adj,question in zip(response_adj_ls,questions):
             file.write(f'{{"question":\"{question.rstrip()}\", "answer": \"{response_adj}\"}}\n')
