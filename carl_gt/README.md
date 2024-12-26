@@ -1,9 +1,9 @@
-# Benchmark CARD-GT 
-This is a repository for paper ["CARD-GT: Rethinking Language Model Capabilities for Causal Reasoning and Decision-Making Using Causal Graphs and Tabular Data"]().
+# Benchmark CARL-GT 
+This is a repository for paper ["CARL-GT: Evaluating Causal Reasoning Capabilities of Large Language Models"](https://arxiv.org/abs/2412.17970).
 It includes benchmarking tasks from the perspectives of causal graph reasoning, knowledge discovery, and decision-making.
 
-![alt text](https://github.com/TURuibo/CauTabBench/blob/main/card_gt/causal_benchmark.png "Overview")
-Our benchmark, CARD-GT, for evaluating LLMs on causal reasoning and decision making from three aspects, i.e., causal graph reasoning, knowledge discovery, and decision making. The left figure shows that a task consists of input data, such as causal graphs and tables, questions about causal statements, and ground-truth answers for evaluation. The right figure shows that each aspect has multiple tasks, e.g., the causal statements about adjacency matrix, d-separation, and causal direction, are used for causal graph reasoning and knowledge discovery evaluation and the statements about intervention and counterfactual reasoning are used for decision making evaluation.
+![alt text](https://github.com/TURuibo/CauTabBench/blob/main/carl_gt/causal_benchmark.png "Overview")
+Our benchmark, CARL-GT, for evaluating LLMs on causal reasoning and decision making from three aspects, i.e., causal graph reasoning, knowledge discovery, and decision making. The left figure shows that a task consists of input data, such as causal graphs and tables, questions about causal statements, and ground-truth answers for evaluation. The right figure shows that each aspect has multiple tasks, e.g., the causal statements about adjacency matrix, d-separation, and causal direction, are used for causal graph reasoning and knowledge discovery evaluation and the statements about intervention and counterfactual reasoning are used for decision making evaluation.
 
 ```
 ├── task_performance_correlation.ipynb  <- correlation analysis of the performance of LLMs on different tasks
@@ -45,7 +45,7 @@ Our benchmark, CARD-GT, for evaluating LLMs on causal reasoning and decision mak
 
 **Applying LLMs to the task**
 ```
-cd card_gt
+cd carl_gt
 python llm_graph_cdir.py --llm llama --sim_seed 1 --bt 1 --max_new_tokens 1000 --task_type graph_adj 
 ```
 
@@ -57,7 +57,7 @@ python llm_graph_cdir.py --llm llama --sim_seed 1 --bt 1 --max_new_tokens 1000 -
 
 **Evaluation**
 ```
-cd card_gt  
+cd carl_gt  
 python eva_causal_graph_adj_cdir.py --cm lu --llm llama --task_type graph_adj
 ```
 * cm: the causal mechanism used for generating tables
@@ -72,7 +72,7 @@ Open task_cf_intv.ipynb and run code the block for generating questions and answ
 
 **Applying LLMs to the task**
 ```
-cd card_gt
+cd carl_gt
 python llm_graph_dsep.py --llm llama  --max_new_tokens 1000 --sim_seed 2  --input_type graph
 ```
 
@@ -83,7 +83,7 @@ python llm_graph_dsep.py --llm llama  --max_new_tokens 1000 --sim_seed 2  --inpu
 **Evaluation**
 
 ```
-cd card_gt  
+cd carl_gt  
 python eva_causal_graph_dsep.py --cm lu --llm llama --input_type graph
 ```
 * cm: the causal mechanism used for generating tables
@@ -95,7 +95,7 @@ python eva_causal_graph_dsep.py --cm lu --llm llama --input_type graph
 
 **Applying LLMs to the task**
 ```
-cd card_gt
+cd carl_gt
 python llm_graph_cdir.py --llm llama --sim_seed 1 --bt 1 --max_new_tokens 10000 --task_type graph_cdir
 ```
 
@@ -106,7 +106,7 @@ python llm_graph_cdir.py --llm llama --sim_seed 1 --bt 1 --max_new_tokens 10000 
 
 **Evaluation**
 ```
-cd card_gt  
+cd carl_gt  
 python eva_causal_graph_adj_cdir.py --cm lu --llm llama --task_type graph_cdir
 ```
 * cm: the causal mechanism used for generating tables
@@ -124,7 +124,7 @@ Open task_cf_intv.ipynb and run code the block for generating questions and answ
 
 **Applying LLMs to the task**
 ```
-cd card_gt  
+cd carl_gt  
 python src/llm_table_desp.py --llm llama  --max_new_tokens 10 --sim_seed 10  --input_type table --max_table_rows 50 --batch_size 1
 ```
 
@@ -136,7 +136,7 @@ python src/llm_table_desp.py --llm llama  --max_new_tokens 10 --sim_seed 10  --i
 
 **Evaluation**
 ``` 
-cd card_gt  
+cd carl_gt  
 python eva_causal_table_cdir.py --cm lu --llm llama --input_type table
 ```
 * cm: the causal mechanism used for generating tables
@@ -152,7 +152,7 @@ All the answers to the question is yes.
 
 **Applying LLMs to the task**
 ```
-cd card_gt  
+cd carl_gt  
 python src/llm_table_cdir.py --llm llama  --max_new_tokens 10 --sim_seed 10  --input_type table --max_table_rows 50 --batch_size 1
 ```
 
@@ -164,7 +164,7 @@ python src/llm_table_cdir.py --llm llama  --max_new_tokens 10 --sim_seed 10  --i
 
 **Evaluation**
 ``` 
-cd card_gt  
+cd carl_gt  
 python eva_causal_table_cdir.py --cm lu --llm llama --input_type table
 ```
 
@@ -177,20 +177,20 @@ Open task_cf_intv.ipynb and run code the block for generating questions and answ
 * Generating counterfactual inference questions and answers
 * Generating inervention inference answer with the following code:
 ```
-cd card_gt  
+cd carl_gt  
 python inter_gt.py --cm lu
 ```
 
 ### Applying LLMs to the causal inference tasks
 **Intervention inferece**
 ```
-cd card_gt  
+cd carl_gt  
 python src/llm_table_graph_inf.py --llm llama  --max_new_tokens 1000 --sim_seed 10  --input_type table --max_table_rows 50 --batch_size 1 
 ```
 
 **Counterfactual inferece**
 ```
-cd card_gt  
+cd carl_gt  
 python src/llm_table_graph_cf.py --llm llama  --max_new_tokens 1000 --sim_seed 10  --input_type table --max_table_rows 50 --batch_size 1 
 ```
 
