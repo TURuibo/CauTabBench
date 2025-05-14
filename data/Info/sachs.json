@@ -1,0 +1,13 @@
+{
+    "name": "sachs",
+    "task_type": "regression",
+    "header": "infer",
+    "column_names": null,
+    "num_col_idx": [0,1,2,3,4,5,6,7,8,10],
+    "cat_col_idx": [],
+    "target_col_idx": [9],
+    "file_type": "csv",
+    "data_path": "data/sachs/sachs_train.csv",
+    "test_path": null
+}
+

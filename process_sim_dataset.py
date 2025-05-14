@@ -20,6 +20,7 @@ if __name__ == "__main__":
     noise_coeff = args.noise_coeff  # default: 0.4
     n_prt = args.n_prt  # default: 2
     n_d = 2
+    reorder = args.reorder
 
     i = sim_ls
     np.random.seed(seed)
@@ -67,9 +68,41 @@ if __name__ == "__main__":
     data_path = './data/sim_'+i+f'/{seed}/generated_graph_data.csv'
     data_df = pd.read_csv(data_path)
     
+    ### Re order the causal benchmarks data
+    
+    if reorder=='fixed':
+        print('Reordering the columns')
+
+        cols = ['V9','V1','V8','V0','V3','V4','V7','V5','V6','V2']
+        data_df = data_df[cols]
+
+    elif reorder=='random':
+        print('Reordering the columns')
+
+        cols = list(data_df.columns)
+        np.random.shuffle(cols)
+        data_df = data_df[cols]
+    else:
+        print('Not reordering the columns')
+
+
     n, p = 1, .5  # number of trials, probability of each trial
     new_column_values = np.random.binomial(n, p, len(data_df.iloc[:,0]))
     data_df['target'] = new_column_values
+    if args.discrete:
+        print("Discretizing columns")
+        # using 10 categories, K=10 from paper
+        K = 10
+        for col in cols:
+            weights = np.random.rand(K,1)
+            col_vals = weights * data_df[col].values.reshape(1,-1)
+            sigmoid = 1.0/(1.0 + np.exp(-col_vals))
+            probs = np.exp(sigmoid)/np.sum(np.exp(sigmoid),axis=0)
+            # sample
+            sampled = np.zeros(data_df[col].values.shape).astype(int)
+            for s in range(len(data_df[col])):
+                sampled[s] = np.random.choice(K, p=probs[:,s])
+            data_df[col] = sampled
 
     # Path where you want to save the CSV file
     file_path = './data/sim_'+i+f'/{seed}/generated_graph_data.csv'

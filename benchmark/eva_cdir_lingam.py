@@ -35,10 +35,11 @@ for m_name in m_name_ls:
         f1 = []
         for bt_i in range(bt):
             np.random.seed(bt_i)
-            data = pd.read_csv(data_path).to_numpy()[:,:10]
+            data = pd.read_csv(data_path)
+            data = data.to_numpy()[:,:data.shape[1]-1]
             index = np.random.randint(len(data[:,0]), size=sz)
 
-            adj_causallearn = pd.read_csv(adj_path).to_numpy()[:10,:10]
+            adj_causallearn = pd.read_csv(adj_path).to_numpy()[:data.shape[1],:data.shape[1]]
 
             model = lingam.DirectLiNGAM()
             model.fit(data[index,:])

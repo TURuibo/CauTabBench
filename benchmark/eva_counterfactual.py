@@ -42,7 +42,7 @@ def train_scm_model(adj_df,data_df):
     causal_graph = nx.from_numpy_array(adj_df.to_numpy(), create_using=nx.DiGraph)
     causal_model = gcm.InvertibleStructuralCausalModel(causal_graph)
 
-    data = data_df.iloc[:,:10]
+    data = data_df.iloc[:,:data_df.shape[1]-1]
     data.columns = list(causal_graph.nodes)
     dag,nodes = adj2dag(adj_df.to_numpy())
     cg_nodes = list(causal_graph.nodes)
@@ -59,15 +59,15 @@ def train_scm_model(adj_df,data_df):
     return gcm,causal_model,causal_graph
 
 def mae_mean_cf(gcm_gt, causal_model_gt,gcm_syn, causal_model_syn,data_df,sz=1000):
-    intervention_ls = np.random.randn(10)*5
+    intervention_ls = np.random.randn(data_df.shape[1])*5
     mae_dims = []
-    for inv_dim in range(10):
+    for inv_dim in range(data_df.shape[1]):
         for itvn in intervention_ls:
             index = np.arange(0,len(data_df.iloc[:,0]))
             np.random.shuffle(index)
             AE = np.abs(np.mean(cf_gen(gcm_gt, causal_model_gt,inv_dim,itvn,data_df.iloc[index[:sz]]),axis=0)-\
                         np.mean(cf_gen(gcm_syn, causal_model_syn,inv_dim,itvn,data_df.iloc[index[:sz]]),axis=0))
-            MAE_i = np.mean(AE[one_hot_encode_to_boolean(inv_dim)])
+            MAE_i = np.mean(AE[one_hot_encode_to_boolean(inv_dim, num_classes=data_df.shape[1])])
             mae_dims.append(MAE_i)
     return np.mean(mae_dims)
 
@@ -92,6 +92,10 @@ if __name__ == "__main__":
         for seed in range(100,110):
             data_path = f'./data/{dataname}/{seed}/generated_graph_data.csv'
             data_df = pd.read_csv(data_path)
+            if len(data_df.columns) == 11:
+                data_df = data_df.loc[:,['V0', 'V1', 'V2', 'V3', 'V4', 'V5', 'V6', 'V7', 'V8', 'V9', 'target']]
+            else:
+                data_df = data_df.loc[:,['V0', 'V1', 'V2', 'V3', 'V4', 'V5', 'V6', 'V7', 'V8', 'V9', 'V10', 'V11', 'V12', 'V13', 'V14', 'V15', 'V16', 'V17', 'V18', 'V19', 'target']]
             adj_path = f'./data/{dataname}/{seed}/generated_graph_target.csv'
             adj_df = pd.read_csv(adj_path)
             gcm_gt ,causal_model_gt, causal_graph_gt = train_scm_model(adj_df,data_df)
@@ -102,7 +106,7 @@ if __name__ == "__main__":
             
             test_path = f'./synthetic/{dataname}/{seed}/test.csv'
             data = pd.read_csv(test_path)
-            data = data.iloc[:,:10]
+            data = data.iloc[:,:data.shape[1]-1]
             data.columns = list(causal_graph_gt.nodes)
             mae_m.append(mae_mean_cf(gcm_gt, causal_model_gt,gcm_syn, causal_model_syn,data,sz))
         

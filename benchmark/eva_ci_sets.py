@@ -57,8 +57,8 @@ def get_sets(adj_df):
     for i in range(len(nodes)):
         dsep_df_real.loc[i] = [[] for i in range(len(nodes))]
 
-    for i in range(10):
-        collider_df.loc[i] = [[] for i in range(10)]
+    for i in range(len(nodes)):
+        collider_df.loc[i] = [[] for i in range(len(nodes))]
 
 
     for i in range(len(nodes)):
@@ -135,7 +135,7 @@ def eva_ci(conditional_independent_set,data,dataname,sz):
 def compute_p_vals(conditional_independent_set,dataname,sim_seed,m_name,sz):
     data_path = f'./synthetic/sim_{dataname}/{sim_seed}/{m_name}.csv'   
     data = pd.read_csv(data_path)
-    data = data.iloc[:,:10]
+    data = data.iloc[:,:data.shape[1]-1]
     p_real = eva_ci(conditional_independent_set,data,dataname,sz)
     return p_real
 

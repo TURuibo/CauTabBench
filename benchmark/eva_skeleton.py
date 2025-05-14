@@ -72,14 +72,14 @@ def eva_skel_ratio(dataname = 'lg',m_name = 'tabsyn',bt=10,sz=1000,seed=7):
 
     for seed_sim in range(100,110): # [100, 102,104,106,108]: ##['1','2','29']: [100, 102,104,106,108]
         
-        adj_path = f'./data/sim_{dataname}/{seed_sim}/generated_graph_target.csv'
-        graph_np = pd.read_csv(adj_path)
-        graph_np = graph_np.iloc[:10,:10]
-        adj_gt = graph_np.to_numpy() + graph_np.to_numpy().T
-
         data_sim_path = f'./synthetic/sim_{dataname}/{seed_sim}/{m_name}.csv'
         data_sim = pd.read_csv(data_sim_path)
-        data_sim = data_sim.iloc[:,:10]
+        data_sim = data_sim.iloc[:,:data_sim.shape[1]-1]
+       
+        adj_path = f'./data/sim_{dataname}/{seed_sim}/generated_graph_target.csv'
+        graph_np = pd.read_csv(adj_path)
+        graph_np = graph_np.iloc[:data_sim.shape[1],:data_sim.shape[1]]
+        adj_gt = graph_np.to_numpy() + graph_np.to_numpy().T
 
         skel_diff_syn,precision_syn,recall_syn = metric_eva(data_sim,adj_gt,dataname,bt=bt,sz=sz,seed=seed)
         f1_syn=[]

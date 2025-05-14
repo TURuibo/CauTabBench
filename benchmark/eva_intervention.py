@@ -40,7 +40,7 @@ def train_scm_model(adj_df,data_df):
     causal_graph = nx.from_numpy_array(adj_df.to_numpy(), create_using=nx.DiGraph)
     causal_model = gcm.InvertibleStructuralCausalModel(causal_graph)
 
-    data = data_df.iloc[:,:10]
+    data = data_df.iloc[:,:data_df.shape[1]-1]
     data.columns = list(causal_graph.nodes)
     dag,nodes = adj2dag(adj_df.to_numpy())
     cg_nodes = list(causal_graph.nodes)
@@ -57,12 +57,12 @@ def train_scm_model(adj_df,data_df):
     return gcm,causal_model,causal_graph
 
 def mae_mean(gcm_gt, causal_model_gt,gcm_syn, causal_model_syn,sz=1000):
-    intervention_ls = np.random.randn(10)*5
+    intervention_ls = np.random.randn(len(causal_model_syn.nodes))*5
     mae_dims = []
-    for inv_dim in range(10):
+    for inv_dim in range(len(causal_model_syn.nodes)):
         for itvn in intervention_ls:
             AE = np.abs(np.mean(interv_gen(gcm_gt, causal_model_gt,inv_dim,itvn,sz),axis=0)-np.mean(interv_gen(gcm_syn, causal_model_syn,inv_dim,itvn,1000),axis=0))
-            MAE_i = np.mean(AE[one_hot_encode_to_boolean(inv_dim)])
+            MAE_i = np.mean(AE[one_hot_encode_to_boolean(inv_dim, num_classes=len(causal_model_syn.nodes))])
             mae_dims.append(MAE_i)
     return np.mean(mae_dims)
 
@@ -88,6 +88,10 @@ if __name__ == "__main__":
         for seed in range(100,110):
             data_path = f'./data/{dataname}/{seed}/generated_graph_data.csv'
             data_df = pd.read_csv(data_path)
+            if len(data_df.columns) == 11:
+                data_df = data_df.loc[:,['V0', 'V1', 'V2', 'V3', 'V4', 'V5', 'V6', 'V7', 'V8', 'V9', 'target']]
+            else:
+                data_df = data_df.loc[:,['V0', 'V1', 'V2', 'V3', 'V4', 'V5', 'V6', 'V7', 'V8', 'V9', 'V10', 'V11', 'V12', 'V13', 'V14', 'V15', 'V16', 'V17', 'V18', 'V19', 'target']]
             adj_path = f'./data/{dataname}/{seed}/generated_graph_target.csv'
             adj_df = pd.read_csv(adj_path)
             gcm_gt ,causal_model_gt, causal_graph_gt = train_scm_model(adj_df,data_df)

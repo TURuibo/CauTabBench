@@ -87,7 +87,7 @@ def xy_yx(dataname,sim_seed,m_name,index_x, index_y, bt_i=0, sz =10000,  func=RE
     
     np.random.seed(bt_i)
     index = np.random.randint(len(data.iloc[:,0]), size=sz)
-    data = data.iloc[index,:10].to_numpy()
+    data = data.iloc[index,:data.shape[1]-1].to_numpy()
 
     d = {'A': [], 'B': []}
     dfxy = pd.DataFrame(data=d)
