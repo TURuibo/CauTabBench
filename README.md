@@ -5,7 +5,7 @@ The benchmark framework:
 ![alt text](https://github.com/TURuibo/CauTabBench/blob/main/benchmark.png "Overview")
 
 One set of benchmark results:
-![alt text](https://github.com/TURuibo/CauTabBench/blob/main/result/lu_radar.png "Results")
+![alt text](https://github.com/TURuibo/CauTabBench/blob/main/lu_radar.png "Results")
 
 
 ## Structure of the repository
